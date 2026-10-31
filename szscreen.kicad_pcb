@@ -10,7 +10,6 @@
 	(title_block
 		(title "szscreen - CONSOLE LAB 160 x 120 / ENGINEERING PROTOTYPE")
 		(rev "23 / ENGINEERING PROTOTYPE")
-		(comment 1 "AI-generated circuit/routing revisions; actual assembly qualification pending.")
 	)
 	(layers
 		(0 "F.Cu" signal)

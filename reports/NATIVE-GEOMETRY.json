@@ -1,6 +1,6 @@
 {
-  "board_sha256": "25539642fd6fd28b717376c2c5bc4094e4d9d7bd92bf4f556df019648e6b27f6",
-  "board": "work\\rev23-native\\szscreen.kicad_pcb",
+  "board_sha256": "dc71ca834294d30f3ec7e10e9b64247c323a675e326a986edd0421b6df838665",
+  "board": "work\\seizo-screen-publish\\szscreen.kicad_pcb",
   "drills": [
     {
       "kind": "pad",

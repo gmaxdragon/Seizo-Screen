@@ -1,6 +1,6 @@
-# AI-generated reference firmware integration contract
+# Reference firmware integration contract
 
-This implementation was written by ChatGPT/Codex. It is not participant-authored firmware or evidence of hardware testing. No serial device was opened, firmware flashed or arm command sent during this work.
+This is a reference implementation, not the participant's completed firmware or evidence of hardware testing. No serial device was opened, firmware flashed or arm command sent during this work.
 
 ## Integration API
 

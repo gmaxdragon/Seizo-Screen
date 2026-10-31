@@ -1,14 +1,14 @@
 {
   "passed": true,
-  "native_board": "work\\rev23-native\\szscreen.kicad_pcb",
-  "native_board_sha256": "25539642fd6fd28b717376c2c5bc4094e4d9d7bd92bf4f556df019648e6b27f6",
-  "export_directory": "outputs\\Seizo-Screen\\23-fabrication-candidate\\panel-gerbers",
+  "native_board": "work\\seizo-screen-publish\\szscreen.kicad_pcb",
+  "native_board_sha256": "dc71ca834294d30f3ec7e10e9b64247c323a675e326a986edd0421b6df838665",
+  "export_directory": "work\\seizo-screen-publish\\panel-gerbers",
   "checks_count": 808,
   "failed_checks": [],
   "gerber_files": {
     "szscreen-F_Cu.gtl": {
       "bytes": 601525,
-      "sha256": "d30c5495d270027d81c79af1c1591a092fd15089812bf7399efa83f56e89da3f",
+      "sha256": "57007341fa2ca3137897481be4cdaebdba51cc69c5165d9ab31a4f35bd21b531",
       "file_function": "Copper,L1,Top",
       "transforms": [],
       "aperture_count": 20,
@@ -18,7 +18,7 @@
     },
     "szscreen-B_Cu.gbl": {
       "bytes": 989827,
-      "sha256": "9808fac5779d52f73d64545f903c9cdf56c12895647ec030712f2ddd1d6a2a50",
+      "sha256": "264e00af8004c5eee9012fffbbab624768f2a75aae31988ab8a4e3d51250f3a0",
       "file_function": "Copper,L2,Bot",
       "transforms": [],
       "aperture_count": 18,
@@ -28,7 +28,7 @@
     },
     "szscreen-F_Mask.gts": {
       "bytes": 18069,
-      "sha256": "9f05180c4efd8e64d025a40902f4b072da255a21d95d341d4b5e13029b845184",
+      "sha256": "c02fb2442636c421410b23dc87052c6069e3fba5da87c77e69b34e333ccc7912",
       "file_function": "Soldermask,Top",
       "transforms": [],
       "aperture_count": 14,
@@ -38,7 +38,7 @@
     },
     "szscreen-B_Mask.gbs": {
       "bytes": 17770,
-      "sha256": "9ade877ff278890af68397781d12d7861902b35e551ba1b5b73ee5d9c8cff4f8",
+      "sha256": "4f5529ff53b485e57fe5d8d5727ff38bc85d0dd0d1242f7e1eb90c0641c5f87d",
       "file_function": "Soldermask,Bot",
       "transforms": [],
       "aperture_count": 13,
@@ -48,7 +48,7 @@
     },
     "szscreen-F_Silkscreen.gto": {
       "bytes": 490411,
-      "sha256": "80dcd871749eaba6581b0f82d32e53161ceec86c7b77f9af51735573288382db",
+      "sha256": "82172a9af4ed45c6e8db016778405e07da965d3f6a2ee2f57dbb8e8f3918c4b7",
       "file_function": "Legend,Top",
       "transforms": [],
       "aperture_count": 17,
@@ -58,7 +58,7 @@
     },
     "szscreen-B_Silkscreen.gbo": {
       "bytes": 20312,
-      "sha256": "14e8197dd68d9982927a30126a51efbcaa571dea624b9a3268d6717b11692504",
+      "sha256": "49de069dad37c9df3b88f60220f792943539e5d8862aa6fc721d3130eb08ce44",
       "file_function": "Legend,Bot",
       "transforms": [],
       "aperture_count": 14,
@@ -68,7 +68,7 @@
     },
     "szscreen-Edge_Cuts.gm1": {
       "bytes": 892,
-      "sha256": "1270c51d6db4f979d94acea1a5d8eab865f7a98452437e12ae6aa35e669eda5b",
+      "sha256": "9ec9255287871d93cf33c61f0cebdfd63d0b17de1a20070e4e9c8954b029c5d3",
       "file_function": "Profile,NP",
       "transforms": [],
       "aperture_count": 1,
@@ -79,7 +79,7 @@
   },
   "drill_files": {
     "szscreen-PTH.drl": {
-      "sha256": "efd36192f6ef164ecf6355e16d36868bccc03136defdf1d360e4407b2d0564fd",
+      "sha256": "af014585ef172e481c76129a5aab3f2742fb92d2299f6a075bca675b440e4401",
       "bytes": 13163,
       "tools": {
         "1": 0.3,
@@ -104,7 +104,7 @@
       "total_hits": 748
     },
     "szscreen-NPTH.drl": {
-      "sha256": "26d5c4c32039ccc8709aad3ab27e56a4fc53301483860071ab70f825bc150686",
+      "sha256": "c37bbc7a6c8dae61a02719dfa5b59215e518324b95ae695e3a84e16085fd3691",
       "bytes": 586,
       "tools": {
         "1": 2.7,
@@ -118,7 +118,7 @@
     }
   },
   "gerber_job": {
-    "sha256": "52d2f90906e627a42e3fe583e64ea35fad28a8efad5d762bcb8470e73dd975d4",
+    "sha256": "734b89dbdecdb7ebc886ec1c40da7a03fb16e0d37c357e99853e7c845f4791e5",
     "native_plot_bbox_with_0.05mm_profile_stroke": {
       "X": 160.05,
       "Y": 120.05

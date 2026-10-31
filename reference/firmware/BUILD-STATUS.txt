@@ -1,4 +1,4 @@
-This folder is AI-generated REFERENCE ONLY firmware, not the participant's implementation.
+This folder is REFERENCE ONLY firmware, not the participant's implementation.
 The participant supplied detailed behavior instructions and plans to write the actual code.
 Actual retained sources and three application images match recorded successful ESP32-S3
 builds; current source/binary identity audit12/12 passes. 20Python tests and three native

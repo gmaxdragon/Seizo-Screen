@@ -1,4 +1,4 @@
-// AI-generated offline register/GPIO/protocol mock. No physical interfaces.
+// Reference offline register/GPIO/protocol mock. No physical interfaces.
 #include "../src/panel_core.h"
 #include <assert.h>
 #include <stdio.h>

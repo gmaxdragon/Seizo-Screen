@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\mail2\Documents\Codex\2026-10-27\referenced-chatgpt-conversation-this-is-an\work\rev23-native\szscreen.kicad_sch</source>
-    <date>2026-10-31T12:38:55</date>
+    <source>C:\Users\mail2\Documents\Codex\2026-10-27\referenced-chatgpt-conversation-this-is-an\work\seizo-screen-publish\szscreen.kicad_sch</source>
+    <date>2026-10-31T14:43:24</date>
     <tool>Eeschema 10.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -11,7 +11,7 @@
         <rev>23 ENGINEERING / NOT HARDWARE VALIDATED</rev>
         <date>2026-10-29</date>
         <source>szscreen.kicad_sch</source>
-        <comment number="1" value="AI-generated engineering revision; original/user-routed versions preserved."/>
+        <comment number="1" value=""/>
         <comment number="2" value="0-24 V DC only, shared GND. No independent motor stop."/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -4865,7 +4865,7 @@
       <node ref="R51" pin="2" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="GPB5_6" pintype="bidirectional"/>
     </net>
-    <net code="21" name="/GND" class="Default">
+    <net code="21" name="/GND" class="Plane">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C14" pin="2" pintype="passive"/>
@@ -5126,7 +5126,7 @@
       <node ref="R51" pin="1" pintype="passive"/>
       <node ref="SW12" pin="1" pinfunction="1_1" pintype="passive"/>
     </net>
-    <net code="54" name="/LCD_5V" class="Default">
+    <net code="54" name="/LCD_5V" class="Power5V">
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="F1" pin="2" pintype="passive"/>
@@ -5180,7 +5180,7 @@
       <node ref="R43" pin="2" pintype="passive"/>
       <node ref="U11" pin="1" pintype="input"/>
     </net>
-    <net code="64" name="/LCD_VIO" class="Default">
+    <net code="64" name="/LCD_VIO" class="LCD_VIO">
       <node ref="C33" pin="1" pintype="passive"/>
       <node ref="C34" pin="1" pintype="passive"/>
       <node ref="J11" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
@@ -5257,7 +5257,7 @@
       <node ref="K1" pin="4" pintype="passive"/>
       <node ref="R52" pin="1" pintype="passive"/>
     </net>
-    <net code="79" name="/PANEL_3V3" class="Default">
+    <net code="79" name="/PANEL_3V3" class="Plane">
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="C24" pin="1" pintype="passive"/>
@@ -5305,7 +5305,7 @@
       <node ref="U4" pin="3" pinfunction="Vin_3" pintype="power_in"/>
       <node ref="U6" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
     </net>
-    <net code="80" name="/PI_5V_IN" class="Default">
+    <net code="80" name="/PI_5V_IN" class="Power5V">
       <node ref="C31" pin="1" pintype="passive"/>
       <node ref="C32" pin="1" pintype="passive"/>
       <node ref="F1" pin="1" pintype="passive"/>
@@ -5315,7 +5315,7 @@
       <node ref="U5" pin="1" pinfunction="IN_1" pintype="power_in"/>
       <node ref="U6" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
     </net>
-    <net code="81" name="/PROTO_5V" class="Default">
+    <net code="81" name="/PROTO_5V" class="Power5V">
       <node ref="C29" pin="1" pintype="passive"/>
       <node ref="C30" pin="1" pintype="passive"/>
       <node ref="J10" pin="1" pinfunction="Pin_1_1" pintype="passive"/>

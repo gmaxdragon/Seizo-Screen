@@ -1,4 +1,4 @@
-// AI-generated reference touch calibration math. No hardware validation.
+// Reference touch calibration math. No hardware validation.
 #pragma once
 #include <stdint.h>
 #include <math.h>

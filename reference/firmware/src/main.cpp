@@ -1,4 +1,4 @@
-// AI-generated reference firmware. USB/UART panel telemetry only; no arm adapters.
+// Reference firmware. USB/UART panel telemetry only; no arm adapters.
 #include <Arduino.h>
 #include <Wire.h>
 #include <SPI.h>

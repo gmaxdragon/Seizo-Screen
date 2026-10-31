@@ -1,4 +1,4 @@
-// AI-generated reference firmware. No physical or actuator validation.
+// Reference firmware. No physical or actuator validation.
 #include "panel_core.h"
 #include <stdio.h>
 #include <string.h>

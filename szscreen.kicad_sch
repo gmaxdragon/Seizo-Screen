@@ -9,7 +9,6 @@
     (date "2026-10-29")
     (rev "23 ENGINEERING / NOT HARDWARE VALIDATED")
     (company "Seizo")
-    (comment 1 "AI-generated engineering revision; original/user-routed versions preserved.")
     (comment 2 "0-24 V DC only, shared GND. No independent motor stop.")
   )
   (lib_symbols

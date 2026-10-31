@@ -9,7 +9,6 @@
     (date "2026-10-29")
     (rev "19 / UNROUTED / UNTESTED")
     (company "Seizo")
-    (comment 1 "AI-assisted reference; routing, firmware and hardware tests pending.")
     (comment 2 "0-24 V DC only, shared GND. No independent motor stop.")
   )
   (lib_symbols

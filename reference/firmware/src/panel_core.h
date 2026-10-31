@@ -1,4 +1,4 @@
-// AI-generated reference firmware. No physical or actuator validation.
+// Reference firmware. No physical or actuator validation.
 #pragma once
 #include <stdint.h>
 #include <stddef.h>

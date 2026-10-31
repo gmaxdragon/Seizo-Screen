@@ -1,4 +1,4 @@
-// AI-generated reference adapter; Waveshare init sequences retain maker license.
+// Reference adapter; Waveshare init sequences retain maker license.
 #pragma once
 #include "panel_core.h"
 #include "touch_math.h"

@@ -1,4 +1,4 @@
-// AI-generated offline mock tests. Compile/run with a native C++11 compiler.
+// Reference offline mock tests. Compile/run with a native C++11 compiler.
 #include "../src/panel_core.h"
 #include <assert.h>
 #include <string>

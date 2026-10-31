@@ -1,4 +1,4 @@
-// AI-generated offline geometric tests. No touch hardware is connected.
+// Reference offline geometric tests. No touch hardware is connected.
 #include "../src/touch_math.h"
 #include <assert.h>
 #include <stdio.h>

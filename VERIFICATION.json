@@ -1,9 +1,9 @@
 {
   "revision": 23,
   "frozen_date": "2026-10-31",
-  "status": "Prototype fabrication data complete; whole-product and Hack Club submission eligibility unresolved",
-  "panel_native_sha256": "25539642fd6fd28b717376c2c5bc4094e4d9d7bd92bf4f556df019648e6b27f6",
-  "panel_schematic_sha256": "f86905a56a41f585b2ab83b8f5fad39fded9c744000d2602d3be82b0f0f3c124",
+  "status": "Routed prototype design; physical validation and full assembly quote pending",
+  "panel_native_sha256": "dc71ca834294d30f3ec7e10e9b64247c323a675e326a986edd0421b6df838665",
+  "panel_schematic_sha256": "00b0232ac88141a0f924fc1a8a86d4491a3e424eb22347c2f8611407ca18b50f",
   "hat_native_sha256": "d394262fd2e1a34833cbe6237755eec6f7f188a10a2b69cebb4e30399eae7b37",
   "panel_drc_errors": 0,
   "panel_missing_connections": 0,
@@ -29,11 +29,11 @@
   "all_in_budget_met": false,
   "priced_parts_usd": "99.768",
   "external_submission_made": false,
-  "ai_authorship_record": "AI-ASSISTANCE-RECORD.txt",
-  "board_step_scope": "Native board-only exports; populated stack and enclosure not represented",
   "cad_warnings_not_hidden": true,
-  "firmware_scope": "AI-generated reference only; participant supplied detailed behavior instructions and will write actual implementation",
+  "firmware_scope": "Reference only; participant supplied behavior instructions and will write actual implementation",
   "participant_original_work": "First schematic, PCB placement and full earlier routing; friend helped with ideas, parts, organization, routing and fixes",
-  "seizo_reviewer_feedback_reported": false,
-  "eligibility_verdict": "Not determined; no acceptance or rejection claim"
+  "contribution_record": "README.md#contributions",
+  "step_exports_in_repository": false,
+  "documentation_cleanup_only": true,
+  "documentation_update_report": "reports/documentation-update.json"
 }

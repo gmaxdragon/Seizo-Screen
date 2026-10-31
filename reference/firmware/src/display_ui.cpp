@@ -1,4 +1,4 @@
-// AI-generated reference integration; no display/touch hardware was tested.
+// Reference integration; no display/touch hardware was tested.
 // Register sequences adapted from Waveshare LCD_Driver.c V1.2 (2019-08-16).
 // See THIRD-PARTY-NOTICES.txt and vendor source archive for license/provenance.
 #include "display_ui.h"

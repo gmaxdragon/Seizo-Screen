@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-31",
+  "scope": "Documentation/title-block cleanup; no circuit, component, footprint, routing or functional-code changes",
+  "contribution_record": "README.md#contributions",
+  "source_comment_edits": [
+    {
+      "file": "reference/firmware/host/seizo_panel_bridge.py",
+      "scope": "module docstring only; executable AST identical"
+    },
+    {
+      "file": "reference/firmware/src/display_ui.cpp",
+      "scope": "first-line comment only"
+    },
+    {
+      "file": "reference/firmware/src/display_ui.h",
+      "scope": "first-line comment only"
+    },
+    {
+      "file": "reference/firmware/src/main.cpp",
+      "scope": "first-line comment only"
+    },
+    {
+      "file": "reference/firmware/src/panel_core.cpp",
+      "scope": "first-line comment only"
+    },
+    {
+      "file": "reference/firmware/src/panel_core.h",
+      "scope": "first-line comment only"
+    },
+    {
+      "file": "reference/firmware/src/touch_math.h",
+      "scope": "first-line comment only"
+    },
+    {
+      "file": "reference/firmware/tests/test_adapter.cpp",
+      "scope": "first-line comment only"
+    },
+    {
+      "file": "reference/firmware/tests/test_core.cpp",
+      "scope": "first-line comment only"
+    },
+    {
+      "file": "reference/firmware/tests/test_touch.cpp",
+      "scope": "first-line comment only"
+    }
+  ],
+  "third_party_license_preserved": true,
+  "removed_step_files": [
+    "szscreen-board-only.step",
+    "matching-HAT/HAT-board-only.step"
+  ],
+  "images_copied_without_editing": true,
+  "changes": [
+    {
+      "file": "szscreen-board-only.step",
+      "kind": "removed from current tree; local backup and Git history retained"
+    },
+    {
+      "file": "matching-HAT/HAT-board-only.step",
+      "kind": "removed from current tree; local backup and Git history retained"
+    },
+    {
+      "file": null,
+      "kind": "removed from current tree; local backup and Git history retained",
+      "description": "Standalone contribution note centralized in README"
+    },
+    {
+      "file": "szscreen.kicad_sch",
+      "kind": "one title-block attribution comment removed; circuit and copper text otherwise identical",
+      "before_sha256": "f86905a56a41f585b2ab83b8f5fad39fded9c744000d2602d3be82b0f0f3c124",
+      "after_sha256": "00b0232ac88141a0f924fc1a8a86d4491a3e424eb22347c2f8611407ca18b50f"
+    },
+    {
+      "file": "szscreen.kicad_pcb",
+      "kind": "one title-block attribution comment removed; circuit and copper text otherwise identical",
+      "before_sha256": "25539642fd6fd28b717376c2c5bc4094e4d9d7bd92bf4f556df019648e6b27f6",
+      "after_sha256": "dc71ca834294d30f3ec7e10e9b64247c323a675e326a986edd0421b6df838665"
+    },
+    {
+      "file": "history/user-routed-rev19/szscreen.kicad_sch",
+      "kind": "one title-block attribution comment removed; circuit and copper text otherwise identical",
+      "before_sha256": "d9fd71a1347e69238cf37620c413491f6eec6ae77d683ff6b5135a068b289ed8",
+      "after_sha256": "c4399b0b4851e38ff522fdc0c9fd31a618d90f8f1ea279f70f2b550ce651865c"
+    },
+    {
+      "file": "reference/firmware/BUILD-STATUS.txt",
+      "kind": "centralized authorship wording; reference and validation limitations retained",
+      "before_sha256": "c84ab00dac1eaf1c1b4352591d7da9007b0bee4b4ad55db5eef118a71a3990da",
+      "after_sha256": "ef6c8f8e36902640b8bba62f2b7a882bcb95c94d3305cd3b3b129dd7a7faaba3"
+    },
+    {
+      "file": "reference/firmware/INTEGRATION-CONTRACT.md",
+      "kind": "centralized authorship wording; reference and validation limitations retained",
+      "before_sha256": "393625ddd72ec7619e4f3070849233b0eb7a898846412f19830f47cb87e19f37",
+      "after_sha256": "b66ff61607c4e2632ec4573edb5b704977b3371e3e58327f89fa74ea4993219c"
+    },
+    {
+      "file": "reference/firmware/THIRD-PARTY-NOTICES.txt",
+      "kind": "centralized authorship wording; reference and validation limitations retained",
+      "before_sha256": "00e9a74f049bf5cb1c4289f6284f01a6244a300fe50463156d985573cedc9b83",
+      "after_sha256": "c0f9487029c0a6b7d13ae728596107f5817c85e72ea740d6e9d26c56746b246f"
+    },
+    {
+      "file": "reference/firmware/validation.json",
+      "kind": "centralized authorship wording; reference and validation limitations retained",
+      "before_sha256": "960e77af9c8a69f507a0f12548ae498e2c512c1ed7ab9e5efdef79ae08faa155",
+      "after_sha256": "b89e3497add91482b0b1d7805f45bb8e9a71483455dbd2ded725c450d07d5357"
+    },
+    {
+      "file": "reference/firmware/host/seizo_panel_bridge.py",
+      "kind": "centralized authorship wording; reference and validation limitations retained",
+      "before_sha256": "98492e47a2a447e499b4c919f4c792e8e7aa75907df9e0079dd33d7d1070609c",
+      "after_sha256": "b4d9c87d86edfae3f2e578fe9a67d2518863bff5c322ec343eaeca9cdd2e8f79"
+    },
+    {
+      "file": "reference/firmware/src/display_ui.cpp",
+      "kind": "centralized authorship wording; reference and validation limitations retained",
+      "before_sha256": "b9b328c1a3554ba401f64e40331e098fff65fce3673b0b34491b241cf4881ab6",
+      "after_sha256": "5a3e8bbdd5dea0cddf2270ed5a44323535ade815c8137bd154bb4ab5259df287"
+    },
+    {
+      "file": "reference/firmware/src/display_ui.h",
+      "kind": "centralized authorship wording; reference and validation limitations retained",
+      "before_sha256": "fe8396daf604e643dc3fca944d7eadc13e0eba69b1d2a9bd886e1b85c93bd0ca",
+      "after_sha256": "5fed673d9e270ea44b6d76ace2d0559a520829ae2048b45a349c264872a44072"
+    },
+    {
+      "file": "reference/firmware/src/main.cpp",
+      "kind": "centralized authorship wording; reference and validation limitations retained",
+      "before_sha256": "b1facf7cdd8fecb72a2417e5c646a08a2eaf0e422adde979c4299688d1471926",
+      "after_sha256": "176cd0a136ffd02d949d98e089ab27330231f0461a7dcbeb29b533d45ab2dade"
+    },
+    {
+      "file": "reference/firmware/src/panel_core.cpp",
+      "kind": "centralized authorship wording; reference and validation limitations retained",
+      "before_sha256": "7444e3a523d0c0c91e2e7cb237291eaeee56b46c8b2338899f1e8055de686ef5",
+      "after_sha256": "406d9de63f2ad75166b2cb970960623a1a4ac7427b143a0db6e964ae392a8629"
+    },
+    {
+      "file": "reference/firmware/src/panel_core.h",
+      "kind": "centralized authorship wording; reference and validation limitations retained",
+      "before_sha256": "9fedca82d7f0fde87882d0041495ae50c24ae743ae79ea68967619b48ef1e84c",
+      "after_sha256": "6b9957817ebfd9c4822cdfba0275a051af5bf16f0fd6cb0c87be7bc99ca0e915"
+    },
+    {
+      "file": "reference/firmware/src/touch_math.h",
+      "kind": "centralized authorship wording; reference and validation limitations retained",
+      "before_sha256": "271144ef5d46914fd4569f56e17c43f3444356974948b988a70a99a4a2a9afe8",
+      "after_sha256": "059eaca05ef130d3619db1786f298494d6f4ea2a7596e8d3d4f1aa0e73c6f24a"
+    },
+    {
+      "file": "reference/firmware/tests/test_adapter.cpp",
+      "kind": "centralized authorship wording; reference and validation limitations retained",
+      "before_sha256": "970d2c234e9af117ccb5a28b502b0bf2278916fc38967a4a991963c2f866da7d",
+      "after_sha256": "e85c77109a9771252f258d7e5c011365d3d1d89e1df9a087533cbcfb6a4c26d9"
+    },
+    {
+      "file": "reference/firmware/tests/test_core.cpp",
+      "kind": "centralized authorship wording; reference and validation limitations retained",
+      "before_sha256": "4713e3ba512753f8a6542bb2e07fa367bddb208160ecaa724ae1c9ef4cdbf439",
+      "after_sha256": "1411e1f7788613fdc2c7bee833c61acfbb8a21d7a921c519c3a8b4e5561a63c6"
+    },
+    {
+      "file": "reference/firmware/tests/test_touch.cpp",
+      "kind": "centralized authorship wording; reference and validation limitations retained",
+      "before_sha256": "306a2429faa38659a01168c38b32cb888c590f4a611a7a051d700770e2b9262e",
+      "after_sha256": "9fbd971cfa12e25f37291ab355a75d3b6cae902fde3330963cf338b5b923d3fb"
+    },
+    {
+      "file": "reference/REFERENCE-ONLY.txt",
+      "kind": "reference status retained; contribution record moved to README",
+      "before_sha256": "7098861049f795c33c30014f4559622662e225f1d107d5691ca257c5b89f1d93",
+      "after_sha256": "66af0e7125d2a7d707f442499d4abc3e96e6bb6a27a2717238fa6acec7278228"
+    },
+    {
+      "file": "FABRICATION-STATUS.txt",
+      "kind": "engineering status retained; duplicate attribution and submission commentary removed",
+      "before_sha256": "28f1083cc852419377dc88dd3afad141e11edb9b75cc40e03a00cd07afddee22",
+      "after_sha256": "bd97cea9754306966df79b7e0dac1dae3a537cc904544ab3d0824a46e87def47"
+    },
+    {
+      "file": "VERIFICATION.json",
+      "kind": "updated native metadata hashes and centralized contribution pointer",
+      "before_sha256": "8cf3dfd61815c9d021ddc78cb9e991c7e8963abd48126ce7bc535f7490921a02",
+      "after_sha256": "c0b7db9d587a232e734bb96335d560132f9ff56ad9dc634210b5c7b3c6523249"
+    }
+  ],
+  "compiled_build_records": "Historical build records refer to the previous source-header hashes; no new target compile claimed. Only comments/docstrings changed in reference source.",
+  "current_schematic_sha256": "00b0232ac88141a0f924fc1a8a86d4491a3e424eb22347c2f8611407ca18b50f",
+  "current_board_sha256": "dc71ca834294d30f3ec7e10e9b64247c323a675e326a986edd0421b6df838665",
+  "fresh_netlist_identical_components_and_pin_nets": true,
+  "fresh_native_drc_errors": 0,
+  "fresh_native_missing_connections": 0,
+  "fresh_native_schematic_parity_issues": 0,
+  "fresh_erc_errors": 0,
+  "fresh_gerber_and_drill_checks": 808,
+  "python_protocol_tests_passed": 20
+}

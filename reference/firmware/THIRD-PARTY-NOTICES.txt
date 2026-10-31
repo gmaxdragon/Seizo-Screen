@@ -1,7 +1,7 @@
 Waveshare LCD_Driver.c V1.2 (2019-08-16) and xpt2046.c V1.0 (2019-05-05).
 Source: https://www.waveshare.net/w/upload/6/6f/2.8inch_Resistive_Touch_LCD-Code.7z
 Documentation: https://docs.waveshare.net/2.8inch_Resistive_Touch_LCD/
-Adapted register sequences and touch transaction/filtering only; Arduino integration and UI are AI-generated reference code.
+Adapted register sequences and touch transaction/filtering only; Arduino integration and UI are Reference code.
 /*****************************************************************************
 * | File      	:		LCD_Driver.c
 * | Author      :   Waveshare team

@@ -3,8 +3,8 @@ Engineering fabrication candidate for a first prototype. No submission or purcha
 
 Completed: full panel routing, filled power/ground copper, mounting screw copper exclusions,
 unused stub removal, readable silkscreen references and clipping of the user's original logo.
-The matching HAT variant is also routed. Panel source SHA256: 25539642fd6fd28b717376c2c5bc4094e4d9d7bd92bf4f556df019648e6b27f6
-Schematic SHA256: f86905a56a41f585b2ab83b8f5fad39fded9c744000d2602d3be82b0f0f3c124
+The matching HAT variant is also routed. Panel source SHA256: dc71ca834294d30f3ec7e10e9b64247c323a675e326a986edd0421b6df838665
+Schematic SHA256: 00b0232ac88141a0f924fc1a8a86d4491a3e424eb22347c2f8611407ca18b50f
 
 Panel native KiCad 10.0.7: 0 DRC errors, 0 unconnected, 0 schematic parity issues.
 3 warnings remain: intentional stock-footprint local overrides U4, D2 and D3.
@@ -29,9 +29,9 @@ The currently reviewed original HAT is not this variant; its approval/manufactur
 reconciled before using the panel. This package does not silently update that submission.
 panel-gerbers contains exactly this panel's fabrication layers and separate PTH/NPTH drills.
 Use szscreen-panel-Gerbers.zip for panel fabrication only, not the complete engineering ZIP.
-Both STEP files are actual board-only geometry, not populated assembly or enclosure proofs.
+STEP exports are omitted from this repository at the owner's request; native KiCad sources remain available.
 
-NOT COMPLETE FOR A WHOLE-PRODUCT OR HACK CLUB SUBMISSION CLAIM:
+PROTOTYPE VALIDATION AND COST ITEMS:
 1. No assembled/powered prototype exists. Real display-rail tap, harness, fan, supply
    headroom, partial-power behavior, signal edges and mechanical mating remain untested.
 2. Independent stopping of both motor supplies and output gravity retention are unfinished.
@@ -41,13 +41,5 @@ NOT COMPLETE FOR A WHOLE-PRODUCT OR HACK CLUB SUBMISSION CLAIM:
    implementation or evidence of a working motor-command adapter/hardware test.
 4. Priced parts are $99.768 before all PCB fabrication, shipping/tax, unpriced harness and
    mounting, remaining HAT costs and independent stop/retention. All-in $100 is not met.
-5. No Seizo reviewer feedback has been reported. Acceptance has not been determined.
-   The participant says the generated firmware is reference material and will write the
-   actual code. Reference material must not be confused with completed participant firmware.
-   AI-assisted hardware revisions remain attributed in AI-ASSISTANCE-RECORD.txt. The earlier
-   assistant statement that AI use was a definite eligibility blocker was too categorical.
-   README, journals, hours and submission decisions remain the participant's own work.
-   Program source: https://github.com/hackclub/halflife/blob/main/src/lib/data.ts
-
 The older rev22 and 23-pcb-draft files are superseded. They are preserved as history.
 No physical motor command, flashing, port opening, purchase or external submission occurred.

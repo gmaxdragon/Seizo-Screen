@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""AI-generated reference: reads panel inputs and prints JSON. No motor adapters.
+"""Reference: reads panel inputs and prints JSON. No motor adapters.
 
 Requires pyserial when run against an explicitly selected port. Importing this
 module and running its unit tests never discovers or opens any serial port.
