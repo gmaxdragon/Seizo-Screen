@@ -1,0 +1,45 @@
+{
+  "date_received": "2026-10-31",
+  "kind": "User-supplied preliminary calculator screenshot; not a reviewed final component quotation",
+  "image": "preliminary-calculator.png",
+  "image_sha256": "5bde19204e72fbfb23e8b58c0de6992c3ff36060289ec5725bc0bb8fcd8670f9",
+  "observed": {
+    "bare_PCB_quantity": 5,
+    "bare_PCB_subtotal_USD": "48.31",
+    "displayed_PCB_build_time": "24hours",
+    "assembly_quantity": 1,
+    "assembly_subtotal_USD": "29.00",
+    "shipping_USD": "24.07",
+    "order_discount_USD": "-24.07",
+    "displayed_total_USD": "77.31",
+    "destination": "United States",
+    "shipping_service": "Global Standard, 7-12 business days"
+  },
+  "verified_from_image": [
+    "Five bare PCBs and one assembled PCB are selected",
+    "48.31 + 29.00 + 24.07 - 24.07 = 77.31",
+    "Final price is subject to review; customs duties and VAT excluded on image"
+  ],
+  "not_visible_or_verified": [
+    "Turnkey selection",
+    "160x120mm dimensions, layer count and other board settings",
+    "Both-side selection and C25 assembly process",
+    "Which files have been uploaded",
+    "Part sourcing costs or any accepted BOM",
+    "HAT, LCD, harness, hardware, independent stop or retention costs"
+  ],
+  "component_costs_included": false,
+  "components_inclusion_basis": "PCBWay quote page states assembly estimate excludes component costs; image shows no component-cost line",
+  "historical_comparison": {
+    "panel_loose_parts_reference_USD": "56.248",
+    "displayed_estimate_plus_reference_parts_USD": "133.558",
+    "scope": "Arithmetic comparison only; not a factory quote; still excludes display, HAT and other extras"
+  },
+  "live_browser_control": {
+    "success": false,
+    "error": "failed to write kernel assets: The system cannot find the path specified",
+    "quote_form_edited": false,
+    "quote_submitted": false
+  },
+  "ready_for_complete_Half_Life_cost_evidence": false
+}

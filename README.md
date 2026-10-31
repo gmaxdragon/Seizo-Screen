@@ -37,10 +37,13 @@ I spent this summer designing and building the arm and worked on it almost every
 
 This has been my dream project for about a year, and I've struggled to find funding for all of it. I would really appreciate it if this project were accepted.
 
+To be honest, soldering all the parts together by hand is extremely risky for me and it will take hours. I'd rather spend that time coding and making changes by hand and testing so I would like this to be presoldered please.
+
 ## Files
 
 - [KiCad project](szscreen.kicad_pro), [schematic](szscreen.kicad_sch) and [PCB](szscreen.kicad_pcb)
 - [Schematic PDF](schematic.pdf)
+- [Complete project BOM and quote inventory](bom.csv) and [PCBWay preliminary price screenshot](quotes/pcbway/preliminary-calculator.png)
 - [Parts list](BOM-panel.csv) and [connector pin map](CONNECTOR-PIN-MAP.csv)
 - [Factory assembly BOM](assembly/BOM-PCBWay-panel.csv), [matching-HAT BOM](assembly/BOM-PCBWay-matching-HAT.csv), [DigiKey import CSV](assembly/DigiKey-panel-import.csv) and [assembly quote instructions](assembly/ORDER-INSTRUCTIONS.txt)
 - [Factory quote upload ZIP](szscreen-PCBWay-turnkey-quote.zip)

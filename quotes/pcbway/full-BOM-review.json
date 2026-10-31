@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-31",
+  "rows": 113,
+  "panel_fitted_references": 150,
+  "matching_HAT_fitted_references": 48,
+  "off_board_inventory_included": true,
+  "harness_mounting_owned_hardware_and_unresolved_stop_included": true,
+  "reviewed_factory_component_quote_available": false,
+  "complete_funding_BOM_priced": false,
+  "native_CAD_changed": false,
+  "README_added_paragraph_verbatim": "To be honest, soldering all the parts together by hand is extremely risky for me and it will take hours. I'd rather spend that time coding and making changes by hand and testing so I would like this to be presoldered please.",
+  "README_contributions_unchanged": true
+}
