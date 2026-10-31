@@ -1,0 +1,70 @@
+﻿Item,Purpose,Quantity,Unit Cost USD,Vendor,Link
+Various capacitors,"Factory price pending. One complete lot of 41 capacitors for panel and matching HAT; exact values, packages and placements remain in the detailed factory BOMs.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Various resistors,"Factory price pending. One complete lot of 93 resistors, including the 0.1% meter parts; exact values, packages and placements remain in the detailed factory BOMs.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+"Panel: WP3A8GD (D1, D5)","Factory price pending. Panel, THT; Top; D1, D5. Exact MPN and package in factory BOM.",2,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Panel: WP3A8ID (D2),"Factory price pending. Panel, THT; Top; D2. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+"Panel: BAT85S-TAP (D3, D4)","Factory price pending. Panel, THT; Top; D3, D4. Exact MPN and package in factory BOM.",2,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Panel: MF-RHT050-0 (F1),"Factory price pending. Panel, THT; Top; F1. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+"Panel: B3F-1000 (SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12)","Factory price pending. Panel, THT; Top; SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12. Exact MPN and package in factory BOM.",12,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+"Panel: JS202011CQN (SW13, SW14)","Factory price pending. Panel, THT; Top; SW13, SW14. Exact MPN and package in factory BOM.",2,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Panel: AQY212EH (K1),"Factory price pending. Panel, THT; Top; K1. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Panel: MCP23017-E/SP (U1),"Factory price pending. Panel, THT; Top; U1. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Panel: MCP3202-BI/P (U2),"Factory price pending. Panel, THT; Top; U2. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Panel: MCP6002-I/P (U3),"Factory price pending. Panel, THT; Top; U3. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Panel: MCP1525-I/TO (U4),"Factory price pending. Panel, THT; Top; U4. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Panel: TPS2553DBVR-1 (U5),"Factory price pending. Panel, SMT; Top; U5. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Panel: 4683 (U6),"Factory price pending. Panel, THT module/manual; Top; U6. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+"Panel: SN74LV125AN (U8, U9, U10)","Factory price pending. Panel, THT; Top; U8, U9, U10. Exact MPN and package in factory BOM.",3,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Panel: SN74AHC14N (U11),"Factory price pending. Panel, THT; Top; U11. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+"Panel: PRPC002SAAN-RC (J3, J4, J9, J10, J11, J12, J13)","Factory price pending. Panel, THT; Top; J3, J4, J9, J10, J11, J12, J13. Exact MPN and package in factory BOM.",7,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+"Panel: PRPC003SAAN-RC (J7, J8)","Factory price pending. Panel, THT; Top; J7, J8. Exact MPN and package in factory BOM.",2,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+"Panel: PRPC006SAAN-RC (J1, J5, J6)","Factory price pending. Panel, THT; Top; J1, J5, J6. Exact MPN and package in factory BOM.",3,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Panel: PRPC011SAAN-RC (J2),"Factory price pending. Panel, THT; Top; J2. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: 1715747 (J11),"Factory price pending. Matching HAT, THT; Top; J11. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: 1715721 (J9),"Factory price pending. Matching HAT, THT; Top; J9. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: SSW-104-01-G-S (J10),"Factory price pending. Matching HAT, THT; Top; J10. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: 3568 (F1),"Factory price pending. Matching HAT, THT; Top; F1. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: 1979 (J1),"Factory price pending. Matching HAT, THT; Bottom; J1. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: USB4105-GF-A (J8),"Factory price pending. Matching HAT, Hybrid (SMT contacts + THT shell); Top; J8. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: LTST-C170KGKT (D1),"Factory price pending. Matching HAT, SMT; Top; D1. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: TL3305AF160QG (SW1),"Factory price pending. Matching HAT, SMT; Top; SW1. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: TL3305AF160QG (RESET1),"Factory price pending. Matching HAT, SMT; Top; RESET1. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: ESP32-S3-WROOM-1-N8R8 (U2),"Factory price pending. Matching HAT, SMT; Top; U2. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: SN74LVC1G17DBVR (U3),"Factory price pending. Matching HAT, SMT; Top; U3. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+"Matching HAT: SN74LVC1G17DBVR (U4, U5)","Factory price pending. Matching HAT, SMT; Bottom; U4, U5. Exact MPN and package in factory BOM.",2,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: PRPC003SAAN-RC (J2),"Factory price pending. Matching HAT, THT; Top; J2. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: PRPC003SAAN-RC (J3),"Factory price pending. Matching HAT, THT; Top; J3. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: PRPC003SAAN-RC (J12),"Factory price pending. Matching HAT, THT; Top; J12. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: PRPC006SAAN-RC (J4),"Factory price pending. Matching HAT, THT; Top; J4. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: PRPC006SAAN-RC (J5),"Factory price pending. Matching HAT, THT; Top; J5. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: PRPC006SAAN-RC (J6),"Factory price pending. Matching HAT, THT; Top; J6. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Matching HAT: PRPC006SAAN-RC (J7),"Factory price pending. Matching HAT, THT; Top; J7. Exact MPN and package in factory BOM.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+LCD1: Waveshare 16446,"Factory price pending. 2.8inch Resistive Touch LCD, SPI 320x240",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+BB1: Adafruit 65,Factory price pending. Tiny Premium Breadboard 46 x 36mm,1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+HAT-FUSE: Littelfuse 0297002.WXNV,Factory price pending. 2A MINI blade fuse for matching-HAT F1 holder,1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+HUB1: Raspberry Pi SC1636,"Conditional purchase, price pending. Raspberry Pi USB 3 Hub with external USB-C power input",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+HUB-PSU: Raspberry Pi SC0218,"Conditional purchase, price pending. Official USB-C 15.3W 5.1V 3A US power supply for hub",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+HARNESS-I2C,"Factory price pending. Panel J1 pins1..6 to HAT J7 pins1..6; 2.54mm female mating ends. Include mating housings/contacts, insulation and strain relief. Final length/contact specification and quote pen",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+HARNESS-SPI,"Factory price pending. Panel J5 pins1..6 to HAT J6 pins1..6; 2.54mm female mating ends; signal-integrity/length review required. Include mating housings/contacts, insulation and strain relief. Final l",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+HARNESS-CONTROL,"Factory price pending. Panel J6 pins1..6 to HAT J5 pins1..6; 2.54mm female mating ends. Include mating housings/contacts, insulation and strain relief. Final length/contact specification and quote pen",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+HARNESS-5V,"Factory price pending. Panel J7 pins1/2 to HAT J12 pins1/2; remaining pin3 unconnected. Include mating housings/contacts, insulation and strain relief. Final length/contact specification and quote pen",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+HARNESS-3V3,"Factory price pending. Dedicated short22AWG pair: panel J13.1 GND/J13.2 3V3 to HAT J10.1/J10.2; female panel mating end, male HAT socket mating end. Include mating housings/contacts, insulation and st",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+HARNESS-DIAGNOSTIC,"Factory price pending. Panel J12 pins1/2 to HAT J4 pins3/4; ESP GPIO6/7; common ground through power/signal harnesses. Include mating housings/contacts, insulation and strain relief. Final length/cont",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+HARNESS-LCD,"Factory price pending. Panel J2 pins1..11 to matching Waveshare16446 labelled pins; verify actual display header orientation. Include mating housings/contacts, insulation and strain relief. Final leng",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+HARNESS-LCD-VIO,"Factory price pending. Panel J11.1 to actual internal LCD3V3, J11.2 GND; module batch/tap point and solder attachment must be qualified. Include mating housings/contacts, insulation and strain relief.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+HARNESS-PROTO,"Factory price pending. Panel J10 protected5V/GND to mini breadboard; intended100mA usable load; insulated mating contacts. Include mating housings/contacts, insulation and strain relief. Final length/",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+METER-LEADS,"Factory price pending. Panel J9 probe+/common GND to insulated voltage-probe leads; known shared-ground0-24V DC only. Include mating housings/contacts, insulation and strain relief. Final length/conta",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+FAN-ADAPTER,"Factory price pending. Panel J8 pins1/2 5V/GND to owned5V fan; pin3 unconnected; actual fan connector/current unknown. Include mating housings/contacts, insulation and strain relief. Final length/cont",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+USB-SERVICE-CABLE,"Factory price pending. USB-A to USB-C DATA cable for matching-HAT service; no panel/HAT operating power through USB. Include mating housings/contacts, insulation and strain relief. Final length/contac",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+NC-STATUS-CABLES,"Factory price pending. Panel J3 and J4 dry-NC inputs to separately chosen physical contacts; these are status signals, not motor-power cables. Include mating housings/contacts, insulation and strain r",2,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+MOUNT-PI-HAT,"Factory price pending. Pi-to-HAT mounting hardware, nominal15.5mm socket seating gap; exact standoffs and screw engagement must match installed socket. No enclosure raw material requested.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+MOUNT-HAT-PANEL,Factory price pending. Mounting stage with30mm CLEAR HAT-front to panel-rear gap; fasteners/insulation/washer clearance per native drawings. No enclosure raw material requested.,1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+MOUNT-LCD,"Factory price pending. Four LCD mounting positions with25mm spacers; M2.5 hardware, washer/head contact diameter at most5mm; final screw lengths require engagement check. No enclosure raw material req",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+PANEL-SUPPORT,Factory price pending. Panel outer-corner supports and compatible fasteners; H1-H4 contact diameter at most7mm. No enclosure raw material requested.,1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+BREADBOARD-ATTACH,Factory price pending. Insulated attachment for Adafruit65 mini breadboard in reserved46x36mm area; confirm included adhesive/support. No enclosure raw material requested.,1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Independent arm stop and gravity retention: scope pending,"UNPRICED, design pending. Not implemented by the screen PCB. Exact dual-supply stop and gravity-retention parts remain undefined; placeholder is not a completed system.",1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Optional dry-NC status contacts,Price pending; exact switch model unselected. Diagnostic inputs only; these contacts are not an independent motor-power stop.,2,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Panel PCB fabrication: batch of 5 bare boards,PRELIMINARY calculator price for one 5-board batch; factory review pending. Components and assembly excluded.,1,48.31,PCBWay,https://www.pcbway.com/quotesmt.aspx
+Panel factory assembly: 1 board,PRELIMINARY calculator assembly fee only; components excluded. Final mixed THT/SMT and rear C25 process review pending.,1,29.00,PCBWay,https://www.pcbway.com/quotesmt.aspx
+HAT-BARE-PCB (separate matching HAT project),Factory price pending; separate conditional HAT order. Confirm actual bare-board minimum/assembly quantity and reconcile original HAT funding before buying.,1,,PCBWay,https://www.pcbway.com/quotesmt.aspx
+HAT-ASSEMBLY (separate matching HAT project),Factory price pending; separate conditional HAT order. Confirm actual bare-board minimum/assembly quantity and reconcile original HAT funding before buying.,1,,PCBWay,https://www.pcbway.com/quotesmt.aspx

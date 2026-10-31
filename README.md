@@ -43,7 +43,8 @@ To be honest, soldering all the parts together by hand is extremely risky for me
 
 - [KiCad project](szscreen.kicad_pro), [schematic](szscreen.kicad_sch) and [PCB](szscreen.kicad_pcb)
 - [Schematic PDF](schematic.pdf)
-- [Complete project BOM and quote inventory](bom.csv) and [PCBWay preliminary price screenshot](quotes/pcbway/preliminary-calculator.png)
+- [Half-Life grouped BOM import](00-bom-halflife.csv) — 69 items within the 80-item limit; [import instructions](HALFLIFE-BOM-IMPORT.txt)
+- [Complete project BOM and quote inventory](PROJECT-PARTS.csv) and [PCBWay preliminary price screenshot](quotes/pcbway/preliminary-calculator.png)
 - [Parts list](BOM-panel.csv) and [connector pin map](CONNECTOR-PIN-MAP.csv)
 - [Factory assembly BOM](assembly/BOM-PCBWay-panel.csv), [matching-HAT BOM](assembly/BOM-PCBWay-matching-HAT.csv), [DigiKey import CSV](assembly/DigiKey-panel-import.csv) and [assembly quote instructions](assembly/ORDER-INSTRUCTIONS.txt)
 - [Factory quote upload ZIP](szscreen-PCBWay-turnkey-quote.zip)

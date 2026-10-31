@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-31T23:34:38.093Z",
+  "officialSources": {
+    "parser": "https://github.com/hackclub/halflife/blob/main/src/lib/bom-csv.ts",
+    "csv": "https://github.com/hackclub/halflife/blob/main/src/lib/csv.ts",
+    "countCap": "https://github.com/hackclub/halflife/blob/main/src/lib/bom.ts",
+    "selection": "https://github.com/hackclub/halflife/blob/main/src/lib/repo-checks.ts"
+  },
+  "parserModifiedOnlyForImportPath": true,
+  "header": [
+    "Item",
+    "Purpose",
+    "Quantity",
+    "Unit Cost USD",
+    "Vendor",
+    "Link"
+  ],
+  "inputDataRows": 69,
+  "importedRows": 69,
+  "skipped": [],
+  "rowCap": 80,
+  "preliminaryPricedRows": [
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "Panel PCB fabrication: batch of 5 bare boards",
+      "purpose": "PRELIMINARY calculator price for one 5-board batch; factory review pending. Components and assembly excluded.",
+      "quantity": 1,
+      "unitCostUsd": 48.31,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "Panel factory assembly: 1 board",
+      "purpose": "PRELIMINARY calculator assembly fee only; components excluded. Final mixed THT/SMT and rear C25 process review pending.",
+      "quantity": 1,
+      "unitCostUsd": 29,
+      "vendor": "PCBWay"
+    }
+  ],
+  "pendingRowsAreNotFree": true,
+  "result": "PASS",
+  "unpriced_rows": 67,
+  "coverage_check": {
+    "checkedAt": "2026-10-31T23:34:09.387Z",
+    "result": "PASS",
+    "exactBoardReferenceCoverage": 198,
+    "panelReferences": 150,
+    "hatReferences": 48,
+    "duplicateReferences": 0,
+    "capacitors": 41,
+    "resistors": 93,
+    "resetKeptSeparate": true,
+    "detailedFactoryBOMsAndNativeSourcesUnchanged": true
+  },
+  "live_website_control_success": false,
+  "PCBWay_inquiry_submitted": false,
+  "factory_quote_obtained": false,
+  "pending_prices_are_not_free_components": true
+}
