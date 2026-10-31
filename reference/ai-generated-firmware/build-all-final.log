@@ -1,0 +1,117 @@
+Processing seizo_s3_st7789 (platform: espressif32@7.0.1; board: esp32-s3-devkitc-1; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-s3-devkitc-1.html
+PLATFORM: Espressif 32 (7.0.1) > Espressif ESP32-S3-DevKitC-1-N8 (8 MB QD, No PSRAM)
+HARDWARE: ESP32S3 240MHz, 320KB RAM, 8MB Flash
+DEBUG: Current (esp-builtin) On-board (esp-builtin) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 2.41100.260830 (4.11.0) 
+ - toolchain-riscv32-esp @ 8.4.0+2021r2-patch5 
+ - toolchain-xtensa-esp32s3 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 33 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- SPI @ 2.0.0
+|-- Wire @ 2.0.0
+|-- Preferences @ 2.0.0
+Building in release mode
+Compiling .pio\build\seizo_s3_st7789\src\display_ui.cpp.o
+Compiling .pio\build\seizo_s3_st7789\src\main.cpp.o
+Compiling .pio\build\seizo_s3_st7789\src\panel_core.cpp.o
+Linking .pio\build\seizo_s3_st7789\firmware.elf
+Retrieving maximum program size .pio\build\seizo_s3_st7789\firmware.elf
+Checking size .pio\build\seizo_s3_st7789\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=====     ]  54.1% (used 177248 bytes from 327680 bytes)
+Flash: [=         ]   9.1% (used 304553 bytes from 3342336 bytes)
+Building .pio\build\seizo_s3_st7789\firmware.bin
+esptool.py v4.11.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+========================= [SUCCESS] Took 22.86 seconds =========================
+
+Processing seizo_s3_hx8347d (platform: espressif32@7.0.1; board: esp32-s3-devkitc-1; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-s3-devkitc-1.html
+PLATFORM: Espressif 32 (7.0.1) > Espressif ESP32-S3-DevKitC-1-N8 (8 MB QD, No PSRAM)
+HARDWARE: ESP32S3 240MHz, 320KB RAM, 8MB Flash
+DEBUG: Current (esp-builtin) On-board (esp-builtin) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 2.41100.260830 (4.11.0) 
+ - toolchain-riscv32-esp @ 8.4.0+2021r2-patch5 
+ - toolchain-xtensa-esp32s3 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 33 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- SPI @ 2.0.0
+|-- Wire @ 2.0.0
+|-- Preferences @ 2.0.0
+Building in release mode
+Compiling .pio\build\seizo_s3_hx8347d\src\display_ui.cpp.o
+Compiling .pio\build\seizo_s3_hx8347d\src\main.cpp.o
+Compiling .pio\build\seizo_s3_hx8347d\src\panel_core.cpp.o
+Linking .pio\build\seizo_s3_hx8347d\firmware.elf
+Retrieving maximum program size .pio\build\seizo_s3_hx8347d\firmware.elf
+Checking size .pio\build\seizo_s3_hx8347d\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=====     ]  54.1% (used 177248 bytes from 327680 bytes)
+Flash: [=         ]   9.1% (used 305401 bytes from 3342336 bytes)
+Building .pio\build\seizo_s3_hx8347d\firmware.bin
+esptool.py v4.11.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+========================= [SUCCESS] Took 10.93 seconds =========================
+
+Processing seizo_s3_st7789_uart (platform: espressif32@7.0.1; board: esp32-s3-devkitc-1; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-s3-devkitc-1.html
+PLATFORM: Espressif 32 (7.0.1) > Espressif ESP32-S3-DevKitC-1-N8 (8 MB QD, No PSRAM)
+HARDWARE: ESP32S3 240MHz, 320KB RAM, 8MB Flash
+DEBUG: Current (esp-builtin) On-board (esp-builtin) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 2.41100.260830 (4.11.0) 
+ - toolchain-riscv32-esp @ 8.4.0+2021r2-patch5 
+ - toolchain-xtensa-esp32s3 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 33 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- SPI @ 2.0.0
+|-- Wire @ 2.0.0
+|-- Preferences @ 2.0.0
+Building in release mode
+Compiling .pio\build\seizo_s3_st7789_uart\src\display_ui.cpp.o
+Compiling .pio\build\seizo_s3_st7789_uart\src\main.cpp.o
+Compiling .pio\build\seizo_s3_st7789_uart\src\panel_core.cpp.o
+Linking .pio\build\seizo_s3_st7789_uart\firmware.elf
+Retrieving maximum program size .pio\build\seizo_s3_st7789_uart\firmware.elf
+Checking size .pio\build\seizo_s3_st7789_uart\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=====     ]  54.2% (used 177608 bytes from 327680 bytes)
+Flash: [=         ]   9.7% (used 323001 bytes from 3342336 bytes)
+Building .pio\build\seizo_s3_st7789_uart\firmware.bin
+esptool.py v4.11.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+========================= [SUCCESS] Took 10.20 seconds =========================
+
+Environment           Status    Duration
+--------------------  --------  ------------
+seizo_s3_st7789       SUCCESS   00:00:22.863
+seizo_s3_hx8347d      SUCCESS   00:00:10.932
+seizo_s3_st7789_uart  SUCCESS   00:00:10.202
+========================= 3 succeeded in 00:00:43.997 =========================

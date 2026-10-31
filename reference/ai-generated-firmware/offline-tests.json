@@ -1,0 +1,42 @@
+[
+  {
+    "name": "core_compile",
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "name": "core_run",
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "name": "touch_compile",
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "name": "touch_run",
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "name": "adapter_compile",
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "name": "adapter_run",
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "name": "python",
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "name": "pinmap",
+    "exit_code": 0,
+    "passed": true
+  }
+]

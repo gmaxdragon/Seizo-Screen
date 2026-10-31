@@ -1,0 +1,549 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-31T13:28:01",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+            "violations": [
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO2/SDA1'",
+                            "pos": {
+                                "x": 31.75,
+                                "y": 30.48
+                            },
+                            "uuid": "8fb0631c-564a-4f96-b39b-2f827bb204a3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO3/SCL1'",
+                            "pos": {
+                                "x": 31.75,
+                                "y": 33.02
+                            },
+                            "uuid": "a1cb0f9a-5b27-4e0e-bc79-c6e0ff4c58f7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO4/GPCLK0'",
+                            "pos": {
+                                "x": 31.75,
+                                "y": 35.56
+                            },
+                            "uuid": "5069ddbc-357e-4355-aaa5-a8f551963b7a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO17'",
+                            "pos": {
+                                "x": 31.75,
+                                "y": 40.64
+                            },
+                            "uuid": "9316d4cc-792f-4eb9-8a8b-1201587737ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO27'",
+                            "pos": {
+                                "x": 31.75,
+                                "y": 43.18
+                            },
+                            "uuid": "591fa762-d154-4cf7-8db7-a10b610ff12a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO22'",
+                            "pos": {
+                                "x": 31.75,
+                                "y": 45.72
+                            },
+                            "uuid": "831c710c-4564-4e13-951a-b3746ba43c78"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO10/SPI0.MOSI'",
+                            "pos": {
+                                "x": 31.75,
+                                "y": 50.8
+                            },
+                            "uuid": "35a1cc8d-cefe-4fd3-8f7e-ebdbdbd072ee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO9/SPI0.MISO'",
+                            "pos": {
+                                "x": 31.75,
+                                "y": 53.34
+                            },
+                            "uuid": "3911220d-b117-4874-8479-50c0285caa70"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO11/SPI0.SCLK'",
+                            "pos": {
+                                "x": 31.75,
+                                "y": 55.88
+                            },
+                            "uuid": "f9b80c2b-5447-4c6b-b35d-cb6b75fa7978"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO5'",
+                            "pos": {
+                                "x": 31.75,
+                                "y": 63.5
+                            },
+                            "uuid": "29d046c2-f681-4254-89b3-1ec3aa495433"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO6'",
+                            "pos": {
+                                "x": 31.75,
+                                "y": 66.04
+                            },
+                            "uuid": "0bec16b3-1718-4967-abb5-89274b1e4c31"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO13/PWM1'",
+                            "pos": {
+                                "x": 31.75,
+                                "y": 68.58
+                            },
+                            "uuid": "b2ab078a-8774-4d1b-9381-5fcf23cc6a42"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO19/PCM.FS'",
+                            "pos": {
+                                "x": 31.75,
+                                "y": 71.12
+                            },
+                            "uuid": "3388965f-bec1-490c-9b08-dbac9be27c37"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO26'",
+                            "pos": {
+                                "x": 31.75,
+                                "y": 73.66
+                            },
+                            "uuid": "5f2ee32f-d6d5-4b76-8935-0d57826ec36e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol 'C_Small' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol C1 [C_Small]",
+                            "pos": {
+                                "x": 67.31,
+                                "y": 177.8
+                            },
+                            "uuid": "0f7872a7-de47-41d5-a21f-9934102d3a5f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'RF_Module'",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [ESP32-S3-WROOM-1]",
+                            "pos": {
+                                "x": 73.66,
+                                "y": 123.19
+                            },
+                            "uuid": "554d20b9-341c-416c-b2b3-c7285e3d1adf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Memory_EEPROM'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [CAT24C256]",
+                            "pos": {
+                                "x": 81.28,
+                                "y": 177.8
+                            },
+                            "uuid": "6d6e5c8e-c0cf-4e61-9c00-723a754d58be"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Jumper'",
+                    "items": [
+                        {
+                            "description": "Symbol JP1 [SolderJumper_2_Open]",
+                            "pos": {
+                                "x": 96.52,
+                                "y": 180.34
+                            },
+                            "uuid": "43e66c4c-de75-44f8-8171-19825b035cbb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO18/PCM.CLK'",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 40.64
+                            },
+                            "uuid": "a46d6ef9-bb48-47fb-afed-157a64315177"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO23'",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 45.72
+                            },
+                            "uuid": "45550f58-81b3-4113-a98b-8910341c00d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO24'",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 48.26
+                            },
+                            "uuid": "b8e48041-ff05-4814-a4a3-fb04f84542aa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO25'",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 53.34
+                            },
+                            "uuid": "9d507609-a820-4ac3-9e87-451a1c0e6633"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO8/SPI0.CE0'",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 55.88
+                            },
+                            "uuid": "64ee07d4-0247-486c-a5b0-d3d33362f168"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO7/SPI0.CE1'",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 58.42
+                            },
+                            "uuid": "be4b9f73-f8d2-4c28-9237-5d7e964636fa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO12/PWM0'",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 66.04
+                            },
+                            "uuid": "a9ed66d3-a7fc-4839-b265-b9a21ee7fc85"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO16'",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 71.12
+                            },
+                            "uuid": "6a63dbe8-50e2-4ffb-a55f-e0df0f695e9b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO20/PCM.DIN'",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 73.66
+                            },
+                            "uuid": "b64a2cd2-1bcf-4d65-ac61-508537c93d3e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'GPIO21/PCM.DOUT'",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 76.2
+                            },
+                            "uuid": "31b15bb4-e7a6-46f1-aabc-e5f3cca1ba4f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Local and global labels have same name",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0103 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 101.6,
+                                "y": 180.34
+                            },
+                            "uuid": "2b1fada1-50b0-4e5a-82fb-a68db6a5e608"
+                        },
+                        {
+                            "description": "Label '+3V3'",
+                            "pos": {
+                                "x": 398.78,
+                                "y": 121.92
+                            },
+                            "uuid": "0c763f4f-6552-5090-a58a-e51a02376f6b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "same_local_global_label"
+                },
+                {
+                    "description": "Local and global labels have same name",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR013 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 115.57,
+                                "y": 41.91
+                            },
+                            "uuid": "02961ae4-6bc2-4352-a4c5-e1bf1b955fbf"
+                        },
+                        {
+                            "description": "Label 'GND'",
+                            "pos": {
+                                "x": 317.5,
+                                "y": 54.61
+                            },
+                            "uuid": "04964ce4-97e5-5ad2-9f1b-a93d84ba3669"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "same_local_global_label"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library '74xGxx'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [74LVC1G17]",
+                            "pos": {
+                                "x": 220.98,
+                                "y": 118.11
+                            },
+                            "uuid": "5a9a3551-6493-48b4-9854-9d99fe6c277e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library '74xGxx'",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [74LVC1G17]",
+                            "pos": {
+                                "x": 322.58,
+                                "y": 40.64
+                            },
+                            "uuid": "17fbfc9e-f55b-571f-af8f-74456e6992c0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library '74xGxx'",
+                    "items": [
+                        {
+                            "description": "Symbol U5 [74LVC1G17]",
+                            "pos": {
+                                "x": 322.58,
+                                "y": 101.6
+                            },
+                            "uuid": "20423a55-50be-579c-8acd-991e47d2fff7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "test1.kicad_sch"
+}

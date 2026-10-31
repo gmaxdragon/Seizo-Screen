@@ -1,0 +1,129 @@
+{
+  "HAT_U2_footprint": "RC2_U2_ESP32_S3_WROOM_1_Thermal030",
+  "HAT_U2_native_position": [
+    129.195,
+    93.1
+  ],
+  "angle": 180.0,
+  "native_HAT_to_console_absolute_translation": [
+    -30,
+    18
+  ],
+  "graphics": [
+    {
+      "type": "PCB_SHAPE",
+      "layer": "F.Fab",
+      "bbox": [
+        120.145,
+        80.3,
+        120.245,
+        105.9
+      ]
+    },
+    {
+      "type": "PCB_SHAPE",
+      "layer": "F.Fab",
+      "bbox": [
+        120.145,
+        80.3,
+        138.245,
+        80.4
+      ]
+    },
+    {
+      "type": "PCB_SHAPE",
+      "layer": "F.Fab",
+      "bbox": [
+        138.145,
+        80.3,
+        138.245,
+        105.9
+      ]
+    },
+    {
+      "type": "PCB_SHAPE",
+      "layer": "F.Fab",
+      "bbox": [
+        120.145,
+        99.8,
+        138.245,
+        99.9
+      ]
+    },
+    {
+      "type": "PCB_SHAPE",
+      "layer": "F.Fab",
+      "bbox": [
+        120.145,
+        105.8,
+        138.245,
+        105.9
+      ]
+    },
+    {
+      "type": "PCB_TEXT",
+      "layer": "User.Comments",
+      "bbox": [
+        116.550952,
+        110.58675,
+        141.839048,
+        113.45325
+      ]
+    },
+    {
+      "type": "PCB_TEXT",
+      "layer": "User.Comments",
+      "bbox": [
+        127.217619,
+        96.25175,
+        133.372382,
+        97.94825
+      ]
+    },
+    {
+      "type": "PCB_TEXT",
+      "layer": "F.Fab",
+      "bbox": [
+        128.07,
+        92.85175,
+        130.32,
+        94.54825
+      ]
+    }
+  ],
+  "rule_areas": [
+    {
+      "name": "PoE",
+      "bbox": [
+        159.0,
+        51.14,
+        164.0,
+        56.14
+      ]
+    },
+    {
+      "name": "",
+      "bbox": [
+        105.195,
+        99.85,
+        153.195,
+        120.85
+      ]
+    }
+  ],
+  "models": [
+    {
+      "filename": "${KICAD10_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-S3-WROOM-1.step",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1651 @@
+{
+  "passed": true,
+  "native_board": "outputs\\Seizo-Screen\\23-fabrication-candidate\\matching-HAT\\test1.kicad_pcb",
+  "native_board_sha256": "d394262fd2e1a34833cbe6237755eec6f7f188a10a2b69cebb4e30399eae7b37",
+  "export_directory": "outputs\\Seizo-Screen\\23-fabrication-candidate\\matching-HAT\\gerbers",
+  "checks_count": 272,
+  "failed_checks": [],
+  "gerber_files": {
+    "test1-F_Cu.gtl": {
+      "bytes": 306611,
+      "sha256": "566d4db5f670424eac578696ebced49e3c45d4f47d0d1fced421dddb7f451035",
+      "file_function": "Copper,L1,Top",
+      "transforms": [],
+      "aperture_count": 35,
+      "flash_count": 328,
+      "draw_count": 9653,
+      "region_count": 6
+    },
+    "test1-B_Cu.gbl": {
+      "bytes": 221393,
+      "sha256": "da3d5787b2ba455738b8d0b531b73a6ad6cc5c5ff5f546288efd258ca7a2e20b",
+      "file_function": "Copper,L2,Bot",
+      "transforms": [],
+      "aperture_count": 24,
+      "flash_count": 252,
+      "draw_count": 7151,
+      "region_count": 12
+    },
+    "test1-F_Mask.gts": {
+      "bytes": 9357,
+      "sha256": "1d8f40b3775ee5781902f786e7db6acaae4f056eda130bd3d5559697b548738d",
+      "file_function": "Soldermask,Top",
+      "transforms": [],
+      "aperture_count": 25,
+      "flash_count": 217,
+      "draw_count": 0,
+      "region_count": 0
+    },
+    "test1-B_Mask.gbs": {
+      "bytes": 5957,
+      "sha256": "67f5ebdc47d7ab1a3b18b1b2a8b468dc4d6fd5490d00b57ea7077ba216b58099",
+      "file_function": "Soldermask,Bot",
+      "transforms": [],
+      "aperture_count": 14,
+      "flash_count": 129,
+      "draw_count": 0,
+      "region_count": 0
+    },
+    "test1-F_Silkscreen.gto": {
+      "bytes": 247916,
+      "sha256": "bd4a628b2cc76849873715ef5e275487c795af8e0b86ab969f6e3974c5712893",
+      "file_function": "Legend,Top",
+      "transforms": [],
+      "aperture_count": 32,
+      "flash_count": 217,
+      "draw_count": 4581,
+      "region_count": 4
+    },
+    "test1-B_Silkscreen.gbo": {
+      "bytes": 298788,
+      "sha256": "47f2ca03a07893e972c110aee5e88c91c63506291d966eca6f31ab8fdc6fd2bf",
+      "file_function": "Legend,Bot",
+      "transforms": [],
+      "aperture_count": 22,
+      "flash_count": 129,
+      "draw_count": 5627,
+      "region_count": 2
+    },
+    "test1-Edge_Cuts.gm1": {
+      "bytes": 1570,
+      "sha256": "7fa7f997464cb838030c43b6c50cb443da046044cf4a4d57d409abf228f70035",
+      "file_function": "Profile,NP",
+      "transforms": [],
+      "aperture_count": 1,
+      "flash_count": 0,
+      "draw_count": 16,
+      "region_count": 0
+    }
+  },
+  "drill_files": {
+    "test1-PTH.drl": {
+      "sha256": "65efbb262601c91b49ef677cb4486898e41821f03fdeba7bd9b5eb4670c9b04c",
+      "bytes": 4528,
+      "tools": {
+        "1": 0.3,
+        "2": 0.3,
+        "3": 0.4,
+        "4": 0.5,
+        "5": 0.6,
+        "6": 0.6,
+        "7": 0.8,
+        "8": 1.0,
+        "9": 1.3,
+        "10": 1.78
+      },
+      "hit_counts_by_diameter_mm": {
+        "0.3": 81,
+        "0.4": 2,
+        "0.5": 8,
+        "0.6": 38,
+        "0.8": 2,
+        "1.0": 77,
+        "1.3": 6,
+        "1.78": 4
+      },
+      "total_hits": 218
+    },
+    "test1-NPTH.drl": {
+      "sha256": "d6757ef306902154c034e14e0a074dbc740dec8ae4532822075ce93792419bd7",
+      "bytes": 500,
+      "tools": {
+        "1": 0.65,
+        "2": 2.7
+      },
+      "hit_counts_by_diameter_mm": {
+        "0.65": 2,
+        "2.7": 4
+      },
+      "total_hits": 6
+    }
+  },
+  "gerber_job": {
+    "sha256": "3cea3bf20baa7698888b88bb574f26b2c24dffe05355864d72ff8e996b28d93b",
+    "native_plot_bbox_with_0.05mm_profile_stroke": {
+      "X": 65.1,
+      "Y": 56.1
+    },
+    "note": "Matching HAT native profile checked separately above; displayed job size includes profile stroke."
+  },
+  "required_manufacturing_files": [
+    "test1-F_Cu.gtl",
+    "test1-B_Cu.gbl",
+    "test1-F_Mask.gts",
+    "test1-B_Mask.gbs",
+    "test1-F_Silkscreen.gto",
+    "test1-B_Silkscreen.gbo",
+    "test1-Edge_Cuts.gm1",
+    "test1-PTH.drl",
+    "test1-NPTH.drl",
+    "test1-job.gbrjob"
+  ],
+  "checks": [
+    {
+      "name": "test1-F_Cu.gtl file function",
+      "passed": true,
+      "details": "Copper,L1,Top"
+    },
+    {
+      "name": "test1-F_Cu.gtl absolute 4.6 millimetres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-F_Cu.gtl finished file",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-F_Cu.gtl no plotting mirror or offset",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "test1-F_Cu.gtl common original coordinates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-B_Cu.gbl file function",
+      "passed": true,
+      "details": "Copper,L2,Bot"
+    },
+    {
+      "name": "test1-B_Cu.gbl absolute 4.6 millimetres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-B_Cu.gbl finished file",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-B_Cu.gbl no plotting mirror or offset",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "test1-B_Cu.gbl common original coordinates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-F_Mask.gts file function",
+      "passed": true,
+      "details": "Soldermask,Top"
+    },
+    {
+      "name": "test1-F_Mask.gts absolute 4.6 millimetres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-F_Mask.gts finished file",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-F_Mask.gts no plotting mirror or offset",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "test1-F_Mask.gts common original coordinates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-B_Mask.gbs file function",
+      "passed": true,
+      "details": "Soldermask,Bot"
+    },
+    {
+      "name": "test1-B_Mask.gbs absolute 4.6 millimetres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-B_Mask.gbs finished file",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-B_Mask.gbs no plotting mirror or offset",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "test1-B_Mask.gbs common original coordinates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-F_Silkscreen.gto file function",
+      "passed": true,
+      "details": "Legend,Top"
+    },
+    {
+      "name": "test1-F_Silkscreen.gto absolute 4.6 millimetres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-F_Silkscreen.gto finished file",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-F_Silkscreen.gto no plotting mirror or offset",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "test1-F_Silkscreen.gto common original coordinates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-B_Silkscreen.gbo file function",
+      "passed": true,
+      "details": "Legend,Bot"
+    },
+    {
+      "name": "test1-B_Silkscreen.gbo absolute 4.6 millimetres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-B_Silkscreen.gbo finished file",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-B_Silkscreen.gbo no plotting mirror or offset",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "test1-B_Silkscreen.gbo common original coordinates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-Edge_Cuts.gm1 file function",
+      "passed": true,
+      "details": "Profile,NP"
+    },
+    {
+      "name": "test1-Edge_Cuts.gm1 absolute 4.6 millimetres",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-Edge_Cuts.gm1 finished file",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-Edge_Cuts.gm1 no plotting mirror or offset",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "test1-Edge_Cuts.gm1 common original coordinates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "All native straight Edge.Cuts segments exactly match Gerber",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "All native curved Edge.Cuts endpoints and centres match Gerber",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-PTH.drl metric absolute decimal and terminator",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-PTH.drl native plated slot diameters and endpoints match",
+      "passed": true,
+      "details": {
+        "actual": [
+          [
+            0.6,
+            [
+              [
+                148.75,
+                -92.445
+              ],
+              [
+                148.75,
+                -91.345
+              ]
+            ]
+          ],
+          [
+            0.6,
+            [
+              [
+                148.75,
+                -96.475
+              ],
+              [
+                148.75,
+                -95.675
+              ]
+            ]
+          ],
+          [
+            0.6,
+            [
+              [
+                157.39,
+                -92.445
+              ],
+              [
+                157.39,
+                -91.345
+              ]
+            ]
+          ],
+          [
+            0.6,
+            [
+              [
+                157.39,
+                -96.475
+              ],
+              [
+                157.39,
+                -95.675
+              ]
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            0.6,
+            [
+              [
+                148.75,
+                -92.445
+              ],
+              [
+                148.75,
+                -91.345
+              ]
+            ]
+          ],
+          [
+            0.6,
+            [
+              [
+                148.75,
+                -96.475
+              ],
+              [
+                148.75,
+                -95.675
+              ]
+            ]
+          ],
+          [
+            0.6,
+            [
+              [
+                157.39,
+                -92.445
+              ],
+              [
+                157.39,
+                -91.345
+              ]
+            ]
+          ],
+          [
+            0.6,
+            [
+              [
+                157.39,
+                -96.475
+              ],
+              [
+                157.39,
+                -95.675
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Native drill circular J7.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J7.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J7.3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J7.4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J7.5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J7.6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J9.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J9.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J11.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J11.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J11.3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J11.4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular C3.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular C3.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J5.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J5.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J5.3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J5.4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J5.5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J5.6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J4.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J4.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J4.3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J4.4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J4.5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J4.6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J2.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J2.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J2.3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J6.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J6.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J6.3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J6.4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J6.5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J6.6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular U2.41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular U2.41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular U2.41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular U2.41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular U2.41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular U2.41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular U2.41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular U2.41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular U2.41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular U2.41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular U2.41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular U2.41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J12.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J12.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J12.3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J10.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J10.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J10.3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J10.4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular F1.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular F1.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular F1.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular F1.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J3.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J3.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J3.3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.10",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.11",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.12",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.13",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.14",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.15",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.16",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.17",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.19",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.20",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.21",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.22",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.23",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.24",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.25",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.26",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.27",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.28",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.29",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.30",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.31",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.32",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.33",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.34",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.36",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.37",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.38",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.39",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J1.40",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular via.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-PTH.drl all native drill diameters and positions match",
+      "passed": true,
+      "details": {
+        "expected_hits": 218,
+        "actual_hits": 218,
+        "coordinate_tolerance_mm": 0.001001,
+        "maximum_coordinate_error_mm": 0.0005000000000023874,
+        "missing": [],
+        "unexpected": [],
+        "note": "Excellon has three decimal digits in millimetres; sub-micron native coordinates are rounded during export."
+      }
+    },
+    {
+      "name": "test1-NPTH.drl metric absolute decimal and terminator",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-NPTH.drl native plated slot diameters and endpoints match",
+      "passed": true,
+      "details": {
+        "actual": [],
+        "expected": []
+      }
+    },
+    {
+      "name": "Native drill circular MH2.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular MH3.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular MH1.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular MH4.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J8.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Native drill circular J8.",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "test1-NPTH.drl all native drill diameters and positions match",
+      "passed": true,
+      "details": {
+        "expected_hits": 6,
+        "actual_hits": 6,
+        "coordinate_tolerance_mm": 0.001001,
+        "maximum_coordinate_error_mm": 0,
+        "missing": [],
+        "unexpected": [],
+        "note": "Excellon has three decimal digits in millimetres; sub-micron native coordinates are rounded during export."
+      }
+    },
+    {
+      "name": "test1-F_Cu.gtl every native plated pad and via is flashed at correct unmirrored coordinates",
+      "passed": true,
+      "details": {
+        "native_flashes": 328,
+        "gerber_flashes": 328,
+        "missing": []
+      }
+    },
+    {
+      "name": "test1-B_Cu.gbl every native plated pad and via is flashed at correct unmirrored coordinates",
+      "passed": true,
+      "details": {
+        "native_flashes": 252,
+        "gerber_flashes": 252,
+        "missing": []
+      }
+    },
+    {
+      "name": "Gerber job lists exactly seven actual layer files",
+      "passed": true,
+      "details": [
+        "test1-F_Cu.gtl",
+        "test1-B_Cu.gbl",
+        "test1-F_Silkscreen.gto",
+        "test1-B_Silkscreen.gbo",
+        "test1-F_Mask.gts",
+        "test1-B_Mask.gbs",
+        "test1-Edge_Cuts.gm1"
+      ]
+    },
+    {
+      "name": "Gerber job specifies two copper layers and 1.6 mm thickness",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Required manufacturing bundle has 10 files",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "limitations": [
+    "Structural and coordinate audit of exported fabrication data; does not validate physical assembly, firmware, function, or manufacturer acceptance."
+  ]
+}

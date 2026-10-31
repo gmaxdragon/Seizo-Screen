@@ -1,0 +1,2609 @@
+{
+  "source": "work\\rev23-native\\szscreen.xml",
+  "xml_sha256": "cd926e32a57673e4d2ac733d420bc08b8f4e6d5c8f37e2451c369ea8a1298b3c",
+  "scope": "Independent preserved analog/button functions plus new power/buffer topology; no hardware or final routing approval",
+  "check_count": 425,
+  "failed_checks": [],
+  "checks": [
+    {
+      "name": "U1.1",
+      "actual": "HOLD_IN",
+      "expected": "HOLD_IN",
+      "passed": true
+    },
+    {
+      "name": "U1.2",
+      "actual": "STOP1_IN",
+      "expected": "STOP1_IN",
+      "passed": true
+    },
+    {
+      "name": "U1.3",
+      "actual": "STOP2_IN",
+      "expected": "STOP2_IN",
+      "passed": true
+    },
+    {
+      "name": "U1.4",
+      "actual": "BTN8",
+      "expected": "BTN8",
+      "passed": true
+    },
+    {
+      "name": "U1.5",
+      "actual": "BTN9",
+      "expected": "BTN9",
+      "passed": true
+    },
+    {
+      "name": "U1.6",
+      "actual": "BTN10",
+      "expected": "BTN10",
+      "passed": true
+    },
+    {
+      "name": "U1.7",
+      "actual": "METER_EN_IN",
+      "expected": "METER_EN_IN",
+      "passed": true
+    },
+    {
+      "name": "U1.8",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "U1.9",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "U1.10",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U1.11",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "U1.12",
+      "actual": "SCL",
+      "expected": "SCL",
+      "passed": true
+    },
+    {
+      "name": "U1.13",
+      "actual": "SDA",
+      "expected": "SDA",
+      "passed": true
+    },
+    {
+      "name": "U1.14",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "U1.15",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U1.16",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U1.17",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U1.18",
+      "actual": "IO_RESET",
+      "expected": "IO_RESET",
+      "passed": true
+    },
+    {
+      "name": "U1.19",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "U1.20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "U1.21",
+      "actual": "BTN1",
+      "expected": "BTN1",
+      "passed": true
+    },
+    {
+      "name": "U1.22",
+      "actual": "BTN2",
+      "expected": "BTN2",
+      "passed": true
+    },
+    {
+      "name": "U1.23",
+      "actual": "BTN3",
+      "expected": "BTN3",
+      "passed": true
+    },
+    {
+      "name": "U1.24",
+      "actual": "BTN4",
+      "expected": "BTN4",
+      "passed": true
+    },
+    {
+      "name": "U1.25",
+      "actual": "BTN5",
+      "expected": "BTN5",
+      "passed": true
+    },
+    {
+      "name": "U1.26",
+      "actual": "BTN6",
+      "expected": "BTN6",
+      "passed": true
+    },
+    {
+      "name": "U1.27",
+      "actual": "BTN7",
+      "expected": "BTN7",
+      "passed": true
+    },
+    {
+      "name": "U1.28",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "U2.1",
+      "actual": "ADC_CS",
+      "expected": "ADC_CS",
+      "passed": true
+    },
+    {
+      "name": "U2.2",
+      "actual": "ADC_CH0",
+      "expected": "ADC_CH0",
+      "passed": true
+    },
+    {
+      "name": "U2.3",
+      "actual": "ADC_CH1",
+      "expected": "ADC_CH1",
+      "passed": true
+    },
+    {
+      "name": "U2.4",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U2.5",
+      "actual": "ADC_MOSI",
+      "expected": "ADC_MOSI",
+      "passed": true
+    },
+    {
+      "name": "U2.6",
+      "actual": "ADC_MISO",
+      "expected": "ADC_MISO",
+      "passed": true
+    },
+    {
+      "name": "U2.7",
+      "actual": "ADC_SCLK",
+      "expected": "ADC_SCLK",
+      "passed": true
+    },
+    {
+      "name": "U2.8",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "U3.1",
+      "actual": "METER_BUFFER",
+      "expected": "METER_BUFFER",
+      "passed": true
+    },
+    {
+      "name": "U3.2",
+      "actual": "METER_BUFFER",
+      "expected": "METER_BUFFER",
+      "passed": true
+    },
+    {
+      "name": "U3.3",
+      "actual": "METER_AMP_IN",
+      "expected": "METER_AMP_IN",
+      "passed": true
+    },
+    {
+      "name": "U3.4",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U3.5",
+      "actual": "REF_2V5",
+      "expected": "REF_2V5",
+      "passed": true
+    },
+    {
+      "name": "U3.6",
+      "actual": "REF_BUFFER",
+      "expected": "REF_BUFFER",
+      "passed": true
+    },
+    {
+      "name": "U3.7",
+      "actual": "REF_BUFFER",
+      "expected": "REF_BUFFER",
+      "passed": true
+    },
+    {
+      "name": "U3.8",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "U4.1",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U4.2",
+      "actual": "REF_2V5",
+      "expected": "REF_2V5",
+      "passed": true
+    },
+    {
+      "name": "U4.3",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "K1.1",
+      "actual": "METER_RELAY_A",
+      "expected": "METER_RELAY_A",
+      "passed": true
+    },
+    {
+      "name": "K1.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "K1.3",
+      "actual": "METER_PROBE_PLUS",
+      "expected": "METER_PROBE_PLUS",
+      "passed": true
+    },
+    {
+      "name": "K1.4",
+      "actual": "METER_SWITCHED",
+      "expected": "METER_SWITCHED",
+      "passed": true
+    },
+    {
+      "name": "R52.1",
+      "actual": "METER_SWITCHED",
+      "expected": "METER_SWITCHED",
+      "passed": true
+    },
+    {
+      "name": "R52.2",
+      "actual": "METER_RMID",
+      "expected": "METER_RMID",
+      "passed": true
+    },
+    {
+      "name": "R53.1",
+      "actual": "METER_RMID",
+      "expected": "METER_RMID",
+      "passed": true
+    },
+    {
+      "name": "R53.2",
+      "actual": "METER_DIV",
+      "expected": "METER_DIV",
+      "passed": true
+    },
+    {
+      "name": "R54.1",
+      "actual": "METER_DIV",
+      "expected": "METER_DIV",
+      "passed": true
+    },
+    {
+      "name": "R54.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R55.1",
+      "actual": "METER_DIV",
+      "expected": "METER_DIV",
+      "passed": true
+    },
+    {
+      "name": "R55.2",
+      "actual": "METER_AMP_IN",
+      "expected": "METER_AMP_IN",
+      "passed": true
+    },
+    {
+      "name": "D3.1",
+      "actual": "METER_AMP_IN",
+      "expected": "METER_AMP_IN",
+      "passed": true
+    },
+    {
+      "name": "D3.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "D4.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "D4.2",
+      "actual": "METER_AMP_IN",
+      "expected": "METER_AMP_IN",
+      "passed": true
+    },
+    {
+      "name": "C21.1",
+      "actual": "METER_DIV",
+      "expected": "METER_DIV",
+      "passed": true
+    },
+    {
+      "name": "C21.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "C22.1",
+      "actual": "ADC_CH0",
+      "expected": "ADC_CH0",
+      "passed": true
+    },
+    {
+      "name": "C22.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "C23.1",
+      "actual": "ADC_CH1",
+      "expected": "ADC_CH1",
+      "passed": true
+    },
+    {
+      "name": "C23.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R56.1",
+      "actual": "METER_BUFFER",
+      "expected": "METER_BUFFER",
+      "passed": true
+    },
+    {
+      "name": "R56.2",
+      "actual": "ADC_CH0",
+      "expected": "ADC_CH0",
+      "passed": true
+    },
+    {
+      "name": "R57.1",
+      "actual": "REF_BUFFER",
+      "expected": "REF_BUFFER",
+      "passed": true
+    },
+    {
+      "name": "R57.2",
+      "actual": "ADC_CH1",
+      "expected": "ADC_CH1",
+      "passed": true
+    },
+    {
+      "name": "C24.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "C24.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "C25.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "C25.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "C26.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "C26.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "C27.1",
+      "actual": "REF_2V5",
+      "expected": "REF_2V5",
+      "passed": true
+    },
+    {
+      "name": "C27.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R58.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R58.2",
+      "actual": "ADC_CS",
+      "expected": "ADC_CS",
+      "passed": true
+    },
+    {
+      "name": "R59.1",
+      "actual": "METER_LED_SUPPLY",
+      "expected": "METER_LED_SUPPLY",
+      "passed": true
+    },
+    {
+      "name": "R59.2",
+      "actual": "METER_RELAY_A",
+      "expected": "METER_RELAY_A",
+      "passed": true
+    },
+    {
+      "name": "R60.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R60.2",
+      "actual": "METER_EN_RAW",
+      "expected": "METER_EN_RAW",
+      "passed": true
+    },
+    {
+      "name": "R61.1",
+      "actual": "METER_EN_RAW",
+      "expected": "METER_EN_RAW",
+      "passed": true
+    },
+    {
+      "name": "R61.2",
+      "actual": "METER_EN_IN",
+      "expected": "METER_EN_IN",
+      "passed": true
+    },
+    {
+      "name": "C28.1",
+      "actual": "METER_EN_RAW",
+      "expected": "METER_EN_RAW",
+      "passed": true
+    },
+    {
+      "name": "C28.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "SW13.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "SW13.2",
+      "actual": "METER_LED_SUPPLY",
+      "expected": "METER_LED_SUPPLY",
+      "passed": true
+    },
+    {
+      "name": "SW13.3",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "SW13.4",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "SW13.5",
+      "actual": "METER_EN_RAW",
+      "expected": "METER_EN_RAW",
+      "passed": true
+    },
+    {
+      "name": "SW13.6",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "R63.1",
+      "actual": "ADC_MISO",
+      "expected": "ADC_MISO",
+      "passed": true
+    },
+    {
+      "name": "R63.2",
+      "actual": "HAT_MISO",
+      "expected": "HAT_MISO",
+      "passed": true
+    },
+    {
+      "name": "R64.1",
+      "actual": "HAT_MOSI",
+      "expected": "HAT_MOSI",
+      "passed": true
+    },
+    {
+      "name": "R64.2",
+      "actual": "ADC_MOSI",
+      "expected": "ADC_MOSI",
+      "passed": true
+    },
+    {
+      "name": "R65.1",
+      "actual": "HAT_SCLK",
+      "expected": "HAT_SCLK",
+      "passed": true
+    },
+    {
+      "name": "R65.2",
+      "actual": "ADC_SCLK",
+      "expected": "ADC_SCLK",
+      "passed": true
+    },
+    {
+      "name": "R66.1",
+      "actual": "HAT_ADC_CS",
+      "expected": "HAT_ADC_CS",
+      "passed": true
+    },
+    {
+      "name": "R66.2",
+      "actual": "ADC_CS",
+      "expected": "ADC_CS",
+      "passed": true
+    },
+    {
+      "name": "U5.1",
+      "actual": "PI_5V_IN",
+      "expected": "PI_5V_IN",
+      "passed": true
+    },
+    {
+      "name": "U5.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U5.3",
+      "actual": "BB_EN",
+      "expected": "BB_EN",
+      "passed": true
+    },
+    {
+      "name": "U5.4",
+      "actual": "BB_FAULT",
+      "expected": "BB_FAULT",
+      "passed": true
+    },
+    {
+      "name": "U5.5",
+      "actual": "BB_ILIM",
+      "expected": "BB_ILIM",
+      "passed": true
+    },
+    {
+      "name": "U5.6",
+      "actual": "PROTO_5V",
+      "expected": "PROTO_5V",
+      "passed": true
+    },
+    {
+      "name": "U6.1",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U6.2",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "U6.3",
+      "actual": "PI_5V_IN",
+      "expected": "PI_5V_IN",
+      "passed": true
+    },
+    {
+      "name": "U6.4",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "F1.1",
+      "actual": "PI_5V_IN",
+      "expected": "PI_5V_IN",
+      "passed": true
+    },
+    {
+      "name": "F1.2",
+      "actual": "LCD_5V",
+      "expected": "LCD_5V",
+      "passed": true
+    },
+    {
+      "name": "SW14.1",
+      "actual": "BB_ON",
+      "expected": "BB_ON",
+      "passed": true
+    },
+    {
+      "name": "SW14.2",
+      "actual": "BB_EN",
+      "expected": "BB_EN",
+      "passed": true
+    },
+    {
+      "name": "SW14.3",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "SW14.4",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "SW14.5",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "SW14.6",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "C31.1",
+      "actual": "PI_5V_IN",
+      "expected": "PI_5V_IN",
+      "passed": true
+    },
+    {
+      "name": "C31.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "C32.1",
+      "actual": "PI_5V_IN",
+      "expected": "PI_5V_IN",
+      "passed": true
+    },
+    {
+      "name": "C32.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "C30.1",
+      "actual": "PROTO_5V",
+      "expected": "PROTO_5V",
+      "passed": true
+    },
+    {
+      "name": "C30.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "C29.1",
+      "actual": "PROTO_5V",
+      "expected": "PROTO_5V",
+      "passed": true
+    },
+    {
+      "name": "C29.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R67.1",
+      "actual": "BB_ILIM",
+      "expected": "BB_ILIM",
+      "passed": true
+    },
+    {
+      "name": "R67.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R68.1",
+      "actual": "PI_5V_IN",
+      "expected": "PI_5V_IN",
+      "passed": true
+    },
+    {
+      "name": "R68.2",
+      "actual": "BB_ON",
+      "expected": "BB_ON",
+      "passed": true
+    },
+    {
+      "name": "R69.1",
+      "actual": "BB_EN",
+      "expected": "BB_EN",
+      "passed": true
+    },
+    {
+      "name": "R69.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R70.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R70.2",
+      "actual": "BB_FAULT",
+      "expected": "BB_FAULT",
+      "passed": true
+    },
+    {
+      "name": "R71.1",
+      "actual": "PROTO_5V",
+      "expected": "PROTO_5V",
+      "passed": true
+    },
+    {
+      "name": "R71.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R72.1",
+      "actual": "LCD_VIO",
+      "expected": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "name": "R72.2",
+      "actual": "LCD_OE_N",
+      "expected": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "name": "R73.1",
+      "actual": "LCD_VIO",
+      "expected": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "name": "R73.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R27.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R27.2",
+      "actual": "LED1_A",
+      "expected": "LED1_A",
+      "passed": true
+    },
+    {
+      "name": "D1.1",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "D1.2",
+      "actual": "LED1_A",
+      "expected": "LED1_A",
+      "passed": true
+    },
+    {
+      "name": "R28.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R28.2",
+      "actual": "LED2_A",
+      "expected": "LED2_A",
+      "passed": true
+    },
+    {
+      "name": "D2.1",
+      "actual": "BB_FAULT",
+      "expected": "BB_FAULT",
+      "passed": true
+    },
+    {
+      "name": "D2.2",
+      "actual": "LED2_A",
+      "expected": "LED2_A",
+      "passed": true
+    },
+    {
+      "name": "J7.1",
+      "actual": "PI_5V_IN",
+      "expected": "PI_5V_IN",
+      "passed": true
+    },
+    {
+      "name": "J7.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "J7.3",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "J8.1",
+      "actual": "PI_5V_IN",
+      "expected": "PI_5V_IN",
+      "passed": true
+    },
+    {
+      "name": "J8.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "J8.3",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "J9.1",
+      "actual": "METER_PROBE_PLUS",
+      "expected": "METER_PROBE_PLUS",
+      "passed": true
+    },
+    {
+      "name": "J9.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "J10.1",
+      "actual": "PROTO_5V",
+      "expected": "PROTO_5V",
+      "passed": true
+    },
+    {
+      "name": "J10.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "J11.1",
+      "actual": "LCD_VIO",
+      "expected": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "name": "J11.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "J12.1",
+      "actual": "LCD_VIO_PRESENT",
+      "expected": "LCD_VIO_PRESENT",
+      "passed": true
+    },
+    {
+      "name": "J12.2",
+      "actual": "BB_FAULT",
+      "expected": "BB_FAULT",
+      "passed": true
+    },
+    {
+      "name": "J13.1",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "J13.2",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "U8.1",
+      "actual": "LCD_OE_N",
+      "expected": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "name": "U8.2",
+      "actual": "HAT_MOSI",
+      "expected": "HAT_MOSI",
+      "passed": true
+    },
+    {
+      "name": "U8.3",
+      "actual": "ISO_MOSI",
+      "expected": "ISO_MOSI",
+      "passed": true
+    },
+    {
+      "name": "U8.4",
+      "actual": "LCD_OE_N",
+      "expected": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "name": "U8.5",
+      "actual": "HAT_SCLK",
+      "expected": "HAT_SCLK",
+      "passed": true
+    },
+    {
+      "name": "U8.6",
+      "actual": "ISO_SCLK",
+      "expected": "ISO_SCLK",
+      "passed": true
+    },
+    {
+      "name": "U8.7",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U8.8",
+      "actual": "ISO_LCD_CS",
+      "expected": "ISO_LCD_CS",
+      "passed": true
+    },
+    {
+      "name": "U8.9",
+      "actual": "HAT_LCD_CS",
+      "expected": "HAT_LCD_CS",
+      "passed": true
+    },
+    {
+      "name": "U8.10",
+      "actual": "LCD_OE_N",
+      "expected": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "name": "U8.11",
+      "actual": "ISO_LCD_DC",
+      "expected": "ISO_LCD_DC",
+      "passed": true
+    },
+    {
+      "name": "U8.12",
+      "actual": "HAT_LCD_DC",
+      "expected": "HAT_LCD_DC",
+      "passed": true
+    },
+    {
+      "name": "U8.13",
+      "actual": "LCD_OE_N",
+      "expected": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "name": "U8.14",
+      "actual": "LCD_VIO",
+      "expected": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "name": "U9.1",
+      "actual": "LCD_OE_N",
+      "expected": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "name": "U9.2",
+      "actual": "HAT_LCD_RST",
+      "expected": "HAT_LCD_RST",
+      "passed": true
+    },
+    {
+      "name": "U9.3",
+      "actual": "ISO_LCD_RST",
+      "expected": "ISO_LCD_RST",
+      "passed": true
+    },
+    {
+      "name": "U9.4",
+      "actual": "LCD_OE_N",
+      "expected": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "name": "U9.5",
+      "actual": "HAT_LCD_BL",
+      "expected": "HAT_LCD_BL",
+      "passed": true
+    },
+    {
+      "name": "U9.6",
+      "actual": "ISO_LCD_BL",
+      "expected": "ISO_LCD_BL",
+      "passed": true
+    },
+    {
+      "name": "U9.7",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U9.8",
+      "actual": "ISO_TP_CS",
+      "expected": "ISO_TP_CS",
+      "passed": true
+    },
+    {
+      "name": "U9.9",
+      "actual": "HAT_TP_CS",
+      "expected": "HAT_TP_CS",
+      "passed": true
+    },
+    {
+      "name": "U9.10",
+      "actual": "LCD_OE_N",
+      "expected": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "name": "U9.11",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "U9.12",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U9.13",
+      "actual": "LCD_VIO",
+      "expected": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "name": "U9.14",
+      "actual": "LCD_VIO",
+      "expected": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "name": "U10.1",
+      "actual": "HAT_TP_CS",
+      "expected": "HAT_TP_CS",
+      "passed": true
+    },
+    {
+      "name": "U10.2",
+      "actual": "LCD_MISO_RAW",
+      "expected": "LCD_MISO_RAW",
+      "passed": true
+    },
+    {
+      "name": "U10.3",
+      "actual": "ISO_MISO",
+      "expected": "ISO_MISO",
+      "passed": true
+    },
+    {
+      "name": "U10.4",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U10.5",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U10.6",
+      "actual": "LCD_OE_N",
+      "expected": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "name": "U10.7",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U10.8",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "U10.9",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U10.10",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "U10.11",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "U10.12",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U10.13",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "U10.14",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "U11.1",
+      "actual": "LCD_TP_IRQ_RAW",
+      "expected": "LCD_TP_IRQ_RAW",
+      "passed": true
+    },
+    {
+      "name": "U11.2",
+      "actual": "IRQ_INVERTED",
+      "expected": "IRQ_INVERTED",
+      "passed": true
+    },
+    {
+      "name": "U11.3",
+      "actual": "IRQ_INVERTED",
+      "expected": "IRQ_INVERTED",
+      "passed": true
+    },
+    {
+      "name": "U11.4",
+      "actual": "HAT_TP_IRQ",
+      "expected": "HAT_TP_IRQ",
+      "passed": true
+    },
+    {
+      "name": "U11.5",
+      "actual": "LCD_VIO",
+      "expected": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "name": "U11.6",
+      "actual": "LCD_VIO_ABSENT",
+      "expected": "LCD_VIO_ABSENT",
+      "passed": true
+    },
+    {
+      "name": "U11.7",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U11.8",
+      "actual": "LCD_VIO_PRESENT",
+      "expected": "LCD_VIO_PRESENT",
+      "passed": true
+    },
+    {
+      "name": "U11.9",
+      "actual": "LCD_VIO_ABSENT",
+      "expected": "LCD_VIO_ABSENT",
+      "passed": true
+    },
+    {
+      "name": "U11.10",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "U11.11",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U11.12",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "U11.13",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "U11.14",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "SW1.1",
+      "actual": "KEY1",
+      "expected": "KEY1",
+      "passed": true
+    },
+    {
+      "name": "SW1.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R1.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R1.2",
+      "actual": "KEY1",
+      "expected": "KEY1",
+      "passed": true
+    },
+    {
+      "name": "R9.1",
+      "actual": "KEY1",
+      "expected": "KEY1",
+      "passed": true
+    },
+    {
+      "name": "R9.2",
+      "actual": "BTN1",
+      "expected": "BTN1",
+      "passed": true
+    },
+    {
+      "name": "C1.1",
+      "actual": "KEY1",
+      "expected": "KEY1",
+      "passed": true
+    },
+    {
+      "name": "C1.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R1 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R9 value",
+      "actual": "1k",
+      "expected": "1k",
+      "passed": true
+    },
+    {
+      "name": "C1 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "SW2.1",
+      "actual": "KEY2",
+      "expected": "KEY2",
+      "passed": true
+    },
+    {
+      "name": "SW2.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R2.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R2.2",
+      "actual": "KEY2",
+      "expected": "KEY2",
+      "passed": true
+    },
+    {
+      "name": "R10.1",
+      "actual": "KEY2",
+      "expected": "KEY2",
+      "passed": true
+    },
+    {
+      "name": "R10.2",
+      "actual": "BTN2",
+      "expected": "BTN2",
+      "passed": true
+    },
+    {
+      "name": "C2.1",
+      "actual": "KEY2",
+      "expected": "KEY2",
+      "passed": true
+    },
+    {
+      "name": "C2.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R2 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R10 value",
+      "actual": "1k",
+      "expected": "1k",
+      "passed": true
+    },
+    {
+      "name": "C2 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "SW3.1",
+      "actual": "KEY3",
+      "expected": "KEY3",
+      "passed": true
+    },
+    {
+      "name": "SW3.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R3.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R3.2",
+      "actual": "KEY3",
+      "expected": "KEY3",
+      "passed": true
+    },
+    {
+      "name": "R11.1",
+      "actual": "KEY3",
+      "expected": "KEY3",
+      "passed": true
+    },
+    {
+      "name": "R11.2",
+      "actual": "BTN3",
+      "expected": "BTN3",
+      "passed": true
+    },
+    {
+      "name": "C3.1",
+      "actual": "KEY3",
+      "expected": "KEY3",
+      "passed": true
+    },
+    {
+      "name": "C3.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R3 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R11 value",
+      "actual": "1k",
+      "expected": "1k",
+      "passed": true
+    },
+    {
+      "name": "C3 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "SW4.1",
+      "actual": "KEY4",
+      "expected": "KEY4",
+      "passed": true
+    },
+    {
+      "name": "SW4.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R4.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R4.2",
+      "actual": "KEY4",
+      "expected": "KEY4",
+      "passed": true
+    },
+    {
+      "name": "R12.1",
+      "actual": "KEY4",
+      "expected": "KEY4",
+      "passed": true
+    },
+    {
+      "name": "R12.2",
+      "actual": "BTN4",
+      "expected": "BTN4",
+      "passed": true
+    },
+    {
+      "name": "C4.1",
+      "actual": "KEY4",
+      "expected": "KEY4",
+      "passed": true
+    },
+    {
+      "name": "C4.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R4 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R12 value",
+      "actual": "1k",
+      "expected": "1k",
+      "passed": true
+    },
+    {
+      "name": "C4 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "SW5.1",
+      "actual": "KEY5",
+      "expected": "KEY5",
+      "passed": true
+    },
+    {
+      "name": "SW5.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R5.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R5.2",
+      "actual": "KEY5",
+      "expected": "KEY5",
+      "passed": true
+    },
+    {
+      "name": "R13.1",
+      "actual": "KEY5",
+      "expected": "KEY5",
+      "passed": true
+    },
+    {
+      "name": "R13.2",
+      "actual": "BTN5",
+      "expected": "BTN5",
+      "passed": true
+    },
+    {
+      "name": "C5.1",
+      "actual": "KEY5",
+      "expected": "KEY5",
+      "passed": true
+    },
+    {
+      "name": "C5.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R5 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R13 value",
+      "actual": "1k",
+      "expected": "1k",
+      "passed": true
+    },
+    {
+      "name": "C5 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "SW6.1",
+      "actual": "KEY6",
+      "expected": "KEY6",
+      "passed": true
+    },
+    {
+      "name": "SW6.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R6.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R6.2",
+      "actual": "KEY6",
+      "expected": "KEY6",
+      "passed": true
+    },
+    {
+      "name": "R14.1",
+      "actual": "KEY6",
+      "expected": "KEY6",
+      "passed": true
+    },
+    {
+      "name": "R14.2",
+      "actual": "BTN6",
+      "expected": "BTN6",
+      "passed": true
+    },
+    {
+      "name": "C6.1",
+      "actual": "KEY6",
+      "expected": "KEY6",
+      "passed": true
+    },
+    {
+      "name": "C6.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R6 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R14 value",
+      "actual": "1k",
+      "expected": "1k",
+      "passed": true
+    },
+    {
+      "name": "C6 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "SW7.1",
+      "actual": "KEY7",
+      "expected": "KEY7",
+      "passed": true
+    },
+    {
+      "name": "SW7.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R7.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R7.2",
+      "actual": "KEY7",
+      "expected": "KEY7",
+      "passed": true
+    },
+    {
+      "name": "R15.1",
+      "actual": "KEY7",
+      "expected": "KEY7",
+      "passed": true
+    },
+    {
+      "name": "R15.2",
+      "actual": "BTN7",
+      "expected": "BTN7",
+      "passed": true
+    },
+    {
+      "name": "C7.1",
+      "actual": "KEY7",
+      "expected": "KEY7",
+      "passed": true
+    },
+    {
+      "name": "C7.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R7 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R15 value",
+      "actual": "1k",
+      "expected": "1k",
+      "passed": true
+    },
+    {
+      "name": "C7 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "SW10.1",
+      "actual": "KEY8",
+      "expected": "KEY8",
+      "passed": true
+    },
+    {
+      "name": "SW10.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R46.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R46.2",
+      "actual": "KEY8",
+      "expected": "KEY8",
+      "passed": true
+    },
+    {
+      "name": "R49.1",
+      "actual": "KEY8",
+      "expected": "KEY8",
+      "passed": true
+    },
+    {
+      "name": "R49.2",
+      "actual": "BTN8",
+      "expected": "BTN8",
+      "passed": true
+    },
+    {
+      "name": "C18.1",
+      "actual": "KEY8",
+      "expected": "KEY8",
+      "passed": true
+    },
+    {
+      "name": "C18.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R46 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R49 value",
+      "actual": "1k",
+      "expected": "1k",
+      "passed": true
+    },
+    {
+      "name": "C18 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "SW11.1",
+      "actual": "KEY9",
+      "expected": "KEY9",
+      "passed": true
+    },
+    {
+      "name": "SW11.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R47.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R47.2",
+      "actual": "KEY9",
+      "expected": "KEY9",
+      "passed": true
+    },
+    {
+      "name": "R50.1",
+      "actual": "KEY9",
+      "expected": "KEY9",
+      "passed": true
+    },
+    {
+      "name": "R50.2",
+      "actual": "BTN9",
+      "expected": "BTN9",
+      "passed": true
+    },
+    {
+      "name": "C19.1",
+      "actual": "KEY9",
+      "expected": "KEY9",
+      "passed": true
+    },
+    {
+      "name": "C19.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R47 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R50 value",
+      "actual": "1k",
+      "expected": "1k",
+      "passed": true
+    },
+    {
+      "name": "C19 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "SW12.1",
+      "actual": "KEY10",
+      "expected": "KEY10",
+      "passed": true
+    },
+    {
+      "name": "SW12.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R48.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R48.2",
+      "actual": "KEY10",
+      "expected": "KEY10",
+      "passed": true
+    },
+    {
+      "name": "R51.1",
+      "actual": "KEY10",
+      "expected": "KEY10",
+      "passed": true
+    },
+    {
+      "name": "R51.2",
+      "actual": "BTN10",
+      "expected": "BTN10",
+      "passed": true
+    },
+    {
+      "name": "C20.1",
+      "actual": "KEY10",
+      "expected": "KEY10",
+      "passed": true
+    },
+    {
+      "name": "C20.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R48 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R51 value",
+      "actual": "1k",
+      "expected": "1k",
+      "passed": true
+    },
+    {
+      "name": "C20 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "SW8.1",
+      "actual": "HOLD_RAW",
+      "expected": "HOLD_RAW",
+      "passed": true
+    },
+    {
+      "name": "SW8.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R8.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R8.2",
+      "actual": "HOLD_RAW",
+      "expected": "HOLD_RAW",
+      "passed": true
+    },
+    {
+      "name": "R16.1",
+      "actual": "HOLD_RAW",
+      "expected": "HOLD_RAW",
+      "passed": true
+    },
+    {
+      "name": "R16.2",
+      "actual": "HOLD_IN",
+      "expected": "HOLD_IN",
+      "passed": true
+    },
+    {
+      "name": "C8.1",
+      "actual": "HOLD_RAW",
+      "expected": "HOLD_RAW",
+      "passed": true
+    },
+    {
+      "name": "C8.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R8 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R16 value",
+      "actual": "1k",
+      "expected": "1k",
+      "passed": true
+    },
+    {
+      "name": "C8 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "J3.1",
+      "actual": "STOP1_RAW",
+      "expected": "STOP1_RAW",
+      "passed": true
+    },
+    {
+      "name": "J3.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R17.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R17.2",
+      "actual": "STOP1_RAW",
+      "expected": "STOP1_RAW",
+      "passed": true
+    },
+    {
+      "name": "R19.1",
+      "actual": "STOP1_RAW",
+      "expected": "STOP1_RAW",
+      "passed": true
+    },
+    {
+      "name": "R19.2",
+      "actual": "STOP1_IN",
+      "expected": "STOP1_IN",
+      "passed": true
+    },
+    {
+      "name": "C9.1",
+      "actual": "STOP1_IN",
+      "expected": "STOP1_IN",
+      "passed": true
+    },
+    {
+      "name": "C9.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R17 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R19 value",
+      "actual": "1k",
+      "expected": "1k",
+      "passed": true
+    },
+    {
+      "name": "C9 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "J4.1",
+      "actual": "STOP2_RAW",
+      "expected": "STOP2_RAW",
+      "passed": true
+    },
+    {
+      "name": "J4.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R18.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "R18.2",
+      "actual": "STOP2_RAW",
+      "expected": "STOP2_RAW",
+      "passed": true
+    },
+    {
+      "name": "R20.1",
+      "actual": "STOP2_RAW",
+      "expected": "STOP2_RAW",
+      "passed": true
+    },
+    {
+      "name": "R20.2",
+      "actual": "STOP2_IN",
+      "expected": "STOP2_IN",
+      "passed": true
+    },
+    {
+      "name": "C10.1",
+      "actual": "STOP2_IN",
+      "expected": "STOP2_IN",
+      "passed": true
+    },
+    {
+      "name": "C10.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "R18 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R20 value",
+      "actual": "1k",
+      "expected": "1k",
+      "passed": true
+    },
+    {
+      "name": "C10 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "C33.1",
+      "actual": "LCD_VIO",
+      "expected": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "name": "C33.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "C33 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "C34.1",
+      "actual": "LCD_VIO",
+      "expected": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "name": "C34.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "C34 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "C35.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "C35.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "C35 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "C36.1",
+      "actual": "PANEL_3V3",
+      "expected": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "name": "C36.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "C36 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "J2.1",
+      "actual": "LCD_5V",
+      "expected": "LCD_5V",
+      "passed": true
+    },
+    {
+      "name": "J2.2",
+      "actual": "GND",
+      "expected": "GND",
+      "passed": true
+    },
+    {
+      "name": "J2.3",
+      "actual": "LCD_MISO_RAW",
+      "expected": "LCD_MISO_RAW",
+      "passed": true
+    },
+    {
+      "name": "J2.4",
+      "actual": "LCD_MOSI",
+      "expected": "LCD_MOSI",
+      "passed": true
+    },
+    {
+      "name": "J2.5",
+      "actual": "LCD_SCLK",
+      "expected": "LCD_SCLK",
+      "passed": true
+    },
+    {
+      "name": "J2.6",
+      "actual": "LCD_CS",
+      "expected": "LCD_CS",
+      "passed": true
+    },
+    {
+      "name": "J2.7",
+      "actual": "LCD_DC",
+      "expected": "LCD_DC",
+      "passed": true
+    },
+    {
+      "name": "J2.8",
+      "actual": "LCD_RST",
+      "expected": "LCD_RST",
+      "passed": true
+    },
+    {
+      "name": "J2.9",
+      "actual": "LCD_BL",
+      "expected": "LCD_BL",
+      "passed": true
+    },
+    {
+      "name": "J2.10",
+      "actual": "TP_CS",
+      "expected": "TP_CS",
+      "passed": true
+    },
+    {
+      "name": "J2.11",
+      "actual": "LCD_TP_IRQ_RAW",
+      "expected": "LCD_TP_IRQ_RAW",
+      "passed": true
+    },
+    {
+      "name": "U1 value",
+      "actual": "MCP23017-E/SP / 0x20",
+      "expected": "MCP23017-E/SP / 0x20",
+      "passed": true
+    },
+    {
+      "name": "U2 value",
+      "actual": "MCP3202-BI/P",
+      "expected": "MCP3202-BI/P",
+      "passed": true
+    },
+    {
+      "name": "U3 value",
+      "actual": "MCP6002-I/P",
+      "expected": "MCP6002-I/P",
+      "passed": true
+    },
+    {
+      "name": "U4 value",
+      "actual": "MCP1525-I/TO",
+      "expected": "MCP1525-I/TO",
+      "passed": true
+    },
+    {
+      "name": "U5 value",
+      "actual": "TPS2553DBVR-1 / LATCH OFF",
+      "expected": "TPS2553DBVR-1 / LATCH OFF",
+      "passed": true
+    },
+    {
+      "name": "U8 value",
+      "actual": "SN74LV125AN",
+      "expected": "SN74LV125AN",
+      "passed": true
+    },
+    {
+      "name": "U9 value",
+      "actual": "SN74LV125AN",
+      "expected": "SN74LV125AN",
+      "passed": true
+    },
+    {
+      "name": "U10 value",
+      "actual": "SN74LV125AN",
+      "expected": "SN74LV125AN",
+      "passed": true
+    },
+    {
+      "name": "U11 value",
+      "actual": "SN74AHC14N",
+      "expected": "SN74AHC14N",
+      "passed": true
+    },
+    {
+      "name": "R52 value",
+      "actual": "49.9k / 0.1%",
+      "expected": "49.9k / 0.1%",
+      "passed": true
+    },
+    {
+      "name": "R53 value",
+      "actual": "49.9k / 0.1%",
+      "expected": "49.9k / 0.1%",
+      "passed": true
+    },
+    {
+      "name": "R54 value",
+      "actual": "10.0k / 0.1%",
+      "expected": "10.0k / 0.1%",
+      "passed": true
+    },
+    {
+      "name": "R55 value",
+      "actual": "1k",
+      "expected": "1k",
+      "passed": true
+    },
+    {
+      "name": "R56 value",
+      "actual": "100",
+      "expected": "100",
+      "passed": true
+    },
+    {
+      "name": "R57 value",
+      "actual": "100",
+      "expected": "100",
+      "passed": true
+    },
+    {
+      "name": "C22 value",
+      "actual": "1n",
+      "expected": "1n",
+      "passed": true
+    },
+    {
+      "name": "C23 value",
+      "actual": "1n",
+      "expected": "1n",
+      "passed": true
+    },
+    {
+      "name": "C24 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "C25 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "C26 value",
+      "actual": "100n",
+      "expected": "100n",
+      "passed": true
+    },
+    {
+      "name": "C27 value",
+      "actual": "4.7u / 50V",
+      "expected": "4.7u / 50V",
+      "passed": true
+    },
+    {
+      "name": "R67 value",
+      "actual": "210k / 1%",
+      "expected": "210k / 1%",
+      "passed": true
+    },
+    {
+      "name": "R68 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R69 value",
+      "actual": "100k",
+      "expected": "100k",
+      "passed": true
+    },
+    {
+      "name": "R70 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R71 value",
+      "actual": "10k",
+      "expected": "10k",
+      "passed": true
+    },
+    {
+      "name": "R72 value",
+      "actual": "1k",
+      "expected": "1k",
+      "passed": true
+    },
+    {
+      "name": "R73 value",
+      "actual": "4.7k",
+      "expected": "4.7k",
+      "passed": true
+    },
+    {
+      "name": "R43 value",
+      "actual": "22k",
+      "expected": "22k",
+      "passed": true
+    },
+    {
+      "name": "K2 removed",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "D6 removed",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "F2 removed",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "U1.8 symbol remains output-only",
+      "actual": "output",
+      "expected": "output",
+      "passed": true
+    },
+    {
+      "name": "U1.28 symbol remains output-only",
+      "actual": "output",
+      "expected": "output",
+      "passed": true
+    }
+  ],
+  "calculations": {
+    "meter_gain_nominal": 10.98,
+    "input_resistance_ohm": 109800,
+    "probe_current_at24V_A": 0.0002185792349726776,
+    "each_upper_resistor_power_at24V_W": 0.002384066409865926,
+    "divider_24V_V": 2.1857923497267757,
+    "divider_corner_error24V_V": 0.04366412603385683,
+    "filter_tau_s": 0.0009089253187613844,
+    "settle50ms_residual": 1.2866245894539127e-24,
+    "AQY212EH_2_5ohm_maxRon_error24V_V": 0.000546448087431694,
+    "MCP1525_1pct_error24V_V": 0.24,
+    "MCP6002_4_5mV_offset_input_equiv_V": 0.049409999999999996,
+    "reference_capacitance20pct_uF": [
+      3.7600000000000002,
+      5.64
+    ],
+    "TPS_ILIM_exact210k_datasheet_mA": [
+      110,
+      130,
+      150
+    ],
+    "TPS_ILIM_1pct_resistor_equation_bounds_mA": [
+      109.18222270095536,
+      128.9725441068896,
+      152.25333151623246
+    ],
+    "TPS_max_initial_short_power_at5_1V_153mA_W": 0.7802999999999999,
+    "proto_bleed10k_tau_with10uF_plus100n_s": 0.10099999999999999,
+    "LV125_OE_pullup1k_current_at3_3V_VOL0_44V_mA": 2.86,
+    "dead_VIO_conservative_40uA_leak_times4k7_V": 0.18800000000000003
+  },
+  "corrected_defect": "Original rev23 assigned U1 pins8/28 to BB_FAULT/LCD_VIO_PRESENT despite MCP23017 output-only limitation. Fresh source now NC, symbols output-only, signals moved to J12 for direct HAT GPIO.",
+  "remaining_requirements": [
+    "Final power route must retain local C24/C25/C26 and C33-C36 bypass connections and continuous filled ground return.",
+    "LCD VIO must physically tap real display regulated3V3; the11-pin connector does not expose it.",
+    "Only common-ground0-24V DC meter; hardware offset/gain calibration, reverse/fault/brownout/transient behavior untested.",
+    "Prototype output100mA is a recommended working load, not a100mA maximum trip threshold; exact210k gives110-150mA before resistor tolerance.",
+    "LCD_VIO_PRESENT is a presence indication, not a precise brownout/power-good comparator.",
+    "HAT GPIO6/7 input mapping and external failsafe pulldowns are a separate matching-HAT requirement."
+  ],
+  "sources": [
+    "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf",
+    "https://www.ti.com/lit/ds/symlink/tps2553-1.pdf",
+    "https://www.ti.com/lit/ds/symlink/sn74lv125a.pdf",
+    "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf",
+    "https://ww1.microchip.com/downloads/en/DeviceDoc/21034F.pdf",
+    "https://ww1.microchip.com/downloads/en/DeviceDoc/21653C.pdf",
+    "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf",
+    "https://files.waveshare.com/upload/9/9e/2.8inch-Resistive-Touch-LCD-Schematic.pdf"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-31",
+  "target": "C:\\Users\\mail2\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an\\work\\freerouting25",
+  "resolved_within_workspace": true,
+  "reparse_points": 0,
+  "file_bytes_removed": 382374925.0,
+  "archives": [
+    {
+      "Path": "C:\\Users\\mail2\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an\\work\\freerouting25\\freerouting-cli.exe",
+      "Hash": "F58577824E31B3BA8B1AE5B466C0C281EE104B3AA0617750291BCDA974418EB6"
+    },
+    {
+      "Path": "C:\\Users\\mail2\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an\\work\\freerouting25\\freerouting-cli.zip",
+      "Hash": "5750DC0BED261EEFAE29D79784301B478AF978FD472407D77E01E85DBB794857"
+    },
+    {
+      "Path": "C:\\Users\\mail2\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an\\work\\freerouting25\\freerouting.jar",
+      "Hash": "F6F51BB02245E8E717F9359BD260CC9C5C0B1BC0ACC8B7CB2CD5B8FFEB5DE3C7"
+    },
+    {
+      "Path": "C:\\Users\\mail2\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an\\work\\freerouting25\\jre.zip",
+      "Hash": "DA78D54A2FCDBBA1E92D5E3F07DD30236F96297891C4A21A781C3F38F5C0BEAE"
+    }
+  ],
+  "purpose": "Temporary dedicated PCB router and portable Java removed after successful frozen exports; all native sources, route receipts and reports retained",
+  "removed": true
+}

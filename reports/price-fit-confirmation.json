@@ -1,0 +1,200 @@
+{
+  "source": "work\\rev23-native\\prepared.kicad_pcb",
+  "sha256": "d9990c73d6d1b09a3904630fafeee20b2e0d102aa1a0ab676ee29e5a2fc5521f",
+  "scope": "Mechanical qualification of exact cost-reduction resistor substitutions; no native mutation",
+  "selected_mpn": "MFR-12FTF52-100R",
+  "resistance_ohm": 100,
+  "tolerance_pct": 1,
+  "rated_power_W": 0.16666666666666666,
+  "count": 10,
+  "parts": [
+    {
+      "ref": "R35",
+      "native_value": "100",
+      "footprint": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x0000014E7C5BDC20> >",
+      "lead_pitch_mm": 7.6200000000000045,
+      "drills_mm": [
+        0.8,
+        0.8
+      ],
+      "selected_max_body_mm": [
+        3.7,
+        2.1
+      ],
+      "selected_max_lead_mm": 0.5,
+      "seated_height_planning_bound_mm": 3.1,
+      "has_body_neighbor_under1mm": false
+    },
+    {
+      "ref": "R36",
+      "native_value": "100",
+      "footprint": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x0000014E7C5BDCE0> >",
+      "lead_pitch_mm": 7.6200000000000045,
+      "drills_mm": [
+        0.8,
+        0.8
+      ],
+      "selected_max_body_mm": [
+        3.7,
+        2.1
+      ],
+      "selected_max_lead_mm": 0.5,
+      "seated_height_planning_bound_mm": 3.1,
+      "has_body_neighbor_under1mm": false
+    },
+    {
+      "ref": "R37",
+      "native_value": "100",
+      "footprint": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x0000014E7C5BDD40> >",
+      "lead_pitch_mm": 7.6200000000000045,
+      "drills_mm": [
+        0.8,
+        0.8
+      ],
+      "selected_max_body_mm": [
+        3.7,
+        2.1
+      ],
+      "selected_max_lead_mm": 0.5,
+      "seated_height_planning_bound_mm": 3.1,
+      "has_body_neighbor_under1mm": false
+    },
+    {
+      "ref": "R38",
+      "native_value": "100",
+      "footprint": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x0000014E7C5BDC50> >",
+      "lead_pitch_mm": 7.6200000000000045,
+      "drills_mm": [
+        0.8,
+        0.8
+      ],
+      "selected_max_body_mm": [
+        3.7,
+        2.1
+      ],
+      "selected_max_lead_mm": 0.5,
+      "seated_height_planning_bound_mm": 3.1,
+      "has_body_neighbor_under1mm": false
+    },
+    {
+      "ref": "R39",
+      "native_value": "100",
+      "footprint": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x0000014E7C5BDCB0> >",
+      "lead_pitch_mm": 7.6200000000000045,
+      "drills_mm": [
+        0.8,
+        0.8
+      ],
+      "selected_max_body_mm": [
+        3.7,
+        2.1
+      ],
+      "selected_max_lead_mm": 0.5,
+      "seated_height_planning_bound_mm": 3.1,
+      "has_body_neighbor_under1mm": false
+    },
+    {
+      "ref": "R56",
+      "native_value": "100",
+      "footprint": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x0000014E7C5BDD10> >",
+      "lead_pitch_mm": 7.6200000000000045,
+      "drills_mm": [
+        0.8,
+        0.8
+      ],
+      "selected_max_body_mm": [
+        3.7,
+        2.1
+      ],
+      "selected_max_lead_mm": 0.5,
+      "seated_height_planning_bound_mm": 3.1,
+      "has_body_neighbor_under1mm": false
+    },
+    {
+      "ref": "R57",
+      "native_value": "100",
+      "footprint": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x0000014E7C5BDC20> >",
+      "lead_pitch_mm": 7.6200000000000045,
+      "drills_mm": [
+        0.8,
+        0.8
+      ],
+      "selected_max_body_mm": [
+        3.7,
+        2.1
+      ],
+      "selected_max_lead_mm": 0.5,
+      "seated_height_planning_bound_mm": 3.1,
+      "has_body_neighbor_under1mm": false
+    },
+    {
+      "ref": "R64",
+      "native_value": "100",
+      "footprint": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x0000014E7C5BDCE0> >",
+      "lead_pitch_mm": 7.6200000000000045,
+      "drills_mm": [
+        0.8,
+        0.8
+      ],
+      "selected_max_body_mm": [
+        3.7,
+        2.1
+      ],
+      "selected_max_lead_mm": 0.5,
+      "seated_height_planning_bound_mm": 3.1,
+      "has_body_neighbor_under1mm": false
+    },
+    {
+      "ref": "R65",
+      "native_value": "100",
+      "footprint": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x0000014E7C5BDD40> >",
+      "lead_pitch_mm": 7.6200000000000045,
+      "drills_mm": [
+        0.8,
+        0.8
+      ],
+      "selected_max_body_mm": [
+        3.7,
+        2.1
+      ],
+      "selected_max_lead_mm": 0.5,
+      "seated_height_planning_bound_mm": 3.1,
+      "has_body_neighbor_under1mm": false
+    },
+    {
+      "ref": "R66",
+      "native_value": "100",
+      "footprint": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x0000014E7C5BDC50> >",
+      "lead_pitch_mm": 7.6200000000000045,
+      "drills_mm": [
+        0.8,
+        0.8
+      ],
+      "selected_max_body_mm": [
+        3.7,
+        2.1
+      ],
+      "selected_max_lead_mm": 0.5,
+      "seated_height_planning_bound_mm": 3.1,
+      "has_body_neighbor_under1mm": false
+    }
+  ],
+  "all_existing_MFR12_1k_10k_100k_bounds_retained": true,
+  "full_body_audit_count": 162,
+  "full_body_overlap_count": 0,
+  "full_foreign_plated_pad_intrusion_count": 0,
+  "result": "PASS static mechanical envelope/pitch/drill review; no PCB component movements required",
+  "cost_delta_from_pricing_agent_USD": {
+    "remove_optional_Adafruit6069_extension": -4.5,
+    "ten_100ohm_old_group": 1.41,
+    "ten_100ohm_new_group": 0.38,
+    "total_saving": 5.53
+  },
+  "price_scope": "Part-price change supplied by pricing agent; excludes changed tax/shipping and is not an all-in budget guarantee.",
+  "USB_feature_change": "Optional panel-mounted USB-C extension is omitted. The front panel will not have a fitted USB-C port. Existing circular cutout/keepout can remain vacant or be covered in the enclosure. Direct HAT USB remains available for service/update using a normal cable; primary Pi control uses the revised isolated UART path. This is not USB graphics input to the screen.",
+  "limits": [
+    "No physical sample assembly/solder test was performed. Lead forming and exact purchased parts remain assembly requirements.",
+    "Only these ten ordinary100ohm parts change; precision meter resistors,210kILIM and all other BOM selections remain as separately reviewed.",
+    "Omitting optional external USB extension does not close unresolved independent arm stopping/retention or hardware validation."
+  ]
+}

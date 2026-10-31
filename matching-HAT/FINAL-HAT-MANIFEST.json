@@ -1,0 +1,129 @@
+{
+  "status": "CAD routing and electrical connectivity checks complete; hardware and whole-system release remain unverified",
+  "board": "Matching Seizo HAT partial-power interface variant, revision23",
+  "frozen_on": "2026-10-31",
+  "native_kicad_version": "10.0.7",
+  "pcb_sha256": "d394262fd2e1a34833cbe6237755eec6f7f188a10a2b69cebb4e30399eae7b37",
+  "schematic_sha256": "214f3fc0b893b407afb6f88b95530a056e1452715fcd8c7edaf35d64c6c26da4",
+  "source_files_sha256": {
+    "test1.kicad_sch": "214f3fc0b893b407afb6f88b95530a056e1452715fcd8c7edaf35d64c6c26da4",
+    "test1.kicad_pcb": "d394262fd2e1a34833cbe6237755eec6f7f188a10a2b69cebb4e30399eae7b37",
+    "test1.kicad_pro": "4fa4fd96f82374bd760a94ed5a1eb8bce710416f8053d6c6f0677f4a73e956a8",
+    "final-netlist.xml": "b70dcdd1b6878d3d1a4731f6d2c9fdd00b8eed2812d8658746c5e77a54bd6e32",
+    "final-drc.json": "be78cfa9d964d46d0f6ab315daac6005b589324e017401a0bb96646c90a004ff",
+    "final-erc.json": "f7041c9cdbf5ab381b6c3c4a817a2bbdc2ea25ca8fa8647289d40b04fbf463a6",
+    "pinmap-and-invariants.json": "b7f962c9b1d28be964c4d79026d85b712de9616cc72e7a37a4028796492d5a57",
+    "Seizo_Reviewed.pretty\\RC2_U2_ESP32_S3_WROOM_1_Thermal030.kicad_mod": "65f26d37a00175cc257895cea028eb9c63684fae672f1b730d6bb37ce9c1e13f"
+  },
+  "checks": {
+    "native_drc_errors": 0,
+    "unconnected": 0,
+    "schematic_parity_issues": 0,
+    "native_drc_warning_count": 57,
+    "native_drc_warnings": {
+      "text_height": 13,
+      "silk_over_copper": 32,
+      "silk_overlap": 12
+    },
+    "native_erc_errors": 0,
+    "native_erc_warning_count": 33,
+    "native_erc_warnings": {
+      "isolated_pin_label": 24,
+      "lib_symbol_mismatch": 1,
+      "lib_symbol_issues": 6,
+      "same_local_global_label": 2
+    },
+    "schematic_invariant_assertions_passed": 330,
+    "schematic_invariant_assertions_failed": 0,
+    "C7_DNP_no_BOM_no_board_verified": true,
+    "R10_absent": true,
+    "all_motor_related_trace_width_sets_unchanged": true,
+    "mechanical_scope_report": "C:\\Users\\mail2\\Documents\\Codex\\2026-10-27\\referenced-chatgpt-conversation-this-is-an\\work\\rev23-design\\HAT-back-Pi-clearance.json",
+    "mechanical_scope_source_hash_matches": true,
+    "mechanical_scope_clearance_failures": 0
+  },
+  "native_ignored_check_categories_inherited": [
+    {
+      "description": "Footprint has no courtyard defined",
+      "key": "missing_courtyard"
+    },
+    {
+      "description": "Track endpoint not centered on via",
+      "key": "track_not_centered_on_via"
+    },
+    {
+      "description": "Tuning profile track geometries",
+      "key": "tuning_profile_track_geometries"
+    },
+    {
+      "description": "Footprint doesn't match symbol's footprint filters",
+      "key": "footprint_filters_mismatch"
+    },
+    {
+      "description": "Footprint component type doesn't match footprint pads",
+      "key": "footprint_type_mismatch"
+    }
+  ],
+  "motor_trace_width_comparison": {
+    "/GRIPPER_SIG": {
+      "original_mm": [
+        0.2
+      ],
+      "variant_mm": [
+        0.2
+      ]
+    },
+    "/SERVO_IN+": {
+      "original_mm": [
+        1.2
+      ],
+      "variant_mm": [
+        1.2
+      ]
+    },
+    "/SERVO_V+": {
+      "original_mm": [
+        1.2
+      ],
+      "variant_mm": [
+        1.2
+      ]
+    },
+    "/WRIST_SIG": {
+      "original_mm": [
+        0.2
+      ],
+      "variant_mm": [
+        0.2
+      ]
+    }
+  },
+  "manufacturing_constraints_mm": {
+    "minimum_new_track": 0.2,
+    "netclass_clearance": 0.2,
+    "minimum_via_diameter": 0.5,
+    "minimum_annular_ring": 0.1,
+    "used_new_via_diameter": 0.6,
+    "used_new_via_drill": 0.3,
+    "hole_to_hole": 0.25,
+    "hole_to_copper": 0.25,
+    "copper_to_edge": 0.5
+  },
+  "routing_notes": [
+    "Freerouting2.5 Java imported with all footprint positions/orientations/sides invariant. Native DRC is authority; FR internal violations were not accepted as clearance exceptions.",
+    "Four residual joins completed with native-obstacle raster routes; exact board cutouts included. Minimum new track width0.20mm.",
+    "Original WRIST signal was rerouted where export normalization dropped a segment; complete net connectivity and original0.20mm width restored. Other operative motor net widths remain unchanged.",
+    "Only obsolete removed-regulator/C7 Pi5V branch was removed; original Pi5V input/distribution, servo power topology and motor driver pin connectivity preserved.",
+    "Custom ESP32 library footprint was normalized from the unchanged placed native footprint; library mismatch warning resolved without altering board geometry."
+  ],
+  "required_assembly_reference": "HAT-REV23-ASSEMBLY.md",
+  "incremental_procurement_reference": "../rev23-design/HAT-variant-procurement-delta.json",
+  "limitations": [
+    "57 original visual silkscreen warnings remain; small or overlapping inherited legends are documented in native report. They do not hide copper/clearance errors.",
+    "33 schematic warnings remain: isolated labelled single pins, legacy symbol library metadata and duplicate local/global rail labels; original affected connectivity checked by330 assertions.",
+    "No powered hardware test, no arbitrary hotplug guarantee, no radio-performance certification, no certified independent robot stop/gravity-retention system.",
+    "New native variant is mandatory: fitting SN74LVC1G17 into original AP2112U3 pads would have incorrect pin wiring. Original HAT files remain unchanged.",
+    "Actual Pi socket/standoffs/fan/heatsink, unknown USB hub loading and module wiring require assembled verification.",
+    "This report cannot guarantee100% first-board success or authorize an arm motion test."
+  ]
+}

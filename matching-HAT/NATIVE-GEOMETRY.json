@@ -1,0 +1,5701 @@
+{
+  "board_sha256": "d394262fd2e1a34833cbe6237755eec6f7f188a10a2b69cebb4e30399eae7b37",
+  "board": "outputs\\Seizo-Screen\\23-fabrication-candidate\\matching-HAT\\test1.kicad_pcb",
+  "drills": [
+    {
+      "kind": "pad",
+      "ref": "MH2",
+      "pin": "",
+      "plated": false,
+      "xy": [
+        161.5,
+        47.5
+      ],
+      "drill": [
+        2.7,
+        2.7
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J7",
+      "pin": "1",
+      "plated": true,
+      "xy": [
+        145.25,
+        61.5
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J7",
+      "pin": "2",
+      "plated": true,
+      "xy": [
+        145.25,
+        64.04
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J7",
+      "pin": "3",
+      "plated": true,
+      "xy": [
+        145.25,
+        66.58
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J7",
+      "pin": "4",
+      "plated": true,
+      "xy": [
+        145.25,
+        69.12
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J7",
+      "pin": "5",
+      "plated": true,
+      "xy": [
+        145.25,
+        71.66
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J7",
+      "pin": "6",
+      "plated": true,
+      "xy": [
+        145.25,
+        74.2
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J9",
+      "pin": "1",
+      "plated": true,
+      "xy": [
+        106.0,
+        85.0
+      ],
+      "drill": [
+        1.3,
+        1.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J9",
+      "pin": "2",
+      "plated": true,
+      "xy": [
+        106.0,
+        90.08
+      ],
+      "drill": [
+        1.3,
+        1.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J11",
+      "pin": "1",
+      "plated": true,
+      "xy": [
+        108.25,
+        58.51
+      ],
+      "drill": [
+        1.3,
+        1.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J11",
+      "pin": "2",
+      "plated": true,
+      "xy": [
+        108.25,
+        63.59
+      ],
+      "drill": [
+        1.3,
+        1.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J11",
+      "pin": "3",
+      "plated": true,
+      "xy": [
+        108.25,
+        68.67
+      ],
+      "drill": [
+        1.3,
+        1.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J11",
+      "pin": "4",
+      "plated": true,
+      "xy": [
+        108.25,
+        73.75
+      ],
+      "drill": [
+        1.3,
+        1.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "C3",
+      "pin": "1",
+      "plated": true,
+      "xy": [
+        151.5,
+        81.0
+      ],
+      "drill": [
+        0.8,
+        0.8
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "C3",
+      "pin": "2",
+      "plated": true,
+      "xy": [
+        155.0,
+        81.0
+      ],
+      "drill": [
+        0.8,
+        0.8
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J5",
+      "pin": "1",
+      "plated": true,
+      "xy": [
+        157.0,
+        59.92
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J5",
+      "pin": "2",
+      "plated": true,
+      "xy": [
+        157.0,
+        62.46
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J5",
+      "pin": "3",
+      "plated": true,
+      "xy": [
+        157.0,
+        65.0
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J5",
+      "pin": "4",
+      "plated": true,
+      "xy": [
+        157.0,
+        67.54
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J5",
+      "pin": "5",
+      "plated": true,
+      "xy": [
+        157.0,
+        70.08
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J5",
+      "pin": "6",
+      "plated": true,
+      "xy": [
+        157.0,
+        72.62
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "MH3",
+      "pin": "",
+      "plated": false,
+      "xy": [
+        103.5,
+        96.5
+      ],
+      "drill": [
+        2.7,
+        2.7
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J4",
+      "pin": "1",
+      "plated": true,
+      "xy": [
+        163.0,
+        59.92
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J4",
+      "pin": "2",
+      "plated": true,
+      "xy": [
+        163.0,
+        62.46
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J4",
+      "pin": "3",
+      "plated": true,
+      "xy": [
+        163.0,
+        65.0
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J4",
+      "pin": "4",
+      "plated": true,
+      "xy": [
+        163.0,
+        67.54
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J4",
+      "pin": "5",
+      "plated": true,
+      "xy": [
+        163.0,
+        70.08
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J4",
+      "pin": "6",
+      "plated": true,
+      "xy": [
+        163.0,
+        72.62
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "MH1",
+      "pin": "",
+      "plated": false,
+      "xy": [
+        103.5,
+        47.5
+      ],
+      "drill": [
+        2.7,
+        2.7
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J2",
+      "pin": "1",
+      "plated": true,
+      "xy": [
+        116.0,
+        56.92
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J2",
+      "pin": "2",
+      "plated": true,
+      "xy": [
+        116.0,
+        59.46
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J2",
+      "pin": "3",
+      "plated": true,
+      "xy": [
+        116.0,
+        62.0
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J6",
+      "pin": "1",
+      "plated": true,
+      "xy": [
+        151.0,
+        59.65
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J6",
+      "pin": "2",
+      "plated": true,
+      "xy": [
+        151.0,
+        62.19
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J6",
+      "pin": "3",
+      "plated": true,
+      "xy": [
+        151.0,
+        64.73
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J6",
+      "pin": "4",
+      "plated": true,
+      "xy": [
+        151.0,
+        67.27
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J6",
+      "pin": "5",
+      "plated": true,
+      "xy": [
+        151.0,
+        69.81
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J6",
+      "pin": "6",
+      "plated": true,
+      "xy": [
+        151.0,
+        72.35
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "U2",
+      "pin": "41",
+      "plated": true,
+      "xy": [
+        132.095,
+        91.34
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "U2",
+      "pin": "41",
+      "plated": true,
+      "xy": [
+        132.095,
+        89.94
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "U2",
+      "pin": "41",
+      "plated": true,
+      "xy": [
+        131.395,
+        92.04
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "U2",
+      "pin": "41",
+      "plated": true,
+      "xy": [
+        131.395,
+        90.64
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "U2",
+      "pin": "41",
+      "plated": true,
+      "xy": [
+        131.395,
+        89.24
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "U2",
+      "pin": "41",
+      "plated": true,
+      "xy": [
+        130.695,
+        91.34
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "U2",
+      "pin": "41",
+      "plated": true,
+      "xy": [
+        130.695,
+        89.94
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "U2",
+      "pin": "41",
+      "plated": true,
+      "xy": [
+        129.995,
+        92.04
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "U2",
+      "pin": "41",
+      "plated": true,
+      "xy": [
+        129.995,
+        90.64
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "U2",
+      "pin": "41",
+      "plated": true,
+      "xy": [
+        129.995,
+        89.24
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "U2",
+      "pin": "41",
+      "plated": true,
+      "xy": [
+        129.295,
+        91.34
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "U2",
+      "pin": "41",
+      "plated": true,
+      "xy": [
+        129.295,
+        89.94
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J12",
+      "pin": "1",
+      "plated": true,
+      "xy": [
+        125.59,
+        57.0
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J12",
+      "pin": "2",
+      "plated": true,
+      "xy": [
+        125.59,
+        59.54
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J12",
+      "pin": "3",
+      "plated": true,
+      "xy": [
+        125.59,
+        62.08
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J10",
+      "pin": "1",
+      "plated": true,
+      "xy": [
+        127.92,
+        77.0
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J10",
+      "pin": "2",
+      "plated": true,
+      "xy": [
+        130.46,
+        77.0
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J10",
+      "pin": "3",
+      "plated": true,
+      "xy": [
+        133.0,
+        77.0
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J10",
+      "pin": "4",
+      "plated": true,
+      "xy": [
+        135.54,
+        77.0
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "MH4",
+      "pin": "",
+      "plated": false,
+      "xy": [
+        161.5,
+        96.5
+      ],
+      "drill": [
+        2.7,
+        2.7
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "F1",
+      "pin": "1",
+      "plated": true,
+      "xy": [
+        131.1,
+        68.75
+      ],
+      "drill": [
+        1.78,
+        1.78
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "F1",
+      "pin": "1",
+      "plated": true,
+      "xy": [
+        134.5,
+        68.75
+      ],
+      "drill": [
+        1.78,
+        1.78
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "F1",
+      "pin": "2",
+      "plated": true,
+      "xy": [
+        131.1,
+        58.83
+      ],
+      "drill": [
+        1.78,
+        1.78
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "F1",
+      "pin": "2",
+      "plated": true,
+      "xy": [
+        134.5,
+        58.83
+      ],
+      "drill": [
+        1.78,
+        1.78
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J3",
+      "pin": "1",
+      "plated": true,
+      "xy": [
+        121.0,
+        57.0
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J3",
+      "pin": "2",
+      "plated": true,
+      "xy": [
+        121.0,
+        59.54
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J3",
+      "pin": "3",
+      "plated": true,
+      "xy": [
+        121.0,
+        62.08
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J8",
+      "pin": "",
+      "plated": false,
+      "xy": [
+        150.18,
+        92.395
+      ],
+      "drill": [
+        0.65,
+        0.65
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J8",
+      "pin": "",
+      "plated": false,
+      "xy": [
+        155.96,
+        92.395
+      ],
+      "drill": [
+        0.65,
+        0.65
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J8",
+      "pin": "SH",
+      "plated": true,
+      "xy": [
+        148.75,
+        91.895
+      ],
+      "drill": [
+        0.6,
+        1.7
+      ],
+      "drill_shape": 2
+    },
+    {
+      "kind": "pad",
+      "ref": "J8",
+      "pin": "SH",
+      "plated": true,
+      "xy": [
+        148.75,
+        96.075
+      ],
+      "drill": [
+        0.6,
+        1.4
+      ],
+      "drill_shape": 2
+    },
+    {
+      "kind": "pad",
+      "ref": "J8",
+      "pin": "SH",
+      "plated": true,
+      "xy": [
+        157.39,
+        91.895
+      ],
+      "drill": [
+        0.6,
+        1.7
+      ],
+      "drill_shape": 2
+    },
+    {
+      "kind": "pad",
+      "ref": "J8",
+      "pin": "SH",
+      "plated": true,
+      "xy": [
+        157.39,
+        96.075
+      ],
+      "drill": [
+        0.6,
+        1.4
+      ],
+      "drill_shape": 2
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "1",
+      "plated": true,
+      "xy": [
+        108.37,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "2",
+      "plated": true,
+      "xy": [
+        108.37,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "3",
+      "plated": true,
+      "xy": [
+        110.91,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "4",
+      "plated": true,
+      "xy": [
+        110.91,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "5",
+      "plated": true,
+      "xy": [
+        113.45,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "6",
+      "plated": true,
+      "xy": [
+        113.45,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "7",
+      "plated": true,
+      "xy": [
+        115.99,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "8",
+      "plated": true,
+      "xy": [
+        115.99,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "9",
+      "plated": true,
+      "xy": [
+        118.53,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "10",
+      "plated": true,
+      "xy": [
+        118.53,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "11",
+      "plated": true,
+      "xy": [
+        121.07,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "12",
+      "plated": true,
+      "xy": [
+        121.07,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "13",
+      "plated": true,
+      "xy": [
+        123.61,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "14",
+      "plated": true,
+      "xy": [
+        123.61,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "15",
+      "plated": true,
+      "xy": [
+        126.15,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "16",
+      "plated": true,
+      "xy": [
+        126.15,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "17",
+      "plated": true,
+      "xy": [
+        128.69,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "18",
+      "plated": true,
+      "xy": [
+        128.69,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "19",
+      "plated": true,
+      "xy": [
+        131.23,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "20",
+      "plated": true,
+      "xy": [
+        131.23,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "21",
+      "plated": true,
+      "xy": [
+        133.77,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "22",
+      "plated": true,
+      "xy": [
+        133.77,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "23",
+      "plated": true,
+      "xy": [
+        136.31,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "24",
+      "plated": true,
+      "xy": [
+        136.31,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "25",
+      "plated": true,
+      "xy": [
+        138.85,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "26",
+      "plated": true,
+      "xy": [
+        138.85,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "27",
+      "plated": true,
+      "xy": [
+        141.39,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "28",
+      "plated": true,
+      "xy": [
+        141.39,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "29",
+      "plated": true,
+      "xy": [
+        143.93,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "30",
+      "plated": true,
+      "xy": [
+        143.93,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "31",
+      "plated": true,
+      "xy": [
+        146.47,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "32",
+      "plated": true,
+      "xy": [
+        146.47,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "33",
+      "plated": true,
+      "xy": [
+        149.01,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "34",
+      "plated": true,
+      "xy": [
+        149.01,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "35",
+      "plated": true,
+      "xy": [
+        151.55,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "36",
+      "plated": true,
+      "xy": [
+        151.55,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "37",
+      "plated": true,
+      "xy": [
+        154.09,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "38",
+      "plated": true,
+      "xy": [
+        154.09,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "39",
+      "plated": true,
+      "xy": [
+        156.63,
+        48.77
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "pad",
+      "ref": "J1",
+      "pin": "40",
+      "plated": true,
+      "xy": [
+        156.63,
+        46.23
+      ],
+      "drill": [
+        1.0,
+        1.0
+      ],
+      "drill_shape": 1
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        112.5796,
+        89.8259
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        160.6,
+        75.1
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        148.1,
+        90.3
+      ],
+      "drill": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        143.8,
+        95.1
+      ],
+      "drill": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        136.6905,
+        96.6836
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        111.1605,
+        92.009
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        136.6,
+        63.0
+      ],
+      "drill": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        148.5,
+        85.9
+      ],
+      "drill": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        156.6,
+        78.5
+      ],
+      "drill": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        155.6,
+        84.3
+      ],
+      "drill": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        159.5,
+        60.7
+      ],
+      "drill": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        141.6,
+        66.4
+      ],
+      "drill": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        126.1,
+        77.6
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        158.5,
+        74.4
+      ],
+      "drill": [
+        0.4,
+        0.4
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        116.6,
+        89.15
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        140.7,
+        64.0
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        107.0,
+        87.8
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        124.1,
+        75.1
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        110.0,
+        76.9
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        113.1,
+        95.05
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        137.7,
+        66.8
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        148.3,
+        63.8
+      ],
+      "drill": [
+        0.4,
+        0.4
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        135.161,
+        84.3351
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        138.398,
+        78.8345
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        140.108,
+        82.9447
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        129.19,
+        78.8972
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        114.3,
+        75.2
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        141.9,
+        60.8
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        139.3,
+        94.0
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        125.15,
+        85.5
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        125.15,
+        87.4
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        125.8,
+        90.3
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        127.9,
+        92.4
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        120.3,
+        64.599999
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        124.9,
+        76.85
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        125.55,
+        75.6
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        125.55,
+        73.7
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        132.199999,
+        93.75
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        134.75,
+        96.3
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        135.886,
+        94.2264
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        160.056,
+        83.5
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        151.677,
+        92.6504
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        155.15,
+        78.05
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        156.9,
+        76.95
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        133.8,
+        92.15
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        153.05,
+        74.9
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        159.6,
+        77.2
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        135.75,
+        92.15
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        126.8,
+        90.15
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        128.15,
+        91.15
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        125.4,
+        88.75
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        163.2,
+        78.05
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        130.43,
+        79.1744
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        136.403,
+        83.1058
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        135.015,
+        85.8834
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        139.442,
+        89.47
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        130.325,
+        86.5279
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        137.407,
+        80.6286
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        139.781,
+        75.2053
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        120.683,
+        70.4996
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        130.342,
+        62.1
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        121.858,
+        82.0137
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        152.27,
+        85.3534
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        154.82,
+        90.0693
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        125.028,
+        92.1135
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        122.544,
+        95.5596
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        152.1822,
+        54.1408
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        140.999,
+        91.1001
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        153.4077,
+        54.6794
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        139.379,
+        90.74
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        160.7612,
+        68.111
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        139.561,
+        83.9639
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        139.951,
+        80.1071
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        141.058,
+        79.9797
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        142.713,
+        79.7841
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        139.361,
+        95.82
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        153.225,
+        86.3132
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        132.781,
+        82.0094
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        138.401,
+        72.4295
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        136.6,
+        93.3
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        149.4,
+        94.1
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        140.6,
+        94.1
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        156.7,
+        86.8
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        128.2,
+        83.5
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        121.1,
+        90.5
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        119.1581,
+        88.3429
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        113.352,
+        85.2375
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        118.8559,
+        98.1099
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        122.8268,
+        97.9244
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        110.0875,
+        98.4706
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        124.0533,
+        94.2606
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        115.8059,
+        88.7724
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        126.6102,
+        94.9356
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        146.232,
+        75.5334
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        143.043,
+        76.738
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        148.074,
+        83.1674
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        159.396,
+        67.0472
+      ],
+      "drill": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        116.7155,
+        80.4759
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        114.7763,
+        81.1362
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        117.1833,
+        94.5516
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        119.141,
+        94.5516
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        113.4598,
+        81.954
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        115.0628,
+        82.3133
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        112.7015,
+        79.076
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        113.5832,
+        78.1943
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        108.2985,
+        93.8611
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        122.8928,
+        58.2101
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        112.9482,
+        93.8611
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        109.0266,
+        87.6172
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        118.2573,
+        89.7101
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        110.2544,
+        57.3507
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        116.0548,
+        79.3727
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        114.1215,
+        86.8607
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        113.92,
+        89.235
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        113.0505,
+        92.9283
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        115.0027,
+        88.4206
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "kind": "via",
+      "plated": true,
+      "xy": [
+        118.6436,
+        90.7937
+      ],
+      "drill": [
+        0.3,
+        0.3
+      ]
+    }
+  ],
+  "copper_flash_centres": {
+    "0": [
+      [
+        140.05,
+        97.1
+      ],
+      [
+        141.95,
+        97.1
+      ],
+      [
+        145.25,
+        61.5
+      ],
+      [
+        145.25,
+        64.04
+      ],
+      [
+        145.25,
+        66.58
+      ],
+      [
+        145.25,
+        69.12
+      ],
+      [
+        145.25,
+        71.66
+      ],
+      [
+        145.25,
+        74.2
+      ],
+      [
+        144.6325,
+        81.195
+      ],
+      [
+        146.5075,
+        81.195
+      ],
+      [
+        106.0,
+        85.0
+      ],
+      [
+        106.0,
+        90.08
+      ],
+      [
+        108.25,
+        58.51
+      ],
+      [
+        108.25,
+        63.59
+      ],
+      [
+        108.25,
+        68.67
+      ],
+      [
+        108.25,
+        73.75
+      ],
+      [
+        160.8625,
+        77.05
+      ],
+      [
+        160.8625,
+        78.0
+      ],
+      [
+        160.8625,
+        78.95
+      ],
+      [
+        163.1375,
+        78.95
+      ],
+      [
+        163.1375,
+        77.05
+      ],
+      [
+        151.5,
+        81.0
+      ],
+      [
+        155.0,
+        81.0
+      ],
+      [
+        157.0,
+        59.92
+      ],
+      [
+        157.0,
+        62.46
+      ],
+      [
+        157.0,
+        65.0
+      ],
+      [
+        157.0,
+        67.54
+      ],
+      [
+        157.0,
+        70.08
+      ],
+      [
+        157.0,
+        72.62
+      ],
+      [
+        161.05,
+        86.0
+      ],
+      [
+        162.95,
+        86.0
+      ],
+      [
+        114.0875,
+        95.95
+      ],
+      [
+        115.9125,
+        95.95
+      ],
+      [
+        114.0875,
+        93.0
+      ],
+      [
+        115.9125,
+        93.0
+      ],
+      [
+        161.0875,
+        83.5
+      ],
+      [
+        162.9125,
+        83.5
+      ],
+      [
+        149.0875,
+        88.975
+      ],
+      [
+        150.9125,
+        88.975
+      ],
+      [
+        114.0875,
+        84.15
+      ],
+      [
+        115.9125,
+        84.15
+      ],
+      [
+        162.95,
+        80.7
+      ],
+      [
+        161.05,
+        80.7
+      ],
+      [
+        139.0875,
+        73.9
+      ],
+      [
+        140.9125,
+        73.9
+      ],
+      [
+        116.4,
+        67.5
+      ],
+      [
+        123.6,
+        67.5
+      ],
+      [
+        116.4,
+        70.5
+      ],
+      [
+        123.6,
+        70.5
+      ],
+      [
+        139.0875,
+        68.0
+      ],
+      [
+        140.9125,
+        68.0
+      ],
+      [
+        163.0,
+        59.92
+      ],
+      [
+        163.0,
+        62.46
+      ],
+      [
+        163.0,
+        65.0
+      ],
+      [
+        163.0,
+        67.54
+      ],
+      [
+        163.0,
+        70.08
+      ],
+      [
+        163.0,
+        72.62
+      ],
+      [
+        143.525,
+        96.0
+      ],
+      [
+        146.475,
+        96.0
+      ],
+      [
+        116.0,
+        56.92
+      ],
+      [
+        116.0,
+        59.46
+      ],
+      [
+        116.0,
+        62.0
+      ],
+      [
+        151.0,
+        59.65
+      ],
+      [
+        151.0,
+        62.19
+      ],
+      [
+        151.0,
+        64.73
+      ],
+      [
+        151.0,
+        67.27
+      ],
+      [
+        151.0,
+        69.81
+      ],
+      [
+        151.0,
+        72.35
+      ],
+      [
+        137.945,
+        98.36
+      ],
+      [
+        137.945,
+        97.09
+      ],
+      [
+        137.945,
+        95.82
+      ],
+      [
+        137.945,
+        94.55
+      ],
+      [
+        137.945,
+        93.28
+      ],
+      [
+        137.945,
+        92.01
+      ],
+      [
+        137.945,
+        90.74
+      ],
+      [
+        137.945,
+        89.47
+      ],
+      [
+        137.945,
+        88.2
+      ],
+      [
+        137.945,
+        86.93
+      ],
+      [
+        137.945,
+        85.66
+      ],
+      [
+        137.945,
+        84.39
+      ],
+      [
+        137.945,
+        83.12
+      ],
+      [
+        137.945,
+        81.85
+      ],
+      [
+        136.18,
+        80.6
+      ],
+      [
+        134.91,
+        80.6
+      ],
+      [
+        133.64,
+        80.6
+      ],
+      [
+        132.37,
+        80.6
+      ],
+      [
+        131.1,
+        80.6
+      ],
+      [
+        129.83,
+        80.6
+      ],
+      [
+        128.56,
+        80.6
+      ],
+      [
+        127.29,
+        80.6
+      ],
+      [
+        126.02,
+        80.6
+      ],
+      [
+        124.75,
+        80.6
+      ],
+      [
+        123.48,
+        80.6
+      ],
+      [
+        122.21,
+        80.6
+      ],
+      [
+        120.445,
+        81.85
+      ],
+      [
+        120.445,
+        83.12
+      ],
+      [
+        120.445,
+        84.39
+      ],
+      [
+        120.445,
+        85.66
+      ],
+      [
+        120.445,
+        86.93
+      ],
+      [
+        120.445,
+        88.2
+      ],
+      [
+        120.445,
+        89.47
+      ],
+      [
+        120.445,
+        90.74
+      ],
+      [
+        120.445,
+        92.01
+      ],
+      [
+        120.445,
+        93.28
+      ],
+      [
+        120.445,
+        94.55
+      ],
+      [
+        120.445,
+        95.82
+      ],
+      [
+        120.445,
+        97.09
+      ],
+      [
+        120.445,
+        98.36
+      ],
+      [
+        132.095,
+        91.34
+      ],
+      [
+        132.095,
+        89.94
+      ],
+      [
+        131.395,
+        92.04
+      ],
+      [
+        131.395,
+        90.64
+      ],
+      [
+        131.395,
+        89.24
+      ],
+      [
+        130.695,
+        91.34
+      ],
+      [
+        130.695,
+        90.64
+      ],
+      [
+        130.695,
+        89.94
+      ],
+      [
+        129.995,
+        92.04
+      ],
+      [
+        129.995,
+        90.64
+      ],
+      [
+        129.995,
+        89.24
+      ],
+      [
+        129.295,
+        91.34
+      ],
+      [
+        129.295,
+        89.94
+      ],
+      [
+        116.0,
+        75.0
+      ],
+      [
+        123.2,
+        75.0
+      ],
+      [
+        116.0,
+        78.0
+      ],
+      [
+        123.2,
+        78.0
+      ],
+      [
+        125.59,
+        57.0
+      ],
+      [
+        125.59,
+        59.54
+      ],
+      [
+        125.59,
+        62.08
+      ],
+      [
+        156.0,
+        88.0
+      ],
+      [
+        157.825,
+        88.0
+      ],
+      [
+        127.92,
+        77.0
+      ],
+      [
+        130.46,
+        77.0
+      ],
+      [
+        133.0,
+        77.0
+      ],
+      [
+        135.54,
+        77.0
+      ],
+      [
+        131.1,
+        68.75
+      ],
+      [
+        134.5,
+        68.75
+      ],
+      [
+        131.1,
+        58.83
+      ],
+      [
+        134.5,
+        58.83
+      ],
+      [
+        139.0875,
+        59.15
+      ],
+      [
+        140.9125,
+        59.15
+      ],
+      [
+        139.0875,
+        70.95
+      ],
+      [
+        140.9125,
+        70.95
+      ],
+      [
+        139.0875,
+        62.1
+      ],
+      [
+        140.9125,
+        62.1
+      ],
+      [
+        146.0,
+        77.0
+      ],
+      [
+        147.9,
+        77.0
+      ],
+      [
+        121.0,
+        57.0
+      ],
+      [
+        121.0,
+        59.54
+      ],
+      [
+        121.0,
+        62.08
+      ],
+      [
+        149.87,
+        91.255
+      ],
+      [
+        150.67,
+        91.32
+      ],
+      [
+        151.82,
+        91.32
+      ],
+      [
+        152.82,
+        91.32
+      ],
+      [
+        153.32,
+        91.32
+      ],
+      [
+        154.32,
+        91.32
+      ],
+      [
+        155.47,
+        91.32
+      ],
+      [
+        156.27,
+        91.255
+      ],
+      [
+        156.27,
+        91.255
+      ],
+      [
+        155.47,
+        91.32
+      ],
+      [
+        154.82,
+        91.32
+      ],
+      [
+        153.82,
+        91.32
+      ],
+      [
+        152.32,
+        91.32
+      ],
+      [
+        151.32,
+        91.32
+      ],
+      [
+        150.67,
+        91.32
+      ],
+      [
+        149.87,
+        91.255
+      ],
+      [
+        148.75,
+        91.895
+      ],
+      [
+        148.75,
+        96.075
+      ],
+      [
+        157.39,
+        91.895
+      ],
+      [
+        157.39,
+        96.075
+      ],
+      [
+        139.0875,
+        65.05
+      ],
+      [
+        140.9125,
+        65.05
+      ],
+      [
+        108.37,
+        48.77
+      ],
+      [
+        108.37,
+        46.23
+      ],
+      [
+        110.91,
+        48.77
+      ],
+      [
+        110.91,
+        46.23
+      ],
+      [
+        113.45,
+        48.77
+      ],
+      [
+        113.45,
+        46.23
+      ],
+      [
+        115.99,
+        48.77
+      ],
+      [
+        115.99,
+        46.23
+      ],
+      [
+        118.53,
+        48.77
+      ],
+      [
+        118.53,
+        46.23
+      ],
+      [
+        121.07,
+        48.77
+      ],
+      [
+        121.07,
+        46.23
+      ],
+      [
+        123.61,
+        48.77
+      ],
+      [
+        123.61,
+        46.23
+      ],
+      [
+        126.15,
+        48.77
+      ],
+      [
+        126.15,
+        46.23
+      ],
+      [
+        128.69,
+        48.77
+      ],
+      [
+        128.69,
+        46.23
+      ],
+      [
+        131.23,
+        48.77
+      ],
+      [
+        131.23,
+        46.23
+      ],
+      [
+        133.77,
+        48.77
+      ],
+      [
+        133.77,
+        46.23
+      ],
+      [
+        136.31,
+        48.77
+      ],
+      [
+        136.31,
+        46.23
+      ],
+      [
+        138.85,
+        48.77
+      ],
+      [
+        138.85,
+        46.23
+      ],
+      [
+        141.39,
+        48.77
+      ],
+      [
+        141.39,
+        46.23
+      ],
+      [
+        143.93,
+        48.77
+      ],
+      [
+        143.93,
+        46.23
+      ],
+      [
+        146.47,
+        48.77
+      ],
+      [
+        146.47,
+        46.23
+      ],
+      [
+        149.01,
+        48.77
+      ],
+      [
+        149.01,
+        46.23
+      ],
+      [
+        151.55,
+        48.77
+      ],
+      [
+        151.55,
+        46.23
+      ],
+      [
+        154.09,
+        48.77
+      ],
+      [
+        154.09,
+        46.23
+      ],
+      [
+        156.63,
+        48.77
+      ],
+      [
+        156.63,
+        46.23
+      ],
+      [
+        112.5796,
+        89.8259
+      ],
+      [
+        160.6,
+        75.1
+      ],
+      [
+        148.1,
+        90.3
+      ],
+      [
+        143.8,
+        95.1
+      ],
+      [
+        136.6905,
+        96.6836
+      ],
+      [
+        111.1605,
+        92.009
+      ],
+      [
+        136.6,
+        63.0
+      ],
+      [
+        148.5,
+        85.9
+      ],
+      [
+        156.6,
+        78.5
+      ],
+      [
+        155.6,
+        84.3
+      ],
+      [
+        159.5,
+        60.7
+      ],
+      [
+        141.6,
+        66.4
+      ],
+      [
+        126.1,
+        77.6
+      ],
+      [
+        158.5,
+        74.4
+      ],
+      [
+        116.6,
+        89.15
+      ],
+      [
+        140.7,
+        64.0
+      ],
+      [
+        107.0,
+        87.8
+      ],
+      [
+        124.1,
+        75.1
+      ],
+      [
+        110.0,
+        76.9
+      ],
+      [
+        113.1,
+        95.05
+      ],
+      [
+        137.7,
+        66.8
+      ],
+      [
+        148.3,
+        63.8
+      ],
+      [
+        135.161,
+        84.3351
+      ],
+      [
+        138.398,
+        78.8345
+      ],
+      [
+        140.108,
+        82.9447
+      ],
+      [
+        129.19,
+        78.8972
+      ],
+      [
+        114.3,
+        75.2
+      ],
+      [
+        141.9,
+        60.8
+      ],
+      [
+        139.3,
+        94.0
+      ],
+      [
+        125.15,
+        85.5
+      ],
+      [
+        125.15,
+        87.4
+      ],
+      [
+        125.8,
+        90.3
+      ],
+      [
+        127.9,
+        92.4
+      ],
+      [
+        120.3,
+        64.599999
+      ],
+      [
+        124.9,
+        76.85
+      ],
+      [
+        125.55,
+        75.6
+      ],
+      [
+        125.55,
+        73.7
+      ],
+      [
+        132.199999,
+        93.75
+      ],
+      [
+        134.75,
+        96.3
+      ],
+      [
+        135.886,
+        94.2264
+      ],
+      [
+        160.056,
+        83.5
+      ],
+      [
+        151.677,
+        92.6504
+      ],
+      [
+        155.15,
+        78.05
+      ],
+      [
+        156.9,
+        76.95
+      ],
+      [
+        133.8,
+        92.15
+      ],
+      [
+        153.05,
+        74.9
+      ],
+      [
+        159.6,
+        77.2
+      ],
+      [
+        135.75,
+        92.15
+      ],
+      [
+        126.8,
+        90.15
+      ],
+      [
+        128.15,
+        91.15
+      ],
+      [
+        125.4,
+        88.75
+      ],
+      [
+        163.2,
+        78.05
+      ],
+      [
+        130.43,
+        79.1744
+      ],
+      [
+        136.403,
+        83.1058
+      ],
+      [
+        135.015,
+        85.8834
+      ],
+      [
+        139.442,
+        89.47
+      ],
+      [
+        130.325,
+        86.5279
+      ],
+      [
+        137.407,
+        80.6286
+      ],
+      [
+        139.781,
+        75.2053
+      ],
+      [
+        120.683,
+        70.4996
+      ],
+      [
+        130.342,
+        62.1
+      ],
+      [
+        121.858,
+        82.0137
+      ],
+      [
+        152.27,
+        85.3534
+      ],
+      [
+        154.82,
+        90.0693
+      ],
+      [
+        125.028,
+        92.1135
+      ],
+      [
+        122.544,
+        95.5596
+      ],
+      [
+        152.1822,
+        54.1408
+      ],
+      [
+        140.999,
+        91.1001
+      ],
+      [
+        153.4077,
+        54.6794
+      ],
+      [
+        139.379,
+        90.74
+      ],
+      [
+        160.7612,
+        68.111
+      ],
+      [
+        139.561,
+        83.9639
+      ],
+      [
+        139.951,
+        80.1071
+      ],
+      [
+        141.058,
+        79.9797
+      ],
+      [
+        142.713,
+        79.7841
+      ],
+      [
+        139.361,
+        95.82
+      ],
+      [
+        153.225,
+        86.3132
+      ],
+      [
+        132.781,
+        82.0094
+      ],
+      [
+        138.401,
+        72.4295
+      ],
+      [
+        136.6,
+        93.3
+      ],
+      [
+        149.4,
+        94.1
+      ],
+      [
+        140.6,
+        94.1
+      ],
+      [
+        156.7,
+        86.8
+      ],
+      [
+        128.2,
+        83.5
+      ],
+      [
+        121.1,
+        90.5
+      ],
+      [
+        119.1581,
+        88.3429
+      ],
+      [
+        113.352,
+        85.2375
+      ],
+      [
+        118.8559,
+        98.1099
+      ],
+      [
+        122.8268,
+        97.9244
+      ],
+      [
+        110.0875,
+        98.4706
+      ],
+      [
+        124.0533,
+        94.2606
+      ],
+      [
+        115.8059,
+        88.7724
+      ],
+      [
+        126.6102,
+        94.9356
+      ],
+      [
+        146.232,
+        75.5334
+      ],
+      [
+        143.043,
+        76.738
+      ],
+      [
+        148.074,
+        83.1674
+      ],
+      [
+        159.396,
+        67.0472
+      ],
+      [
+        116.7155,
+        80.4759
+      ],
+      [
+        114.7763,
+        81.1362
+      ],
+      [
+        117.1833,
+        94.5516
+      ],
+      [
+        119.141,
+        94.5516
+      ],
+      [
+        113.4598,
+        81.954
+      ],
+      [
+        115.0628,
+        82.3133
+      ],
+      [
+        112.7015,
+        79.076
+      ],
+      [
+        113.5832,
+        78.1943
+      ],
+      [
+        108.2985,
+        93.8611
+      ],
+      [
+        122.8928,
+        58.2101
+      ],
+      [
+        112.9482,
+        93.8611
+      ],
+      [
+        109.0266,
+        87.6172
+      ],
+      [
+        118.2573,
+        89.7101
+      ],
+      [
+        110.2544,
+        57.3507
+      ],
+      [
+        116.0548,
+        79.3727
+      ],
+      [
+        114.1215,
+        86.8607
+      ],
+      [
+        113.92,
+        89.235
+      ],
+      [
+        113.0505,
+        92.9283
+      ],
+      [
+        115.0027,
+        88.4206
+      ],
+      [
+        118.6436,
+        90.7937
+      ]
+    ],
+    "2": [
+      [
+        145.25,
+        61.5
+      ],
+      [
+        145.25,
+        64.04
+      ],
+      [
+        145.25,
+        66.58
+      ],
+      [
+        145.25,
+        69.12
+      ],
+      [
+        145.25,
+        71.66
+      ],
+      [
+        145.25,
+        74.2
+      ],
+      [
+        106.0,
+        85.0
+      ],
+      [
+        106.0,
+        90.08
+      ],
+      [
+        108.25,
+        58.51
+      ],
+      [
+        108.25,
+        63.59
+      ],
+      [
+        108.25,
+        68.67
+      ],
+      [
+        108.25,
+        73.75
+      ],
+      [
+        151.5,
+        81.0
+      ],
+      [
+        155.0,
+        81.0
+      ],
+      [
+        157.0,
+        59.92
+      ],
+      [
+        157.0,
+        62.46
+      ],
+      [
+        157.0,
+        65.0
+      ],
+      [
+        157.0,
+        67.54
+      ],
+      [
+        157.0,
+        70.08
+      ],
+      [
+        157.0,
+        72.62
+      ],
+      [
+        163.0,
+        59.92
+      ],
+      [
+        163.0,
+        62.46
+      ],
+      [
+        163.0,
+        65.0
+      ],
+      [
+        163.0,
+        67.54
+      ],
+      [
+        163.0,
+        70.08
+      ],
+      [
+        163.0,
+        72.62
+      ],
+      [
+        116.0,
+        56.92
+      ],
+      [
+        116.0,
+        59.46
+      ],
+      [
+        116.0,
+        62.0
+      ],
+      [
+        151.0,
+        59.65
+      ],
+      [
+        151.0,
+        62.19
+      ],
+      [
+        151.0,
+        64.73
+      ],
+      [
+        151.0,
+        67.27
+      ],
+      [
+        151.0,
+        69.81
+      ],
+      [
+        151.0,
+        72.35
+      ],
+      [
+        132.095,
+        91.34
+      ],
+      [
+        132.095,
+        89.94
+      ],
+      [
+        131.395,
+        92.04
+      ],
+      [
+        131.395,
+        90.64
+      ],
+      [
+        131.395,
+        89.24
+      ],
+      [
+        130.695,
+        91.34
+      ],
+      [
+        130.695,
+        89.94
+      ],
+      [
+        129.995,
+        92.04
+      ],
+      [
+        129.995,
+        90.64
+      ],
+      [
+        129.995,
+        89.24
+      ],
+      [
+        129.295,
+        91.34
+      ],
+      [
+        129.295,
+        89.94
+      ],
+      [
+        125.59,
+        57.0
+      ],
+      [
+        125.59,
+        59.54
+      ],
+      [
+        125.59,
+        62.08
+      ],
+      [
+        127.92,
+        77.0
+      ],
+      [
+        130.46,
+        77.0
+      ],
+      [
+        133.0,
+        77.0
+      ],
+      [
+        135.54,
+        77.0
+      ],
+      [
+        131.1,
+        68.75
+      ],
+      [
+        134.5,
+        68.75
+      ],
+      [
+        131.1,
+        58.83
+      ],
+      [
+        134.5,
+        58.83
+      ],
+      [
+        121.0,
+        57.0
+      ],
+      [
+        121.0,
+        59.54
+      ],
+      [
+        121.0,
+        62.08
+      ],
+      [
+        148.75,
+        91.895
+      ],
+      [
+        148.75,
+        96.075
+      ],
+      [
+        157.39,
+        91.895
+      ],
+      [
+        157.39,
+        96.075
+      ],
+      [
+        108.37,
+        48.77
+      ],
+      [
+        108.37,
+        46.23
+      ],
+      [
+        110.91,
+        48.77
+      ],
+      [
+        110.91,
+        46.23
+      ],
+      [
+        113.45,
+        48.77
+      ],
+      [
+        113.45,
+        46.23
+      ],
+      [
+        115.99,
+        48.77
+      ],
+      [
+        115.99,
+        46.23
+      ],
+      [
+        118.53,
+        48.77
+      ],
+      [
+        118.53,
+        46.23
+      ],
+      [
+        121.07,
+        48.77
+      ],
+      [
+        121.07,
+        46.23
+      ],
+      [
+        123.61,
+        48.77
+      ],
+      [
+        123.61,
+        46.23
+      ],
+      [
+        126.15,
+        48.77
+      ],
+      [
+        126.15,
+        46.23
+      ],
+      [
+        128.69,
+        48.77
+      ],
+      [
+        128.69,
+        46.23
+      ],
+      [
+        131.23,
+        48.77
+      ],
+      [
+        131.23,
+        46.23
+      ],
+      [
+        133.77,
+        48.77
+      ],
+      [
+        133.77,
+        46.23
+      ],
+      [
+        136.31,
+        48.77
+      ],
+      [
+        136.31,
+        46.23
+      ],
+      [
+        138.85,
+        48.77
+      ],
+      [
+        138.85,
+        46.23
+      ],
+      [
+        141.39,
+        48.77
+      ],
+      [
+        141.39,
+        46.23
+      ],
+      [
+        143.93,
+        48.77
+      ],
+      [
+        143.93,
+        46.23
+      ],
+      [
+        146.47,
+        48.77
+      ],
+      [
+        146.47,
+        46.23
+      ],
+      [
+        149.01,
+        48.77
+      ],
+      [
+        149.01,
+        46.23
+      ],
+      [
+        151.55,
+        48.77
+      ],
+      [
+        151.55,
+        46.23
+      ],
+      [
+        154.09,
+        48.77
+      ],
+      [
+        154.09,
+        46.23
+      ],
+      [
+        156.63,
+        48.77
+      ],
+      [
+        156.63,
+        46.23
+      ],
+      [
+        116.1375,
+        86.05
+      ],
+      [
+        116.1375,
+        87.0
+      ],
+      [
+        116.1375,
+        87.95
+      ],
+      [
+        113.8625,
+        87.95
+      ],
+      [
+        113.8625,
+        86.05
+      ],
+      [
+        116.1375,
+        90.05
+      ],
+      [
+        116.1375,
+        91.0
+      ],
+      [
+        116.1375,
+        91.95
+      ],
+      [
+        113.8625,
+        91.95
+      ],
+      [
+        113.8625,
+        90.05
+      ],
+      [
+        150.9125,
+        52.0
+      ],
+      [
+        149.0875,
+        52.0
+      ],
+      [
+        150.9125,
+        54.5
+      ],
+      [
+        149.0875,
+        54.5
+      ],
+      [
+        111.9125,
+        84.0
+      ],
+      [
+        110.0875,
+        84.0
+      ],
+      [
+        111.95,
+        87.0
+      ],
+      [
+        110.05,
+        87.0
+      ],
+      [
+        115.9125,
+        94.0
+      ],
+      [
+        114.0875,
+        94.0
+      ],
+      [
+        115.9125,
+        84.0
+      ],
+      [
+        114.0875,
+        84.0
+      ],
+      [
+        120.2125,
+        87.0
+      ],
+      [
+        118.3875,
+        87.0
+      ],
+      [
+        120.2125,
+        92.3
+      ],
+      [
+        118.3875,
+        92.3
+      ],
+      [
+        111.9125,
+        94.0
+      ],
+      [
+        110.0875,
+        94.0
+      ],
+      [
+        111.95,
+        91.0
+      ],
+      [
+        110.05,
+        91.0
+      ],
+      [
+        112.5796,
+        89.8259
+      ],
+      [
+        160.6,
+        75.1
+      ],
+      [
+        148.1,
+        90.3
+      ],
+      [
+        143.8,
+        95.1
+      ],
+      [
+        136.6905,
+        96.6836
+      ],
+      [
+        111.1605,
+        92.009
+      ],
+      [
+        136.6,
+        63.0
+      ],
+      [
+        148.5,
+        85.9
+      ],
+      [
+        156.6,
+        78.5
+      ],
+      [
+        155.6,
+        84.3
+      ],
+      [
+        159.5,
+        60.7
+      ],
+      [
+        141.6,
+        66.4
+      ],
+      [
+        126.1,
+        77.6
+      ],
+      [
+        158.5,
+        74.4
+      ],
+      [
+        116.6,
+        89.15
+      ],
+      [
+        140.7,
+        64.0
+      ],
+      [
+        107.0,
+        87.8
+      ],
+      [
+        124.1,
+        75.1
+      ],
+      [
+        110.0,
+        76.9
+      ],
+      [
+        113.1,
+        95.05
+      ],
+      [
+        137.7,
+        66.8
+      ],
+      [
+        148.3,
+        63.8
+      ],
+      [
+        135.161,
+        84.3351
+      ],
+      [
+        138.398,
+        78.8345
+      ],
+      [
+        140.108,
+        82.9447
+      ],
+      [
+        129.19,
+        78.8972
+      ],
+      [
+        114.3,
+        75.2
+      ],
+      [
+        141.9,
+        60.8
+      ],
+      [
+        139.3,
+        94.0
+      ],
+      [
+        125.15,
+        85.5
+      ],
+      [
+        125.15,
+        87.4
+      ],
+      [
+        125.8,
+        90.3
+      ],
+      [
+        127.9,
+        92.4
+      ],
+      [
+        120.3,
+        64.599999
+      ],
+      [
+        124.9,
+        76.85
+      ],
+      [
+        125.55,
+        75.6
+      ],
+      [
+        125.55,
+        73.7
+      ],
+      [
+        132.199999,
+        93.75
+      ],
+      [
+        134.75,
+        96.3
+      ],
+      [
+        135.886,
+        94.2264
+      ],
+      [
+        160.056,
+        83.5
+      ],
+      [
+        151.677,
+        92.6504
+      ],
+      [
+        155.15,
+        78.05
+      ],
+      [
+        156.9,
+        76.95
+      ],
+      [
+        133.8,
+        92.15
+      ],
+      [
+        153.05,
+        74.9
+      ],
+      [
+        159.6,
+        77.2
+      ],
+      [
+        135.75,
+        92.15
+      ],
+      [
+        126.8,
+        90.15
+      ],
+      [
+        128.15,
+        91.15
+      ],
+      [
+        125.4,
+        88.75
+      ],
+      [
+        163.2,
+        78.05
+      ],
+      [
+        130.43,
+        79.1744
+      ],
+      [
+        136.403,
+        83.1058
+      ],
+      [
+        135.015,
+        85.8834
+      ],
+      [
+        139.442,
+        89.47
+      ],
+      [
+        130.325,
+        86.5279
+      ],
+      [
+        137.407,
+        80.6286
+      ],
+      [
+        139.781,
+        75.2053
+      ],
+      [
+        120.683,
+        70.4996
+      ],
+      [
+        130.342,
+        62.1
+      ],
+      [
+        121.858,
+        82.0137
+      ],
+      [
+        152.27,
+        85.3534
+      ],
+      [
+        154.82,
+        90.0693
+      ],
+      [
+        125.028,
+        92.1135
+      ],
+      [
+        122.544,
+        95.5596
+      ],
+      [
+        152.1822,
+        54.1408
+      ],
+      [
+        140.999,
+        91.1001
+      ],
+      [
+        153.4077,
+        54.6794
+      ],
+      [
+        139.379,
+        90.74
+      ],
+      [
+        160.7612,
+        68.111
+      ],
+      [
+        139.561,
+        83.9639
+      ],
+      [
+        139.951,
+        80.1071
+      ],
+      [
+        141.058,
+        79.9797
+      ],
+      [
+        142.713,
+        79.7841
+      ],
+      [
+        139.361,
+        95.82
+      ],
+      [
+        153.225,
+        86.3132
+      ],
+      [
+        132.781,
+        82.0094
+      ],
+      [
+        138.401,
+        72.4295
+      ],
+      [
+        136.6,
+        93.3
+      ],
+      [
+        149.4,
+        94.1
+      ],
+      [
+        140.6,
+        94.1
+      ],
+      [
+        156.7,
+        86.8
+      ],
+      [
+        128.2,
+        83.5
+      ],
+      [
+        121.1,
+        90.5
+      ],
+      [
+        119.1581,
+        88.3429
+      ],
+      [
+        113.352,
+        85.2375
+      ],
+      [
+        118.8559,
+        98.1099
+      ],
+      [
+        122.8268,
+        97.9244
+      ],
+      [
+        110.0875,
+        98.4706
+      ],
+      [
+        124.0533,
+        94.2606
+      ],
+      [
+        115.8059,
+        88.7724
+      ],
+      [
+        126.6102,
+        94.9356
+      ],
+      [
+        146.232,
+        75.5334
+      ],
+      [
+        143.043,
+        76.738
+      ],
+      [
+        148.074,
+        83.1674
+      ],
+      [
+        159.396,
+        67.0472
+      ],
+      [
+        116.7155,
+        80.4759
+      ],
+      [
+        114.7763,
+        81.1362
+      ],
+      [
+        117.1833,
+        94.5516
+      ],
+      [
+        119.141,
+        94.5516
+      ],
+      [
+        113.4598,
+        81.954
+      ],
+      [
+        115.0628,
+        82.3133
+      ],
+      [
+        112.7015,
+        79.076
+      ],
+      [
+        113.5832,
+        78.1943
+      ],
+      [
+        108.2985,
+        93.8611
+      ],
+      [
+        122.8928,
+        58.2101
+      ],
+      [
+        112.9482,
+        93.8611
+      ],
+      [
+        109.0266,
+        87.6172
+      ],
+      [
+        118.2573,
+        89.7101
+      ],
+      [
+        110.2544,
+        57.3507
+      ],
+      [
+        116.0548,
+        79.3727
+      ],
+      [
+        114.1215,
+        86.8607
+      ],
+      [
+        113.92,
+        89.235
+      ],
+      [
+        113.0505,
+        92.9283
+      ],
+      [
+        115.0027,
+        88.4206
+      ],
+      [
+        118.6436,
+        90.7937
+      ]
+    ]
+  },
+  "native_layer_ids": {
+    "front": 0,
+    "back": 2
+  },
+  "edge_cuts": [
+    {
+      "shape": "line",
+      "a": [
+        100.0,
+        -47.0
+      ],
+      "b": [
+        100.0,
+        -63.0
+      ],
+      "centre": [
+        100.0,
+        -55.0
+      ]
+    },
+    {
+      "shape": "2",
+      "a": [
+        100.0,
+        -47.0
+      ],
+      "b": [
+        103.0,
+        -44.0
+      ],
+      "centre": [
+        103.0,
+        -47.0
+      ]
+    },
+    {
+      "shape": "line",
+      "a": [
+        100.0,
+        -81.0
+      ],
+      "b": [
+        100.0,
+        -97.0
+      ],
+      "centre": [
+        100.0,
+        -89.0
+      ]
+    },
+    {
+      "shape": "2",
+      "a": [
+        100.0,
+        -81.0
+      ],
+      "b": [
+        100.499127,
+        -80.500001
+      ],
+      "centre": [
+        100.5,
+        -81.0
+      ]
+    },
+    {
+      "shape": "2",
+      "a": [
+        100.5,
+        -63.5
+      ],
+      "b": [
+        100.0,
+        -63.0
+      ],
+      "centre": [
+        100.5,
+        -63.0
+      ]
+    },
+    {
+      "shape": "line",
+      "a": [
+        100.5,
+        -63.5
+      ],
+      "b": [
+        104.5,
+        -63.5
+      ],
+      "centre": [
+        102.5,
+        -63.5
+      ]
+    },
+    {
+      "shape": "2",
+      "a": [
+        103.0,
+        -100.0
+      ],
+      "b": [
+        100.0,
+        -97.0
+      ],
+      "centre": [
+        103.0,
+        -97.0
+      ]
+    },
+    {
+      "shape": "line",
+      "a": [
+        103.0,
+        -100.0
+      ],
+      "b": [
+        162.0,
+        -100.0
+      ],
+      "centre": [
+        132.5,
+        -100.0
+      ]
+    },
+    {
+      "shape": "2",
+      "a": [
+        104.5,
+        -63.5
+      ],
+      "b": [
+        105.0,
+        -64.0
+      ],
+      "centre": [
+        104.5,
+        -64.0
+      ]
+    },
+    {
+      "shape": "line",
+      "a": [
+        104.5,
+        -80.5
+      ],
+      "b": [
+        100.5,
+        -80.5
+      ],
+      "centre": [
+        102.5,
+        -80.5
+      ]
+    },
+    {
+      "shape": "line",
+      "a": [
+        105.0,
+        -64.0
+      ],
+      "b": [
+        105.0,
+        -80.0
+      ],
+      "centre": [
+        105.0,
+        -72.0
+      ]
+    },
+    {
+      "shape": "2",
+      "a": [
+        105.0,
+        -80.0
+      ],
+      "b": [
+        104.5,
+        -80.5
+      ],
+      "centre": [
+        104.5,
+        -80.0
+      ]
+    },
+    {
+      "shape": "line",
+      "a": [
+        162.0,
+        -44.0
+      ],
+      "b": [
+        103.0,
+        -44.0
+      ],
+      "centre": [
+        132.5,
+        -44.0
+      ]
+    },
+    {
+      "shape": "2",
+      "a": [
+        162.0,
+        -44.0
+      ],
+      "b": [
+        165.0,
+        -47.0
+      ],
+      "centre": [
+        162.0,
+        -47.0
+      ]
+    },
+    {
+      "shape": "2",
+      "a": [
+        165.0,
+        -97.0
+      ],
+      "b": [
+        162.0,
+        -100.0
+      ],
+      "centre": [
+        162.0,
+        -97.0
+      ]
+    },
+    {
+      "shape": "line",
+      "a": [
+        165.0,
+        -97.0
+      ],
+      "b": [
+        165.0,
+        -47.0
+      ],
+      "centre": [
+        165.0,
+        -72.0
+      ]
+    }
+  ],
+  "native_slots": [
+    {
+      "ref": "J8",
+      "pin": "SH",
+      "diameter": 0.6,
+      "a": [
+        148.75,
+        -91.345
+      ],
+      "b": [
+        148.75,
+        -92.445
+      ]
+    },
+    {
+      "ref": "J8",
+      "pin": "SH",
+      "diameter": 0.6,
+      "a": [
+        148.75,
+        -95.675
+      ],
+      "b": [
+        148.75,
+        -96.47500000000001
+      ]
+    },
+    {
+      "ref": "J8",
+      "pin": "SH",
+      "diameter": 0.6,
+      "a": [
+        157.39,
+        -91.345
+      ],
+      "b": [
+        157.39,
+        -92.445
+      ]
+    },
+    {
+      "ref": "J8",
+      "pin": "SH",
+      "diameter": 0.6,
+      "a": [
+        157.39,
+        -95.675
+      ],
+      "b": [
+        157.39,
+        -96.47500000000001
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+Drill report for szscreen.kicad_pcb
+Created on 2026-10-31T13:40:34
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'szscreen-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (7 holes))
+    T2  0.400mm  0.0157"  (291 holes))
+    T3  0.700mm  0.0276"  (6 holes))
+    T4  0.710mm  0.0280"  (2 holes))
+    T5  0.800mm  0.0315"  (320 holes))
+    T6  0.900mm  0.0354"  (16 holes))
+    T7  1.000mm  0.0394"  (104 holes))
+    T8  1.100mm  0.0433"  (2 holes))
+
+    Total plated holes count 748
+
+
+Drill file 'szscreen-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2.700mm  0.1063"  (4 holes))
+    T2  3.200mm  0.1260"  (8 holes))
+
+    Total unplated holes count 12

@@ -1,0 +1,57 @@
+{
+  "checks": [
+    {
+      "file": "src/display_ui.cpp",
+      "passed": true
+    },
+    {
+      "file": "src/display_ui.h",
+      "passed": true
+    },
+    {
+      "file": "src/main.cpp",
+      "passed": true
+    },
+    {
+      "file": "src/panel_core.cpp",
+      "passed": true
+    },
+    {
+      "file": "src/panel_core.h",
+      "passed": true
+    },
+    {
+      "file": "src/touch_math.h",
+      "passed": true
+    },
+    {
+      "file": "src/vendor_init.h",
+      "passed": true
+    },
+    {
+      "file": "platformio.ini",
+      "passed": true
+    },
+    {
+      "file": "host/seizo_panel_bridge.py",
+      "passed": true
+    },
+    {
+      "file": "work\\rev23-firmware\\.pio\\build\\seizo_s3_st7789\\firmware.bin",
+      "passed": true
+    },
+    {
+      "file": "work\\rev23-firmware\\.pio\\build\\seizo_s3_hx8347d\\firmware.bin",
+      "passed": true
+    },
+    {
+      "file": "work\\rev23-firmware\\.pio\\build\\seizo_s3_st7789_uart\\firmware.bin",
+      "passed": true
+    }
+  ],
+  "passed": 12,
+  "failed": 0,
+  "new_compile_performed": false,
+  "basis": "Exact retained source and compiled image identity against recorded successful builds",
+  "hardware_tested": false
+}

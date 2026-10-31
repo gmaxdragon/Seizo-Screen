@@ -1,0 +1,295 @@
+{
+  "source": "work\\rev23-native\\szscreen.kicad_pcb",
+  "sha256": "25539642fd6fd28b717376c2c5bc4094e4d9d7bd92bf4f556df019648e6b27f6",
+  "unconnected_count": 0,
+  "fixed_links": [
+    {
+      "from": "C25.1",
+      "to": "U3.8",
+      "net": "/PANEL_3V3",
+      "layer": "B.Cu",
+      "direct_link_present": true,
+      "length_mm": 1.969771560359221,
+      "widths_mm": [
+        0.3
+      ],
+      "electrically_connected_in_saved_geometry": true
+    },
+    {
+      "from": "C26.1",
+      "to": "U4.3",
+      "net": "/PANEL_3V3",
+      "layer": "F.Cu",
+      "direct_link_present": true,
+      "length_mm": 2.94,
+      "widths_mm": [
+        0.3
+      ],
+      "electrically_connected_in_saved_geometry": true
+    },
+    {
+      "from": "C24.1",
+      "to": "U2.8",
+      "net": "/PANEL_3V3",
+      "layer": "F.Cu",
+      "direct_link_present": true,
+      "length_mm": 4.190429572251514,
+      "widths_mm": [
+        0.3
+      ],
+      "electrically_connected_in_saved_geometry": true
+    },
+    {
+      "from": "C27.1",
+      "to": "U4.2",
+      "net": "/REF_2V5",
+      "layer": "F.Cu",
+      "direct_link_present": true,
+      "length_mm": 5.0,
+      "widths_mm": [
+        0.3
+      ],
+      "electrically_connected_in_saved_geometry": true
+    },
+    {
+      "from": "U6.2",
+      "to": "J13.2",
+      "net": "/PANEL_3V3",
+      "layer": "F.Cu",
+      "direct_link_present": true,
+      "length_mm": 18.578482176970216,
+      "widths_mm": [
+        1.0
+      ],
+      "electrically_connected_in_saved_geometry": true
+    }
+  ],
+  "ground_returns": [
+    {
+      "pad": "U2.4",
+      "net": "/GND",
+      "connected_to_input_ground": true,
+      "has_direct_B_Cu_connection": true
+    },
+    {
+      "pad": "U3.4",
+      "net": "/GND",
+      "connected_to_input_ground": true,
+      "has_direct_B_Cu_connection": true
+    },
+    {
+      "pad": "U4.1",
+      "net": "/GND",
+      "connected_to_input_ground": true,
+      "has_direct_B_Cu_connection": true
+    },
+    {
+      "pad": "U5.2",
+      "net": "/GND",
+      "connected_to_input_ground": true,
+      "has_direct_B_Cu_connection": false
+    },
+    {
+      "pad": "C24.2",
+      "net": "/GND",
+      "connected_to_input_ground": true,
+      "has_direct_B_Cu_connection": true
+    },
+    {
+      "pad": "C25.2",
+      "net": "/GND",
+      "connected_to_input_ground": true,
+      "has_direct_B_Cu_connection": true
+    },
+    {
+      "pad": "C26.2",
+      "net": "/GND",
+      "connected_to_input_ground": true,
+      "has_direct_B_Cu_connection": true
+    },
+    {
+      "pad": "C27.2",
+      "net": "/GND",
+      "connected_to_input_ground": true,
+      "has_direct_B_Cu_connection": true
+    },
+    {
+      "pad": "C31.2",
+      "net": "/GND",
+      "connected_to_input_ground": true,
+      "has_direct_B_Cu_connection": true
+    },
+    {
+      "pad": "C32.2",
+      "net": "/GND",
+      "connected_to_input_ground": true,
+      "has_direct_B_Cu_connection": true
+    },
+    {
+      "pad": "C33.2",
+      "net": "/GND",
+      "connected_to_input_ground": true,
+      "has_direct_B_Cu_connection": true
+    },
+    {
+      "pad": "C34.2",
+      "net": "/GND",
+      "connected_to_input_ground": true,
+      "has_direct_B_Cu_connection": true
+    },
+    {
+      "pad": "C35.2",
+      "net": "/GND",
+      "connected_to_input_ground": true,
+      "has_direct_B_Cu_connection": true
+    },
+    {
+      "pad": "C36.2",
+      "net": "/GND",
+      "connected_to_input_ground": true,
+      "has_direct_B_Cu_connection": true
+    }
+  ],
+  "local_cap_supply_connections": [
+    {
+      "pad": "C14.1",
+      "net": "/PANEL_3V3",
+      "expected_net": "/PANEL_3V3",
+      "connected_to_correct_source": true
+    },
+    {
+      "pad": "C24.1",
+      "net": "/PANEL_3V3",
+      "expected_net": "/PANEL_3V3",
+      "connected_to_correct_source": true
+    },
+    {
+      "pad": "C25.1",
+      "net": "/PANEL_3V3",
+      "expected_net": "/PANEL_3V3",
+      "connected_to_correct_source": true
+    },
+    {
+      "pad": "C26.1",
+      "net": "/PANEL_3V3",
+      "expected_net": "/PANEL_3V3",
+      "connected_to_correct_source": true
+    },
+    {
+      "pad": "C33.1",
+      "net": "/LCD_VIO",
+      "expected_net": "/LCD_VIO",
+      "connected_to_correct_source": true
+    },
+    {
+      "pad": "C34.1",
+      "net": "/LCD_VIO",
+      "expected_net": "/LCD_VIO",
+      "connected_to_correct_source": true
+    },
+    {
+      "pad": "C35.1",
+      "net": "/PANEL_3V3",
+      "expected_net": "/PANEL_3V3",
+      "connected_to_correct_source": true
+    },
+    {
+      "pad": "C36.1",
+      "net": "/PANEL_3V3",
+      "expected_net": "/PANEL_3V3",
+      "connected_to_correct_source": true
+    }
+  ],
+  "zones": [
+    {
+      "net": "/PANEL_3V3",
+      "layer": "F.Cu",
+      "filled_outline_count": 35,
+      "filled_area_mm2": 4955.388796750514
+    },
+    {
+      "net": "/GND",
+      "layer": "B.Cu",
+      "filled_outline_count": 54,
+      "filled_area_mm2": 11996.081716886074
+    }
+  ],
+  "front_power_under_fastener_envelopes": [
+    {
+      "hole": "H4",
+      "hardware_diameter_bound_mm": 7.0,
+      "power_copper_under_hardware_envelope_mm2": 0.0,
+      "requires_explicit_insulating_hardware_if_nonzero": false
+    },
+    {
+      "hole": "H9",
+      "hardware_diameter_bound_mm": 5.0,
+      "power_copper_under_hardware_envelope_mm2": 0.0,
+      "requires_explicit_insulating_hardware_if_nonzero": false
+    },
+    {
+      "hole": "H12",
+      "hardware_diameter_bound_mm": 5.0,
+      "power_copper_under_hardware_envelope_mm2": 0.0,
+      "requires_explicit_insulating_hardware_if_nonzero": false
+    },
+    {
+      "hole": "H8",
+      "hardware_diameter_bound_mm": 5.0,
+      "power_copper_under_hardware_envelope_mm2": 0.0,
+      "requires_explicit_insulating_hardware_if_nonzero": false
+    },
+    {
+      "hole": "H1",
+      "hardware_diameter_bound_mm": 7.0,
+      "power_copper_under_hardware_envelope_mm2": 0.0,
+      "requires_explicit_insulating_hardware_if_nonzero": false
+    },
+    {
+      "hole": "H10",
+      "hardware_diameter_bound_mm": 5.0,
+      "power_copper_under_hardware_envelope_mm2": 0.0,
+      "requires_explicit_insulating_hardware_if_nonzero": false
+    },
+    {
+      "hole": "H7",
+      "hardware_diameter_bound_mm": 5.0,
+      "power_copper_under_hardware_envelope_mm2": 0.0,
+      "requires_explicit_insulating_hardware_if_nonzero": false
+    },
+    {
+      "hole": "H3",
+      "hardware_diameter_bound_mm": 7.0,
+      "power_copper_under_hardware_envelope_mm2": 0.0,
+      "requires_explicit_insulating_hardware_if_nonzero": false
+    },
+    {
+      "hole": "H2",
+      "hardware_diameter_bound_mm": 7.0,
+      "power_copper_under_hardware_envelope_mm2": 0.0,
+      "requires_explicit_insulating_hardware_if_nonzero": false
+    },
+    {
+      "hole": "H5",
+      "hardware_diameter_bound_mm": 5.0,
+      "power_copper_under_hardware_envelope_mm2": 0.0,
+      "requires_explicit_insulating_hardware_if_nonzero": false
+    },
+    {
+      "hole": "H6",
+      "hardware_diameter_bound_mm": 5.0,
+      "power_copper_under_hardware_envelope_mm2": 0.0,
+      "requires_explicit_insulating_hardware_if_nonzero": false
+    },
+    {
+      "hole": "H11",
+      "hardware_diameter_bound_mm": 5.0,
+      "power_copper_under_hardware_envelope_mm2": 0.0,
+      "requires_explicit_insulating_hardware_if_nonzero": false
+    }
+  ],
+  "failed_fixed_links": [],
+  "failed_ground_returns": [],
+  "failed_supply_connections": [],
+  "limits": "Read-only saved-fill connectivity and exact local copper-link checks. No analogue noise/transient/thermal/EMC/hardware validation. Nonzero copper under metal contact envelopes requires changed copper or explicit suitable insulating hardware."
+}

@@ -1,0 +1,11 @@
+*.kicad_prl
+*.lck
+~*
+*-backups/
+.pio/
+__pycache__/
+*.pyc
+*.o
+*.elf
+*.map
+*.exe

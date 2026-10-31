@@ -1,0 +1,89 @@
+{
+  "date_researched_local": "2026-10-31",
+  "basis_BOM_sha256": "f664c087e89ce28fb2628251b5cf6e0b6ab4998aac0ed285e88a748fd1de14f9",
+  "basis_priced_system_parts_USD": "103.768",
+  "selection": "Omit optional panel USB extension; UART normal Pi link and direct HAT nativeUSB service access. Substitute only ten ordinary100ohm logic-series resistors.",
+  "changes": [
+    {
+      "item": "Adafruit6069 USB-C panel extension",
+      "old_quantity": 1,
+      "new_quantity": 0,
+      "saving_USD": "4.50",
+      "source": "https://www.adafruit.com/product/6069",
+      "status": "Maker price4.50 verified; remove purchased extension only, retain actualHATUSBport accessibility. EmptyPCB12.5mm hole can be access/blank space rather than an electrical connector."
+    },
+    {
+      "references": [
+        "R35",
+        "R36",
+        "R37",
+        "R38",
+        "R39",
+        "R56",
+        "R57",
+        "R64",
+        "R65",
+        "R66"
+      ],
+      "old_MPN": "MRS16000C1000FCT00",
+      "new_MPN": "MFR-12FTF52-100R",
+      "vendor_SKU": "13-MFR-12FTF52-100RCT-ND",
+      "purchase_quantity": 10,
+      "old_group_USD": "1.410",
+      "new_unit_USD": "0.038",
+      "new_group_USD": "0.380",
+      "saving_USD": "1.030",
+      "source": "https://www.digikey.com/en/products/detail/yageo/MFR-12FTF52-100R/9133808",
+      "primary": "https://yageogroup.com/content/Resource%20Library/Datasheet/YAGEO-MFR_DATASHEET.pdf",
+      "stock_snapshot": 16420,
+      "stock_snapshot_age_note": "Product page crawler age2months; price and stock observed at retrieval, not checkout/live reservation",
+      "max_body_mm": [
+        3.7,
+        2.1
+      ],
+      "max_lead_mm": 0.5,
+      "power_W": "0.1666666666666666666666666667",
+      "native_fit_status": "PASS: zero overlaps/foreign plated pads/courtyard collisions/overhangs;0.50mmMAX lead suits existing0.8mm drills"
+    }
+  ],
+  "total_saving_USD": "5.530",
+  "revised_PCB_parts_USD": "56.248",
+  "revised_external_screen_and_breadboard_USD": "18.940",
+  "revised_panel_priced_USD": "75.188",
+  "powered_hub_and_supply_candidate_USD": "23.050",
+  "revised_system_priced_USD": "98.238",
+  "rounded_priced_estimate_USD": "98.24",
+  "all_in_budget_verified": false,
+  "unpriced": [
+    "PCB fabrication",
+    "DigiKey/Waveshare/PiShop/fabricator shipping to94568",
+    "Actual sales tax and any import tariff",
+    "Mating harnesses, USB cable, mounting/strain relief",
+    "Independent arm stop and gravity retention",
+    "Any extra parts required by HATpower/isolationvariant"
+  ],
+  "preserved": [
+    "Screen and touch",
+    "All10custombuttons/HOLD/reset andNCstopdiagnostics",
+    "Breadboardcurrentlimit/latchoff",
+    "Meterprecisiondivider/reference/clamps/disconnect",
+    "LCDpartialpowerisolation",
+    "Poweredhubcandidate andseparatePSU",
+    "DirectnativeUSBandUARTcommunicationcapability"
+  ],
+  "no_new_shipping_origin": true,
+  "notes": [
+    "Other34BOMgroups and externalprices are carried from baseline research rather than allfreshlyquoted.",
+    "No owned cable or other free part is assumed; actual external USBcable/harness remains unpriced.",
+    "Removingextension may eliminate separateAdafruitshipping ifbuck/breadboardusealreadylistedDigiKeysources; no shipping saving claimed.",
+    "No hardware is ordered and no nativeboard or firmware is changed by this delta."
+  ],
+  "native_fit_status": "Independent actual prepared-board maximum-envelope audit PASS; no moves required",
+  "front_connector_tradeoff": "Front-panel USB extension connector removed; direct HAT USB remains accessible for service/control, UART primary. Do not describe front connector as unchanged.",
+  "native_fit_evidence": {
+    "path": "work\\rev23-design\\price-fit-confirmation.json",
+    "report_sha256": "06e5c5fe54036662260e1303739fb2e6eb4f637f4c666cc8d2ed15f4a571d959",
+    "prepared_native_sha256": "d9990c73d6d1b09a3904630fafeee20b2e0d102aa1a0ab676ee29e5a2fc5521f",
+    "full_body_report": "work/rev23-native/native-selected-max-body-review.json"
+  }
+}

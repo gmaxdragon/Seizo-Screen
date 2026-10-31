@@ -1,0 +1,78 @@
+SEIZO SCREEN REV23 — ENGINEERING ASSEMBLY CONNECTIONS
+These describe a first prototype; they are not evidence of an assembled or qualified product.
+
+1. Keep motor supplies disconnected and the arm mechanically supported during panel bring-up.
+   Use a working iron, appropriate small-SMD assembly help and a multimeter. No-force sample
+   fit exact parts before soldering. BOM notes preserve nominal-only lead-fit uncertainties.
+2. Use the exact selected BOM. Orient DIP notches/pin1, LED polarities, electrolytics and
+   SOT-23 pin1 from their drawings and native assembly artwork. Avoid generic HC125 parts:
+   U8/U9/U10 are SN74LV125AN; U11 is SN74AHC14N. Current switch is TPS2553DBVR-1.
+3. C25 is the sole bottom part. Keep its body >=1.5 mm off the rear and neighbouring clipped
+   leads <=1.0 mm; no solder spikes. It lies outside the Pi/HAT board envelope.
+4. The Adafruit4683 converter physical header is panel U6: 1 GND, 2 3.3V OUT, 3 VIN, 4 EN.
+   Leave EN unconnected; the module already pulls it up. Use insulated module clearance.
+   Preserve the dedicated 1 mm copper feed and short paired 22AWG J13 power/ground harness.
+5. Assemble ONLY the matching-HAT revision from its own files. Its U3 is SN74LVC1G17DBVR,
+   not AP2112. Never install that buffer in the original regulator PCB or parallel regulators.
+   Detailed HAT changes and DNP C7 are in matching-HAT/HAT-REV23-ASSEMBLY.md.
+
+POWER AND HARNESS (check pin1 at BOTH ends; view direction can reverse apparent order):
+Panel J7.1 <- matching HAT J12.1 5V; panel J7.2 <- HAT J12.2 GND. J7.3 unused.
+Panel J13.1 -> HAT J10.1 GND; J13.2 -> HAT J10.2 BOARD_3V3; dedicated 22AWG pair.
+Panel J1 pins1..6 -> HAT J7 pins1..6: SCL,SDA,IRQ,ADC_CS,3V3,GND.
+Panel J5 pins1..6 -> HAT J6 pins1..6: MISO,MOSI,SCLK,LCD_CS,3V3,GND.
+Panel J6 pins1..6 -> HAT J5 pins1..6: LCD_DC,LCD_RST,LCD_BL,TP_CS,3V3,GND.
+Panel J12.1 -> HAT J4.3 (ESP32 GPIO6 LCD_VIO_PRESENT).
+Panel J12.2 -> HAT J4.4 (ESP32 GPIO7 BB_FAULT_N). Common ground is mandatory.
+All pin numbers/nets also appear in the generated CONNECTOR-PIN-MAP.csv.
+
+LCD: Waveshare16446 2.8inch SPI resistive touch, 320x240. Board about79.85x50.8mm;
+visible area57.6x43.2mm. It is a status/touch interface, not a Pi desktop/video USB monitor.
+Panel J2.1..11 -> actual labelled LCD 5V,GND,MISO,MOSI,SCLK,LCD_CS,DC,RST,BL,TP_CS,TP_IRQ.
+Panel J11.1 must reach the LCD's actual INTERNAL regulated3.3V rail; J11.2 is ground.
+The 11-pin LCD connector does not expose this rail. Actual supplied module revision/tap
+must be checked before wire attachment. Do not substitute panel3V3 for actual LCD_VIO.
+The old published module has AMS1117 VOUT at pin2/tab; that is only a candidate until the
+actual ST7789/HX8347D board is identified and measured. A controller-specific reference build
+is included; there is no automatic controller identification through this header.
+
+MOUNTING: Pi4 -> matching HAT: selected tall socket planning gap15.5mm, verify seating.
+HAT front -> panel rear: 30mm CLEAR gap. Panel front -> LCD rear: 25mm spacers.
+Panel is cable-connected and mechanically supported; it has no new40pin stacking connector.
+LCD mounting coordinates in panel absolute mm: (62.475,57.5),(137.375,57.5),
+(62.475,103.3),(137.375,103.3). Use M2.5 screws, washer/head contact OD<=5mm.
+Other mounting hardware contact OD<=7mm at H1-H4; explicit copper exclusions are present.
+Do not infer safe screw lengths from nominal gap: check engagement/protrusion physically.
+Use the board-only STEP for PCB geometry; it omits all components, cables, fan and enclosure.
+Fan model/current and full exact mating harness are unknown; clearance is not guaranteed.
+Breadboard occupied area is about46x36x10mm; it mounts in the labelled reserved rectangle.
+
+NORMAL PI LINK: existing Pi header UART through the revised HAT buffers: Pi physical8 TX
+to ESP GPIO44 RX, ESP GPIO43 TX to Pi physical10 RX. Only3.3V logic with common ground.
+Use the UART reference build for this topology and explicitly configure the actual Pi port.
+USB service uses the existing HAT USB-C connector and a normal data cable. That connector
+does NOT supply screen/HAT operating power. The economy design has no fitted panel USB-C
+extension, custom five-port hub or Bluetooth firmware. Keep HAT USB access unobstructed.
+Reuse a hub only after its total load/power states are qualified. Priced preferred candidate
+is Raspberry Pi SC1636 powered hub plus its own official US supply ($23.05 before delivery).
+The existing7port hub is bus-powered. PiUSB total current is1.2A; more sockets do not add power.
+
+FEATURES: ten customizable button inputs, HOLD request, expander reset, two dry-NC stop-status
+inputs, touch display, switchable common-ground0-24V DC voltage sensing and protected5V
+breadboard branch. Button-to-arm action integration is unfinished. J3/J4 are DRY CONTACTS
+ONLY, not motor-power terminals. NC closed toGND is healthy; open asserts a stop request.
+The screen/panel/Pi cannot provide the requested independent arm emergency-stop function.
+Breadboard J10: pin1 protected5V, pin2GND, intended100mA usable load; no motors or other
+external supply injection. SW14 OFF thenON resets its hardware latch after removing fault.
+Measured short-circuit behavior and shared-rail brownouts remain prototype tests.
+Meter J9: pin1probe+, pin2COMMON GND. Only known common-ground0-24V DC; no current,
+resistance, mains or arbitrary unknown circuits. It is not an isolated commercial multimeter.
+Display meter data remains disabled until enabled/configured; calibration is unverified.
+
+FIRST PROTOTYPE VALIDATION ORDER: inspect and continuity-check unpowered board; check all
+rails for shorts; start with motors and external peripherals disconnected; use controlled
+low-voltage power and measure5V/3V3/no backfeed; then connect/verify LCD actual-VIO and harness;
+verify inputs/display/touch/NC polarity and disconnected-wire states; check breadboard cutoff;
+calibrate meter against a trusted instrument; exercise communication/power-loss/reconnect
+and real combined load. Keep actuator bindings absent until independent stopping, retention
+and mechanical integrity are resolved. No live drop experiment is part of this procedure.

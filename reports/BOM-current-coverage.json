@@ -1,0 +1,10 @@
+{
+  "source_schematic_sha256": "f86905a56a41f585b2ab83b8f5fad39fded9c744000d2602d3be82b0f0f3c124",
+  "source_netlist_sha256": "cd926e32a57673e4d2ac733d420bc08b8f4e6d5c8f37e2451c369ea8a1298b3c",
+  "components": 168,
+  "missing": [],
+  "extra": [],
+  "duplicates": [],
+  "priced_panel_groups_total_usd": "56.248",
+  "scope": "Reference coverage and selected procurement mapping; actual package/lead tolerance limitations remain in each BOM row. MPN quantities are not a live shopping cart."
+}

@@ -1,0 +1,18 @@
+PANEL fabrication candidate: 160 x 120 mm, 2 copper layers, FR-4, 1.6 mm.
+Standard 1 oz copper and standard lead-free HASL are the planning selection.
+Smallest track 0.20 mm; clearance rule 0.20 mm; copper-to-edge rule 0.50 mm.
+7 vias use 0.60/0.30 mm pad/drill; remaining 291 vias use 0.80/0.40 mm.
+Minimum PTH annulus 0.25 mm; minimum via annulus 0.15 mm. No microvias/blind vias.
+12 NPTH mounting holes: four 2.7 mm and eight 3.2 mm. Keep the 12.5 mm service cutout.
+Do not scale, mirror, merge layers or manually shift the drill origin.
+The exported data uses common original coordinates, millimetres, Gerber X2 4.6 precision.
+The job bounding box is 160.05 x 120.05 mm including the 0.05 mm outline stroke;
+the actual profile centreline is 160 x 120 mm.
+
+Top and bottom soldermask and silkscreen are supplied; bottom C25 is intentional.
+No stencil/placement/turnkey assembly file is included. This is a mixed through-hole
+and small-SMD hand-assembly prototype. TPS2553DBVR-1 is SOT-23-6, not a DIP.
+The matching HAT also needs SOT-23-5 and 0805 assembly. Obtain appropriate tools/help.
+Vendor DFM, actual finished-hole tolerances and a delivered quote remain separate.
+The matching HAT is 65 x 56 mm with rounded edges/notch and plated USB slots;
+its separate Gerber bundle is NOT an alternative panel manufacturing ZIP.

@@ -1,0 +1,1244 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-31T13:43:38",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "schematic_parity": [],
+    "source": "test1.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U3",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 75.4
+                    },
+                    "uuid": "893c1648-89a8-4960-925f-106272e8d131"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C9",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 83.4
+                    },
+                    "uuid": "be6a8f4a-390d-458b-8ba0-59d9d480793f"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R11",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 80.9
+                    },
+                    "uuid": "3f51ab03-290e-42be-908a-a50585ca0334"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U4",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 84.4
+                    },
+                    "uuid": "a95c5558-d730-4558-980e-3b94aeaa0b48"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U5",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 88.4
+                    },
+                    "uuid": "350cb2c1-e177-4684-9ec1-0653d82641d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R16",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 81.4
+                    },
+                    "uuid": "e25f14b0-5a86-4230-803f-283c931ea49b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C10",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 84.4
+                    },
+                    "uuid": "d6d2a62d-6a48-453d-b29c-45629e2d7f32"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R21",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 91.4
+                    },
+                    "uuid": "b76707e4-87b7-4c54-9221-d046abb53f14"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R20",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 81.4
+                    },
+                    "uuid": "7fbb8a9e-5d80-456a-afe4-9911ed08e3d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R18",
+                    "pos": {
+                        "x": 119.3,
+                        "y": 84.4
+                    },
+                    "uuid": "10e1fe08-462f-4e89-8fb9-afcf63b03d01"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R19",
+                    "pos": {
+                        "x": 119.3,
+                        "y": 94.9
+                    },
+                    "uuid": "dd7e62db-322c-489d-9f72-8cd5cfe25593"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R17",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 91.4
+                    },
+                    "uuid": "199524bd-54a5-4a20-8d56-f83d6301a8c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C11",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 88.4
+                    },
+                    "uuid": "730e3fb9-5377-41b0-810f-701ba5b8e598"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text '3V3 REG' on F.Silkscreen",
+                    "pos": {
+                        "x": 163.6,
+                        "y": 85.7
+                    },
+                    "uuid": "59ba8cd8-2bf3-42be-be0a-9628a6bdc51f"
+                },
+                {
+                    "description": "Pad 2 [GND] of C9 on F.Cu",
+                    "pos": {
+                        "x": 162.95,
+                        "y": 86.0
+                    },
+                    "uuid": "a5e0720d-5eea-4cd9-b401-58448647795f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text '3V3 REG' on F.Silkscreen",
+                    "pos": {
+                        "x": 163.6,
+                        "y": 85.7
+                    },
+                    "uuid": "59ba8cd8-2bf3-42be-be0a-9628a6bdc51f"
+                },
+                {
+                    "description": "Pad 2 [GND] of R11 on F.Cu",
+                    "pos": {
+                        "x": 162.9125,
+                        "y": 83.5
+                    },
+                    "uuid": "dcd4369e-16d6-4b89-86b6-a75e5c2cb85f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C9",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 83.4
+                    },
+                    "uuid": "be6a8f4a-390d-458b-8ba0-59d9d480793f"
+                },
+                {
+                    "description": "Pad 1 [/USB_VBUS_RAW] of R11 on F.Cu",
+                    "pos": {
+                        "x": 161.0875,
+                        "y": 83.5
+                    },
+                    "uuid": "ef4609a1-eb0e-4608-b006-3c812032b495"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C9",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 83.4
+                    },
+                    "uuid": "be6a8f4a-390d-458b-8ba0-59d9d480793f"
+                },
+                {
+                    "description": "Pad 2 [GND] of R11 on F.Cu",
+                    "pos": {
+                        "x": 162.9125,
+                        "y": 83.5
+                    },
+                    "uuid": "dcd4369e-16d6-4b89-86b6-a75e5c2cb85f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R11",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 80.9
+                    },
+                    "uuid": "3f51ab03-290e-42be-908a-a50585ca0334"
+                },
+                {
+                    "description": "Pad 2 [GND] of C8 on F.Cu",
+                    "pos": {
+                        "x": 161.05,
+                        "y": 80.7
+                    },
+                    "uuid": "a7a6064a-aea9-469a-9ca2-085e11c1b42b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R11",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 80.9
+                    },
+                    "uuid": "3f51ab03-290e-42be-908a-a50585ca0334"
+                },
+                {
+                    "description": "Pad 1 [/BOARD_3V3] of C8 on F.Cu",
+                    "pos": {
+                        "x": 162.95,
+                        "y": 80.7
+                    },
+                    "uuid": "96244be2-97ae-4fe3-b81a-c693383b0038"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text 'J1 PHYSICAL PIN NUMBERS' on B.Silkscreen",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 54.35
+                    },
+                    "uuid": "730dc14e-5bf1-4757-a3ec-b0878e6c0bdf"
+                },
+                {
+                    "description": "Segment of R22 on B.Silkscreen",
+                    "pos": {
+                        "x": 150.227064,
+                        "y": 53.765
+                    },
+                    "uuid": "87141971-f035-4b7f-863a-079a2766905f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text 'CHECK CONNECTOR PIN ORDER' on B.Silkscreen",
+                    "pos": {
+                        "x": 112.9,
+                        "y": 93.0
+                    },
+                    "uuid": "525cba82-55e7-4335-9048-54da94598382"
+                },
+                {
+                    "description": "Segment of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.09,
+                        "y": 92.56
+                    },
+                    "uuid": "dc8d0fc4-293d-4b2b-b938-7b8e7a9bb246"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text 'CHECK CONNECTOR PIN ORDER' on B.Silkscreen",
+                    "pos": {
+                        "x": 112.9,
+                        "y": 93.0
+                    },
+                    "uuid": "525cba82-55e7-4335-9048-54da94598382"
+                },
+                {
+                    "description": "Segment of R21 on B.Silkscreen",
+                    "pos": {
+                        "x": 115.227064,
+                        "y": 93.265
+                    },
+                    "uuid": "78153284-3dc6-4caf-a5c1-e86ca4502c20"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of U5 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.09,
+                        "y": 92.51
+                    },
+                    "uuid": "082b0eb1-6e44-461f-916f-914a75e77414"
+                },
+                {
+                    "description": "PCB text 'CHECK CONNECTOR PIN ORDER' on B.Silkscreen",
+                    "pos": {
+                        "x": 112.9,
+                        "y": 93.0
+                    },
+                    "uuid": "525cba82-55e7-4335-9048-54da94598382"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text 'CHECK CONNECTOR PIN ORDER' on B.Silkscreen",
+                    "pos": {
+                        "x": 112.9,
+                        "y": 93.0
+                    },
+                    "uuid": "525cba82-55e7-4335-9048-54da94598382"
+                },
+                {
+                    "description": "Segment of R17 on B.Silkscreen",
+                    "pos": {
+                        "x": 111.227064,
+                        "y": 93.265
+                    },
+                    "uuid": "e62cbd26-c9db-47cc-9feb-61e845bf45da"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text '2 GND' on B.Silkscreen",
+                    "pos": {
+                        "x": 111.3,
+                        "y": 90.08
+                    },
+                    "uuid": "0498a4e5-1513-40ef-88d7-187bae81ba2c"
+                },
+                {
+                    "description": "Segment of C11 on B.Silkscreen",
+                    "pos": {
+                        "x": 111.261252,
+                        "y": 90.265
+                    },
+                    "uuid": "7394d587-d22e-40db-ad62-61a57b0c74a7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text '1 VIN+' on B.Silkscreen",
+                    "pos": {
+                        "x": 111.3,
+                        "y": 85.0
+                    },
+                    "uuid": "027eae86-d146-4b62-b5e3-48307bd04d23"
+                },
+                {
+                    "description": "Reference field of C10",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 84.4
+                    },
+                    "uuid": "d6d2a62d-6a48-453d-b29c-45629e2d7f32"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R16 on B.Silkscreen",
+                    "pos": {
+                        "x": 111.227064,
+                        "y": 84.735
+                    },
+                    "uuid": "33d339e0-efc0-42e4-b7e9-943c8981f8ae"
+                },
+                {
+                    "description": "Reference field of C10",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 84.4
+                    },
+                    "uuid": "d6d2a62d-6a48-453d-b29c-45629e2d7f32"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text '1 VIN+' on B.Silkscreen",
+                    "pos": {
+                        "x": 111.3,
+                        "y": 85.0
+                    },
+                    "uuid": "027eae86-d146-4b62-b5e3-48307bd04d23"
+                },
+                {
+                    "description": "Segment of R16 on B.Silkscreen",
+                    "pos": {
+                        "x": 111.227064,
+                        "y": 84.735
+                    },
+                    "uuid": "33d339e0-efc0-42e4-b7e9-943c8981f8ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R17",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 91.4
+                    },
+                    "uuid": "199524bd-54a5-4a20-8d56-f83d6301a8c5"
+                },
+                {
+                    "description": "Segment of C11 on B.Silkscreen",
+                    "pos": {
+                        "x": 111.261252,
+                        "y": 91.735
+                    },
+                    "uuid": "659bc0e6-c201-4f76-a534-7de7ae02da78"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R20 on B.Silkscreen",
+                    "pos": {
+                        "x": 115.227064,
+                        "y": 84.735
+                    },
+                    "uuid": "2e32cf50-d6f0-429b-b1eb-5e783299ff9f"
+                },
+                {
+                    "description": "Reference field of U4",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 84.4
+                    },
+                    "uuid": "a95c5558-d730-4558-980e-3b94aeaa0b48"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of U5",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 88.4
+                    },
+                    "uuid": "350cb2c1-e177-4684-9ec1-0653d82641d4"
+                },
+                {
+                    "description": "Segment of U4 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.09,
+                        "y": 88.56
+                    },
+                    "uuid": "f7df52b8-d89c-4642-a79f-7c6f797bdf72"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'J1 PHYSICAL PIN NUMBERS' on B.Silkscreen",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 54.35
+                    },
+                    "uuid": "730dc14e-5bf1-4757-a3ec-b0878e6c0bdf"
+                },
+                {
+                    "description": "Pad 1 [/GPIO_A3] of R22 on B.Cu",
+                    "pos": {
+                        "x": 150.9125,
+                        "y": 54.5
+                    },
+                    "uuid": "92c456fe-235f-41b6-aae9-058715dca57a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'J1 PHYSICAL PIN NUMBERS' on B.Silkscreen",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 54.35
+                    },
+                    "uuid": "730dc14e-5bf1-4757-a3ec-b0878e6c0bdf"
+                },
+                {
+                    "description": "Pad 2 [GND] of R22 on B.Cu",
+                    "pos": {
+                        "x": 149.0875,
+                        "y": 54.5
+                    },
+                    "uuid": "bdee12d4-c7db-4865-a939-5d0d255832b8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text '34' on B.Silkscreen",
+                    "pos": {
+                        "x": 149.01,
+                        "y": 51.25
+                    },
+                    "uuid": "9bf593bc-5fa4-49f7-9f98-3ee5c0566e97"
+                },
+                {
+                    "description": "Pad 2 [GND] of R23 on B.Cu",
+                    "pos": {
+                        "x": 149.0875,
+                        "y": 52.0
+                    },
+                    "uuid": "44268a15-256c-4de5-b7c6-b6c65b6e7c51"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text '33' on B.Silkscreen",
+                    "pos": {
+                        "x": 149.01,
+                        "y": 52.65
+                    },
+                    "uuid": "7cb11a9e-c300-4292-92d7-a9b3690c98e7"
+                },
+                {
+                    "description": "Pad 2 [GND] of R23 on B.Cu",
+                    "pos": {
+                        "x": 149.0875,
+                        "y": 52.0
+                    },
+                    "uuid": "44268a15-256c-4de5-b7c6-b6c65b6e7c51"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text '36' on B.Silkscreen",
+                    "pos": {
+                        "x": 151.55,
+                        "y": 51.25
+                    },
+                    "uuid": "dd1ff541-1119-4602-824b-6d71a5b26374"
+                },
+                {
+                    "description": "Pad 1 [/GPIO_A4] of R23 on B.Cu",
+                    "pos": {
+                        "x": 150.9125,
+                        "y": 52.0
+                    },
+                    "uuid": "28c74390-187a-42ed-a33e-504a2170c98e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text '35' on B.Silkscreen",
+                    "pos": {
+                        "x": 151.55,
+                        "y": 52.65
+                    },
+                    "uuid": "d31999a9-a9eb-4d70-8670-f1e7a3c1e418"
+                },
+                {
+                    "description": "Pad 1 [/GPIO_A4] of R23 on B.Cu",
+                    "pos": {
+                        "x": 150.9125,
+                        "y": 52.0
+                    },
+                    "uuid": "28c74390-187a-42ed-a33e-504a2170c98e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'CHECK CONNECTOR PIN ORDER' on B.Silkscreen",
+                    "pos": {
+                        "x": 112.9,
+                        "y": 93.0
+                    },
+                    "uuid": "525cba82-55e7-4335-9048-54da94598382"
+                },
+                {
+                    "description": "Pad 1 [+3V3] of R21 on B.Cu",
+                    "pos": {
+                        "x": 115.9125,
+                        "y": 94.0
+                    },
+                    "uuid": "ce9b2b89-7351-4871-ac28-857945d6ef0e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'CHECK CONNECTOR PIN ORDER' on B.Silkscreen",
+                    "pos": {
+                        "x": 112.9,
+                        "y": 93.0
+                    },
+                    "uuid": "525cba82-55e7-4335-9048-54da94598382"
+                },
+                {
+                    "description": "Pad 2 [/PI_UART_RX] of R21 on B.Cu",
+                    "pos": {
+                        "x": 114.0875,
+                        "y": 94.0
+                    },
+                    "uuid": "ebdaf85e-3851-4bb6-bca4-3f4eec28f6cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'CHECK CONNECTOR PIN ORDER' on B.Silkscreen",
+                    "pos": {
+                        "x": 112.9,
+                        "y": 93.0
+                    },
+                    "uuid": "525cba82-55e7-4335-9048-54da94598382"
+                },
+                {
+                    "description": "Pad 1 [/BOARD_3V3] of R17 on B.Cu",
+                    "pos": {
+                        "x": 111.9125,
+                        "y": 94.0
+                    },
+                    "uuid": "c446ee8a-4b1e-4ca9-9060-f9a0121066a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'CHECK CONNECTOR PIN ORDER' on B.Silkscreen",
+                    "pos": {
+                        "x": 112.9,
+                        "y": 93.0
+                    },
+                    "uuid": "525cba82-55e7-4335-9048-54da94598382"
+                },
+                {
+                    "description": "Pad 2 [/ESP_UART_TX] of R17 on B.Cu",
+                    "pos": {
+                        "x": 110.0875,
+                        "y": 94.0
+                    },
+                    "uuid": "9486ee84-ecb3-458d-8c00-10f7a235a812"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'CHECK CONNECTOR PIN ORDER' on B.Silkscreen",
+                    "pos": {
+                        "x": 112.9,
+                        "y": 93.0
+                    },
+                    "uuid": "525cba82-55e7-4335-9048-54da94598382"
+                },
+                {
+                    "description": "Pad 2 [/PI_UART_RX] of R19 on B.Cu",
+                    "pos": {
+                        "x": 118.3875,
+                        "y": 92.3
+                    },
+                    "uuid": "2ab55b08-97a1-47db-9089-a07f91fca8dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R21",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 91.4
+                    },
+                    "uuid": "b76707e4-87b7-4c54-9221-d046abb53f14"
+                },
+                {
+                    "description": "Pad 4 [/UART_TO_PI_BUF] of U5 on B.Cu",
+                    "pos": {
+                        "x": 113.8625,
+                        "y": 91.95
+                    },
+                    "uuid": "613c13c4-5eac-416e-a654-029edcc5dcd6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R21",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 91.4
+                    },
+                    "uuid": "b76707e4-87b7-4c54-9221-d046abb53f14"
+                },
+                {
+                    "description": "Pad 2 [/ESP_UART_TX] of U5 on B.Cu",
+                    "pos": {
+                        "x": 116.1375,
+                        "y": 91.0
+                    },
+                    "uuid": "b6285bba-3abf-4f1d-a201-758177f25b8b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R21",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 91.4
+                    },
+                    "uuid": "b76707e4-87b7-4c54-9221-d046abb53f14"
+                },
+                {
+                    "description": "Pad 3 [GND] of U5 on B.Cu",
+                    "pos": {
+                        "x": 116.1375,
+                        "y": 91.95
+                    },
+                    "uuid": "e0f10ef3-d999-48b4-96ab-b7e9b8743f2f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text '2 GND' on B.Silkscreen",
+                    "pos": {
+                        "x": 111.3,
+                        "y": 90.08
+                    },
+                    "uuid": "0498a4e5-1513-40ef-88d7-187bae81ba2c"
+                },
+                {
+                    "description": "Pad 1 [+3V3] of C11 on B.Cu",
+                    "pos": {
+                        "x": 111.95,
+                        "y": 91.0
+                    },
+                    "uuid": "6237b327-93de-41c1-b124-2b12f404a718"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text '2 GND' on B.Silkscreen",
+                    "pos": {
+                        "x": 111.3,
+                        "y": 90.08
+                    },
+                    "uuid": "0498a4e5-1513-40ef-88d7-187bae81ba2c"
+                },
+                {
+                    "description": "Pad 2 [GND] of C11 on B.Cu",
+                    "pos": {
+                        "x": 110.05,
+                        "y": 91.0
+                    },
+                    "uuid": "c5869150-4792-4629-8a6d-6f76fa9a155a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R17",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 91.4
+                    },
+                    "uuid": "199524bd-54a5-4a20-8d56-f83d6301a8c5"
+                },
+                {
+                    "description": "Pad 2 [GND] of C11 on B.Cu",
+                    "pos": {
+                        "x": 110.05,
+                        "y": 91.0
+                    },
+                    "uuid": "c5869150-4792-4629-8a6d-6f76fa9a155a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text '1 VIN+' on B.Silkscreen",
+                    "pos": {
+                        "x": 111.3,
+                        "y": 85.0
+                    },
+                    "uuid": "027eae86-d146-4b62-b5e3-48307bd04d23"
+                },
+                {
+                    "description": "Pad 2 [/PI_UART_TX] of R16 on B.Cu",
+                    "pos": {
+                        "x": 110.0875,
+                        "y": 84.0
+                    },
+                    "uuid": "aa727f96-cb8f-4568-a265-b841efb1dc49"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C10",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 84.4
+                    },
+                    "uuid": "d6d2a62d-6a48-453d-b29c-45629e2d7f32"
+                },
+                {
+                    "description": "Pad 2 [/PI_UART_TX] of R16 on B.Cu",
+                    "pos": {
+                        "x": 110.0875,
+                        "y": 84.0
+                    },
+                    "uuid": "aa727f96-cb8f-4568-a265-b841efb1dc49"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R17",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 91.4
+                    },
+                    "uuid": "199524bd-54a5-4a20-8d56-f83d6301a8c5"
+                },
+                {
+                    "description": "Pad 1 [+3V3] of C11 on B.Cu",
+                    "pos": {
+                        "x": 111.95,
+                        "y": 91.0
+                    },
+                    "uuid": "6237b327-93de-41c1-b124-2b12f404a718"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text '1 VIN+' on B.Silkscreen",
+                    "pos": {
+                        "x": 111.3,
+                        "y": 85.0
+                    },
+                    "uuid": "027eae86-d146-4b62-b5e3-48307bd04d23"
+                },
+                {
+                    "description": "Pad 1 [+3V3] of R16 on B.Cu",
+                    "pos": {
+                        "x": 111.9125,
+                        "y": 84.0
+                    },
+                    "uuid": "d3b6ceb7-26de-4b68-a541-35e94f598bc6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C10",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 84.4
+                    },
+                    "uuid": "d6d2a62d-6a48-453d-b29c-45629e2d7f32"
+                },
+                {
+                    "description": "Pad 1 [+3V3] of R16 on B.Cu",
+                    "pos": {
+                        "x": 111.9125,
+                        "y": 84.0
+                    },
+                    "uuid": "d3b6ceb7-26de-4b68-a541-35e94f598bc6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U4",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 84.4
+                    },
+                    "uuid": "a95c5558-d730-4558-980e-3b94aeaa0b48"
+                },
+                {
+                    "description": "Pad 1 [/BOARD_3V3] of R20 on B.Cu",
+                    "pos": {
+                        "x": 115.9125,
+                        "y": 84.0
+                    },
+                    "uuid": "53ec1384-1e10-40ad-92fd-f0e66ab9507f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U4",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 84.4
+                    },
+                    "uuid": "a95c5558-d730-4558-980e-3b94aeaa0b48"
+                },
+                {
+                    "description": "Pad 2 [/ESP_UART_RX] of R20 on B.Cu",
+                    "pos": {
+                        "x": 114.0875,
+                        "y": 84.0
+                    },
+                    "uuid": "54ba47ad-94b5-4c74-82f3-4fbd0531d561"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U5",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 88.4
+                    },
+                    "uuid": "350cb2c1-e177-4684-9ec1-0653d82641d4"
+                },
+                {
+                    "description": "Pad 4 [/UART_TO_ESP_BUF] of U4 on B.Cu",
+                    "pos": {
+                        "x": 113.8625,
+                        "y": 87.95
+                    },
+                    "uuid": "47f58765-47dd-4f23-aa46-aff85613be01"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U5",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 88.4
+                    },
+                    "uuid": "350cb2c1-e177-4684-9ec1-0653d82641d4"
+                },
+                {
+                    "description": "Pad 3 [GND] of U4 on B.Cu",
+                    "pos": {
+                        "x": 116.1375,
+                        "y": 87.95
+                    },
+                    "uuid": "969b3216-c81c-4ba1-903a-f0e5321501e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

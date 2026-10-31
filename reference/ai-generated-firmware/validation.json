@@ -1,0 +1,94 @@
+{
+  "authorship": "AI-generated reference implementation by ChatGPT/Codex; maker display register sequences retain their original license",
+  "physical_testing": false,
+  "serial_ports_opened": false,
+  "flashing_performed": false,
+  "actuator_commands_sent": false,
+  "python_offline_tests": {
+    "passed": 20,
+    "failed": 0
+  },
+  "native_cpp_mock_executables": {
+    "core": "PASS executed",
+    "touch_and_framebuffer": "PASS executed",
+    "compiler": "w64devkit GCC 16.2.0, C++11 -Wall -Wextra -Werror",
+    "arduino_adapter_erratum_and_direct_gpio": "PASS executed"
+  },
+  "target": "ESP32-S3 DevKitC-1, 8MB flash; N8R8 PSRAM deliberately unused",
+  "platform": "espressif32@7.0.1",
+  "arduino_framework": "3.20017.241212+sha.dcc1105b",
+  "builds": [
+    {
+      "environment": "seizo_s3_st7789",
+      "compiled_and_linked": true,
+      "ram_used_bytes": 177248,
+      "ram_capacity_bytes": 327680,
+      "application_flash_used_bytes": 304553,
+      "application_partition_bytes": 3342336,
+      "firmware_bin_sha256": "048887c7f9f681d7b57b1ba5f631275618a50f5c0a2623ed611e00e188753609"
+    },
+    {
+      "environment": "seizo_s3_hx8347d",
+      "compiled_and_linked": true,
+      "ram_used_bytes": 177248,
+      "ram_capacity_bytes": 327680,
+      "application_flash_used_bytes": 305401,
+      "application_partition_bytes": 3342336,
+      "firmware_bin_sha256": "f6c6697668d65c03fd6c474795ab705769cceef92997376394a410545772313f"
+    },
+    {
+      "environment": "seizo_s3_st7789_uart",
+      "compiled_and_linked": true,
+      "ram_used_bytes": 177608,
+      "ram_capacity_bytes": 327680,
+      "application_flash_used_bytes": 323001,
+      "application_partition_bytes": 3342336,
+      "firmware_bin_sha256": "ef7497cbffea005e8cb73cddbcf8840d8d473700edaf933e74b89b79b9e1b460"
+    }
+  ],
+  "source_sha256": {
+    "src/display_ui.cpp": "b9b328c1a3554ba401f64e40331e098fff65fce3673b0b34491b241cf4881ab6",
+    "src/display_ui.h": "fe8396daf604e643dc3fca944d7eadc13e0eba69b1d2a9bd886e1b85c93bd0ca",
+    "src/main.cpp": "b1facf7cdd8fecb72a2417e5c646a08a2eaf0e422adde979c4299688d1471926",
+    "src/panel_core.cpp": "7444e3a523d0c0c91e2e7cb237291eaeee56b46c8b2338899f1e8055de686ef5",
+    "src/panel_core.h": "9fedca82d7f0fde87882d0041495ae50c24ae743ae79ea68967619b48ef1e84c",
+    "src/touch_math.h": "271144ef5d46914fd4569f56e17c43f3444356974948b988a70a99a4a2a9afe8",
+    "src/vendor_init.h": "6bafa784a11bceba7f161e0aa5e66c9ebe65d28bf24c798c1500c4c50fd10573",
+    "platformio.ini": "23cbd4b0d15ea43338e232b19feb8fe516b6794be0244889fbc969e2af8695f0",
+    "host/seizo_panel_bridge.py": "98492e47a2a447e499b4c919f4c792e8e7aa75907df9e0079dd33d7d1070609c"
+  },
+  "pinmap_audit": {
+    "passed": 160,
+    "failed": 0,
+    "xml_sha256": "b7f77d3d6edfe5b85885ab82d85403099c2d06587989bf46fd1c5f0a11ec584d"
+  },
+  "meter_accuracy_verified": false,
+  "meter_numeric_gating": "Physical enable + explicit CFG + 50ms settle + valid reference + in-range result",
+  "host_owner": "Compile-time exclusive USB CDC or Pi UART RX44/TX43; no automatic ACK",
+  "motor_or_stop_adapters": "none",
+  "protocol_limits": {
+    "host_ASCII_bytes": 79,
+    "device_JSON_bytes": 512,
+    "host_timeout_ms": 1500
+  },
+  "production_release": false,
+  "remaining_hardware_checks": [
+    "Identify actual Waveshare controller and validate initialization/color/orientation",
+    "Build HAT AP2112 DNP variant and independent converter power path; native USB alone does not supply BOARD_3V3",
+    "Actual LCD internal-VIO tap, isolation, unplug and brownout waveforms",
+    "Real I2C/SPI/USB or UART link, 10 keys, NC loops and touch calibration",
+    "Reference/divider accuracy and valid-range behavior against a traceable meter",
+    "Power/inrush/overload/thermal behavior with real Pi, cameras, hub and motor controllers",
+    "Independent physical arm-stop system with gravity retention; panel requests are telemetry only",
+    "Confirm revised HATJ4 pins3/4 reach ESPGPIO6/7 with external100k pulldowns and panelJ12 sense harness; disconnected wires must inhibit"
+  ],
+  "recorded_at_UTC": "2026-10-31T18:55:53.753590+00:00",
+  "MCP23017_erratum_correction": {
+    "implemented": true,
+    "IODIRA_B": "0x7F",
+    "OLATA_B": "0x00",
+    "physical_A7_B7": "Unused outputs heldlow; never inputs",
+    "logical_bits_7_15": "Composed from ESP GPIO6 LCD_VIO_PRESENT / GPIO7 BB_FAULT_N",
+    "external_defaults": "Revised HAT100k ground pulldowns; Arduino INPUT"
+  }
+}

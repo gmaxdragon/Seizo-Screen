@@ -1,0 +1,115 @@
+{
+  "review_date_local": "2026-10-31",
+  "scope": "Incremental procurement for HAT isolation variant; prices observed on supplier pages, not a quote or reservation.",
+  "groups": [
+    {
+      "refs": [
+        "U3",
+        "U4",
+        "U5"
+      ],
+      "mpn": "SN74LVC1G17DBVR",
+      "supplier_sku": "296-11933-1-ND",
+      "needed": 3,
+      "buy": 3,
+      "unit_usd": 0.15,
+      "extended_usd": 0.45,
+      "observed_stock": 196136,
+      "supplier_url": "https://www.digikey.com/en/products/detail/texas-instruments/SN74LVC1G17DBVR/389051",
+      "primary_url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+      "mechanical_status": "Exact DBV package fit and pin audit owned by HAT-native agent; do not conflate with DIP panel buffers."
+    },
+    {
+      "refs": [
+        "C9",
+        "C10",
+        "C11"
+      ],
+      "mpn": "C0805C104K5RACTU",
+      "supplier_sku": "399-C0805C104K5RACTUCT-ND",
+      "needed": 3,
+      "buy": 3,
+      "unit_usd": 0.18,
+      "extended_usd": 0.54,
+      "observed_stock": 7295309,
+      "value": "100nF +/-10%, 50V X7R, 0805",
+      "maximum_body_mm": {
+        "length": 2.2,
+        "width": 1.45,
+        "height": 0.88
+      },
+      "primary_bounds": "L2.00+/-0.20; W1.25+/-0.20; T0.78+/-0.10 mm",
+      "supplier_url": "https://www.digikey.com/en/products/detail/kemet/C0805C104K5RACTU/411169",
+      "primary_url": "https://search.kemet.com/component-documentation/download/specsheet/C0805C104K5RACTU"
+    },
+    {
+      "refs": [
+        "R16",
+        "R17",
+        "R20",
+        "R21",
+        "R22",
+        "R23"
+      ],
+      "mpn": "RC0805FR-07100KL",
+      "supplier_sku": "311-100KCRCT-ND",
+      "needed": 6,
+      "buy": 10,
+      "spares": 4,
+      "unit_usd": 0.034,
+      "extended_usd": 0.34,
+      "observed_stock": 432173,
+      "value": "100kohm +/-1%, 1/8W, 0805",
+      "maximum_body_mm": {
+        "length": 2.1,
+        "width": 1.35,
+        "height": 0.6
+      },
+      "primary_bounds": "L2.00+/-0.10; W1.25+/-0.10; H0.50+/-0.10 mm",
+      "supplier_url": "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100KL/730491",
+      "primary_url": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "notes": "Ten-pack costs less than six singles ($0.60). Reused R11 not charged again; for a fresh variant all seven 100k parts still fit one ten-pack."
+    },
+    {
+      "refs": [
+        "R18",
+        "R19"
+      ],
+      "mpn": "RC0805FR-0733RL",
+      "supplier_sku": "311-33.0CRCT-ND",
+      "needed": 2,
+      "buy": 2,
+      "unit_usd": 0.1,
+      "extended_usd": 0.2,
+      "observed_stock": 429584,
+      "value": "33ohm +/-1%, 1/8W, 0805",
+      "maximum_body_mm": {
+        "length": 2.1,
+        "width": 1.35,
+        "height": 0.6
+      },
+      "primary_bounds": "L2.00+/-0.10; W1.25+/-0.10; H0.50+/-0.10 mm",
+      "supplier_url": "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0733RL/727862",
+      "primary_url": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+    }
+  ],
+  "subtotal_new_purchases_usd": 1.53,
+  "removed_components": [
+    "Old AP2112 at U3 replaced by SN74LVC1G17DBVR; do not fit AP2112 in variant",
+    "R10 removed",
+    "C7 old AP2112 input capacitor DNP/offboard"
+  ],
+  "price_credits_usd": 0,
+  "credits_note": "No speculative credits deducted for removed parts whose purchase state and previous assigned costs are unverified.",
+  "carried_forward_economy_panel_plus_hub_parts_usd": 98.238,
+  "including_this_increment_usd": 99.768,
+  "unknown_excluded": [
+    "PCB manufacture",
+    "Actual shipping and tax/tariffs",
+    "Harness, mounting and cables not already itemized",
+    "Independent arm stop system and gravity retention",
+    "Other HAT variant BOM deltas not listed above"
+  ],
+  "assembly_note": "Cut tape rather than Digi-Reel. Reconcile maximum body boxes against final native placement before claiming mechanical fit. Prices/stock can change.",
+  "readiness": "This is a priced parts increment, not a full-build budget, purchasing approval, physical test, or production release."
+}

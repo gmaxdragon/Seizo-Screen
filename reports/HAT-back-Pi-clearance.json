@@ -1,0 +1,380 @@
+{
+  "source": "work\\rev23-hat-variant\\test1.kicad_pcb",
+  "sha256": "d394262fd2e1a34833cbe6237755eec6f7f188a10a2b69cebb4e30399eae7b37",
+  "new_backside_parts": [
+    {
+      "ref": "U4",
+      "footprint": "SOT-23-5",
+      "native_origin": [
+        115.0,
+        87.0
+      ],
+      "angle": 180.0,
+      "courtyard": [
+        112.905,
+        85.255,
+        117.095,
+        88.745
+      ],
+      "relative_to_Pi_top_left": [
+        12.905000000000001,
+        41.254999999999995,
+        17.095,
+        44.745000000000005
+      ],
+      "height_max_or_planning_bound_mm": 1.6,
+      "height_basis": "Conservative1.6mm planning bound",
+      "body_planning_bound": [
+        113.5,
+        85.475,
+        116.5,
+        88.525
+      ]
+    },
+    {
+      "ref": "U5",
+      "footprint": "SOT-23-5",
+      "native_origin": [
+        115.0,
+        91.0
+      ],
+      "angle": 180.0,
+      "courtyard": [
+        112.905,
+        89.255,
+        117.095,
+        92.745
+      ],
+      "relative_to_Pi_top_left": [
+        12.905000000000001,
+        45.254999999999995,
+        17.095,
+        48.745000000000005
+      ],
+      "height_max_or_planning_bound_mm": 1.6,
+      "height_basis": "Conservative1.6mm planning bound",
+      "body_planning_bound": [
+        113.5,
+        89.475,
+        116.5,
+        92.525
+      ]
+    },
+    {
+      "ref": "R23",
+      "footprint": "R_0805_2012Metric",
+      "native_origin": [
+        150.0,
+        52.0
+      ],
+      "angle": 180.0,
+      "courtyard": [
+        148.275,
+        51.005,
+        151.725,
+        52.995
+      ],
+      "relative_to_Pi_top_left": [
+        48.275000000000006,
+        7.005000000000003,
+        51.724999999999994,
+        8.994999999999997
+      ],
+      "height_max_or_planning_bound_mm": 0.6,
+      "height_basis": "Yageo RC0805 primary maximum",
+      "body_planning_bound": [
+        148.95,
+        51.325,
+        151.05,
+        52.675
+      ]
+    },
+    {
+      "ref": "R22",
+      "footprint": "R_0805_2012Metric",
+      "native_origin": [
+        150.0,
+        54.5
+      ],
+      "angle": 180.0,
+      "courtyard": [
+        148.275,
+        53.505,
+        151.725,
+        55.495
+      ],
+      "relative_to_Pi_top_left": [
+        48.275000000000006,
+        9.505000000000003,
+        51.724999999999994,
+        11.494999999999997
+      ],
+      "height_max_or_planning_bound_mm": 0.6,
+      "height_basis": "Yageo RC0805 primary maximum",
+      "body_planning_bound": [
+        148.95,
+        53.825,
+        151.05,
+        55.175
+      ]
+    },
+    {
+      "ref": "R16",
+      "footprint": "R_0805_2012Metric",
+      "native_origin": [
+        111.0,
+        84.0
+      ],
+      "angle": 180.0,
+      "courtyard": [
+        109.275,
+        83.005,
+        112.725,
+        84.995
+      ],
+      "relative_to_Pi_top_left": [
+        9.275000000000006,
+        39.004999999999995,
+        12.724999999999994,
+        40.995000000000005
+      ],
+      "height_max_or_planning_bound_mm": 1.6,
+      "height_basis": "Conservative1.6mm planning bound",
+      "body_planning_bound": [
+        109.9,
+        83.2,
+        112.1,
+        84.8
+      ]
+    },
+    {
+      "ref": "C10",
+      "footprint": "C_0805_2012Metric",
+      "native_origin": [
+        111.0,
+        87.0
+      ],
+      "angle": 180.0,
+      "courtyard": [
+        109.255,
+        85.975,
+        112.745,
+        88.025
+      ],
+      "relative_to_Pi_top_left": [
+        9.254999999999995,
+        41.974999999999994,
+        12.745000000000005,
+        44.025000000000006
+      ],
+      "height_max_or_planning_bound_mm": 1.6,
+      "height_basis": "Conservative1.6mm planning bound",
+      "body_planning_bound": [
+        109.9,
+        86.2,
+        112.1,
+        87.8
+      ]
+    },
+    {
+      "ref": "R21",
+      "footprint": "R_0805_2012Metric",
+      "native_origin": [
+        115.0,
+        94.0
+      ],
+      "angle": 180.0,
+      "courtyard": [
+        113.275,
+        93.005,
+        116.725,
+        94.995
+      ],
+      "relative_to_Pi_top_left": [
+        13.275000000000006,
+        49.004999999999995,
+        16.724999999999994,
+        50.995000000000005
+      ],
+      "height_max_or_planning_bound_mm": 1.6,
+      "height_basis": "Conservative1.6mm planning bound",
+      "body_planning_bound": [
+        113.9,
+        93.2,
+        116.1,
+        94.8
+      ]
+    },
+    {
+      "ref": "R20",
+      "footprint": "R_0805_2012Metric",
+      "native_origin": [
+        115.0,
+        84.0
+      ],
+      "angle": 180.0,
+      "courtyard": [
+        113.275,
+        83.005,
+        116.725,
+        84.995
+      ],
+      "relative_to_Pi_top_left": [
+        13.275000000000006,
+        39.004999999999995,
+        16.724999999999994,
+        40.995000000000005
+      ],
+      "height_max_or_planning_bound_mm": 1.6,
+      "height_basis": "Conservative1.6mm planning bound",
+      "body_planning_bound": [
+        113.9,
+        83.2,
+        116.1,
+        84.8
+      ]
+    },
+    {
+      "ref": "R18",
+      "footprint": "R_0805_2012Metric",
+      "native_origin": [
+        119.3,
+        87.0
+      ],
+      "angle": 180.0,
+      "courtyard": [
+        117.575,
+        86.005,
+        121.025,
+        87.995
+      ],
+      "relative_to_Pi_top_left": [
+        17.575000000000003,
+        42.004999999999995,
+        21.025000000000006,
+        43.995000000000005
+      ],
+      "height_max_or_planning_bound_mm": 1.6,
+      "height_basis": "Conservative1.6mm planning bound",
+      "body_planning_bound": [
+        118.2,
+        86.2,
+        120.39999999999999,
+        87.8
+      ]
+    },
+    {
+      "ref": "R19",
+      "footprint": "R_0805_2012Metric",
+      "native_origin": [
+        119.3,
+        92.3
+      ],
+      "angle": 180.0,
+      "courtyard": [
+        117.575,
+        91.305,
+        121.025,
+        93.295
+      ],
+      "relative_to_Pi_top_left": [
+        17.575000000000003,
+        47.30500000000001,
+        21.025000000000006,
+        49.295
+      ],
+      "height_max_or_planning_bound_mm": 1.6,
+      "height_basis": "Conservative1.6mm planning bound",
+      "body_planning_bound": [
+        118.2,
+        91.5,
+        120.39999999999999,
+        93.1
+      ]
+    },
+    {
+      "ref": "R17",
+      "footprint": "R_0805_2012Metric",
+      "native_origin": [
+        111.0,
+        94.0
+      ],
+      "angle": 180.0,
+      "courtyard": [
+        109.275,
+        93.005,
+        112.725,
+        94.995
+      ],
+      "relative_to_Pi_top_left": [
+        9.275000000000006,
+        49.004999999999995,
+        12.724999999999994,
+        50.995000000000005
+      ],
+      "height_max_or_planning_bound_mm": 1.6,
+      "height_basis": "Conservative1.6mm planning bound",
+      "body_planning_bound": [
+        109.9,
+        93.2,
+        112.1,
+        94.8
+      ]
+    },
+    {
+      "ref": "C11",
+      "footprint": "C_0805_2012Metric",
+      "native_origin": [
+        111.0,
+        91.0
+      ],
+      "angle": 180.0,
+      "courtyard": [
+        109.255,
+        89.975,
+        112.745,
+        92.025
+      ],
+      "relative_to_Pi_top_left": [
+        9.254999999999995,
+        45.974999999999994,
+        12.745000000000005,
+        48.025000000000006
+      ],
+      "height_max_or_planning_bound_mm": 1.6,
+      "height_basis": "Conservative1.6mm planning bound",
+      "body_planning_bound": [
+        109.9,
+        90.2,
+        112.1,
+        91.8
+      ]
+    }
+  ],
+  "native_all_new_parts_courtyard_bbox": [
+    109.255,
+    51.005,
+    151.725,
+    94.995
+  ],
+  "all_new_parts_relative_to_Pi_top_left": [
+    9.254999999999995,
+    7.005000000000003,
+    51.724999999999994,
+    50.995000000000005
+  ],
+  "foreign_through_hole_pad_intrusions": [],
+  "nominal_clearance": {
+    "HAT_to_Pi_board_gap": 15.5,
+    "main_cluster_height_bound": 1.6,
+    "status_resistor_height_max": 0.6,
+    "conservative_non_USB_Ethernet_Pi_feature_height": 8.5,
+    "main_cluster_remaining_nominal_vertical_gap": 5.4,
+    "status_resistors_remaining_nominal_vertical_gap": 6.4
+  },
+  "conclusion": "Scoped saved-native geometry checks pass for all twelve new rear parts, including courtyard, footprint-rule, PTH body, pad and track clearance tests at0.20mm. Whole-board final native DRC remains a separate requirement. Bare Pi4 height planning remains conditional on actual socket seating, hardware tolerance and any fan/heatsink; no physical fitted-stack guarantee.",
+  "footprint_rule_intrusions": [],
+  "new_part_courtyard_intersections": [],
+  "new_pad_copper_clearance_failures": [],
+  "new_pad_to_track_clearance_failures": []
+}

@@ -1,0 +1,1420 @@
+{
+  "status": "schematic invariants only; routing/hardware release separate",
+  "original_pin_count": 208,
+  "variant_pin_count": 238,
+  "checks": [
+    {
+      "name": "Unchanged original C1.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.17",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original JP1.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R1.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R2.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U1.8",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C7.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.4",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J12.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C4.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C5.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C8.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J10.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J4.5",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J5.5",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J6.5",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J7.5",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R14.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R15.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R3.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R4.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U3.5",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.3",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.5",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.7",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.29",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.31",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.26",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.24",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.21",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.19",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.23",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.32",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.33",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.36",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.11",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.12",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.35",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.38",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.40",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.15",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.16",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.18",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.22",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.37",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.13",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J4.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.39",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J4.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.38",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J4.3",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.6",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J4.4",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.7",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J6.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.12",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J6.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.17",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J6.3",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.18",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J6.4",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.19",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J5.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.20",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J5.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.21",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J5.3",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.22",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J5.4",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.8",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J7.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.9",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J7.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.10",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J7.3",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.11",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J7.4",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.23",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J11.4",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J2.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R12.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.4",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.28",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R2.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U1.6",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.27",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R1.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U1.5",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R8.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.13",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R7.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.14",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J10.3",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R15.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.34",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J10.4",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R14.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.33",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.10",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.8",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original F1.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J9.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C3.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original F1.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J11.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J2.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J3.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R9.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.31",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.32",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J11.3",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J3.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R13.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.5",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C1.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C2.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C3.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C4.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C5.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C7.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C8.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original D1.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.14",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.20",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.25",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.30",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.34",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.39",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.6",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1.9",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J10.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J11.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J12.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J2.3",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J3.3",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J4.6",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J5.6",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J6.6",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J7.6",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J8.A1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J8.A12",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J8.B1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J8.B12",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J8.SH",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J9.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R12.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R13.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R5.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R6.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original RESET1.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original SW1.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U1.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U1.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U1.3",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U1.4",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.40",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.41",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original D1.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R9.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J8.A5",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R5.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J8.B5",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R6.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J8.A6",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J8.B6",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R7.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J8.A7",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J8.B7",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R8.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original JP1.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U1.7",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C2.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R3.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original RESET1.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.3",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R4.1",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original SW1.2",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.27",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J8.A8",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J8.B8",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J12.3",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.15",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.28",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.29",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.30",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.35",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.26",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.16",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.24",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2.25",
+      "pass": true
+    },
+    {
+      "name": "Variant U3.1=unconnected-(U3-NC-Pad1)",
+      "pass": true
+    },
+    {
+      "name": "Variant U3.2=/USB_VBUS_RAW",
+      "pass": true
+    },
+    {
+      "name": "Variant U3.3=GND",
+      "pass": true
+    },
+    {
+      "name": "Variant U3.4=/USB-VBUS_SENSE",
+      "pass": true
+    },
+    {
+      "name": "Variant U3.5=/BOARD_3V3",
+      "pass": true
+    },
+    {
+      "name": "Variant U4.1=unconnected-(U4-NC-Pad1)",
+      "pass": true
+    },
+    {
+      "name": "Variant U4.2=/PI_UART_TX",
+      "pass": true
+    },
+    {
+      "name": "Variant U4.3=GND",
+      "pass": true
+    },
+    {
+      "name": "Variant U4.4=/UART_TO_ESP_BUF",
+      "pass": true
+    },
+    {
+      "name": "Variant U4.5=/BOARD_3V3",
+      "pass": true
+    },
+    {
+      "name": "Variant U5.1=unconnected-(U5-NC-Pad1)",
+      "pass": true
+    },
+    {
+      "name": "Variant U5.2=/ESP_UART_TX",
+      "pass": true
+    },
+    {
+      "name": "Variant U5.3=GND",
+      "pass": true
+    },
+    {
+      "name": "Variant U5.4=/UART_TO_PI_BUF",
+      "pass": true
+    },
+    {
+      "name": "Variant U5.5=+3V3",
+      "pass": true
+    },
+    {
+      "name": "Variant U2.32=/USB-VBUS_SENSE",
+      "pass": true
+    },
+    {
+      "name": "Variant U2.36=/ESP_UART_RX",
+      "pass": true
+    },
+    {
+      "name": "Variant U2.37=/ESP_UART_TX",
+      "pass": true
+    },
+    {
+      "name": "Variant J1.8=/PI_UART_TX",
+      "pass": true
+    },
+    {
+      "name": "Variant J1.10=/PI_UART_RX",
+      "pass": true
+    },
+    {
+      "name": "Variant J1.1=+3V3",
+      "pass": true
+    },
+    {
+      "name": "Variant J10.1=GND",
+      "pass": true
+    },
+    {
+      "name": "Variant J10.2=/BOARD_3V3",
+      "pass": true
+    },
+    {
+      "name": "Variant R11.1=/USB_VBUS_RAW",
+      "pass": true
+    },
+    {
+      "name": "Variant R11.2=GND",
+      "pass": true
+    },
+    {
+      "name": "Variant R16.1=+3V3",
+      "pass": true
+    },
+    {
+      "name": "Variant R16.2=/PI_UART_TX",
+      "pass": true
+    },
+    {
+      "name": "Variant R17.1=/BOARD_3V3",
+      "pass": true
+    },
+    {
+      "name": "Variant R17.2=/ESP_UART_TX",
+      "pass": true
+    },
+    {
+      "name": "Variant R18.1=/UART_TO_ESP_BUF",
+      "pass": true
+    },
+    {
+      "name": "Variant R18.2=/ESP_UART_RX",
+      "pass": true
+    },
+    {
+      "name": "Variant R19.1=/UART_TO_PI_BUF",
+      "pass": true
+    },
+    {
+      "name": "Variant R19.2=/PI_UART_RX",
+      "pass": true
+    },
+    {
+      "name": "Variant R20.1=/BOARD_3V3",
+      "pass": true
+    },
+    {
+      "name": "Variant R20.2=/ESP_UART_RX",
+      "pass": true
+    },
+    {
+      "name": "Variant R21.1=+3V3",
+      "pass": true
+    },
+    {
+      "name": "Variant R21.2=/PI_UART_RX",
+      "pass": true
+    },
+    {
+      "name": "Variant R22.1=/GPIO_A3",
+      "pass": true
+    },
+    {
+      "name": "Variant R22.2=GND",
+      "pass": true
+    },
+    {
+      "name": "Variant R23.1=/GPIO_A4",
+      "pass": true
+    },
+    {
+      "name": "Variant R23.2=GND",
+      "pass": true
+    },
+    {
+      "name": "Variant J4.3=/GPIO_A3",
+      "pass": true
+    },
+    {
+      "name": "Variant U2.6=/GPIO_A3",
+      "pass": true
+    },
+    {
+      "name": "Variant J4.4=/GPIO_A4",
+      "pass": true
+    },
+    {
+      "name": "Variant U2.7=/GPIO_A4",
+      "pass": true
+    },
+    {
+      "name": "Variant C9.1=/BOARD_3V3",
+      "pass": true
+    },
+    {
+      "name": "Variant C9.2=GND",
+      "pass": true
+    },
+    {
+      "name": "Variant C10.1=/BOARD_3V3",
+      "pass": true
+    },
+    {
+      "name": "Variant C10.2=GND",
+      "pass": true
+    },
+    {
+      "name": "Variant C11.1=+3V3",
+      "pass": true
+    },
+    {
+      "name": "Variant C11.2=GND",
+      "pass": true
+    },
+    {
+      "name": "Old R10 divider resistor absent",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C1 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C1 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C2 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C2 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C3 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C3 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C4 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C4 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C5 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C5 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C7 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C7 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C8 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original C8 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original D1 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original D1 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original F1 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original F1 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J1 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J2 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J2 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J3 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J3 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J4 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J4 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J5 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J5 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J6 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J6 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J7 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J7 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J8 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J8 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J9 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J9 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J10 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J10 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J11 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J11 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J12 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original J12 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original JP1 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original JP1 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R1 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R1 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R2 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R2 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R3 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R3 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R4 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R4 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R5 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R5 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R6 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R6 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R7 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R7 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R8 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R8 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R9 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R9 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R12 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R12 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R13 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R13 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R14 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R14 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R15 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original R15 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original RESET1 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original RESET1 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original SW1 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original SW1 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U1 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U1 footprint",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2 value",
+      "pass": true
+    },
+    {
+      "name": "Unchanged original U2 footprint",
+      "pass": true
+    },
+    {
+      "name": "U3 exact qualified part",
+      "pass": true
+    },
+    {
+      "name": "U3 stock SOT23-5",
+      "pass": true
+    },
+    {
+      "name": "U4 exact qualified part",
+      "pass": true
+    },
+    {
+      "name": "U4 stock SOT23-5",
+      "pass": true
+    },
+    {
+      "name": "U5 exact qualified part",
+      "pass": true
+    },
+    {
+      "name": "U5 stock SOT23-5",
+      "pass": true
+    }
+  ],
+  "passed": 330,
+  "failed": [],
+  "intentional_original_pin_differences": [
+    {
+      "ref": "U3",
+      "pin": "1",
+      "before": "+5V",
+      "after": "unconnected-(U3-NC-Pad1)"
+    },
+    {
+      "ref": "U3",
+      "pin": "3",
+      "before": "+5V",
+      "after": "GND"
+    },
+    {
+      "ref": "U2",
+      "pin": "37",
+      "before": "/PI_UART_RX",
+      "after": "/ESP_UART_TX"
+    },
+    {
+      "ref": "U2",
+      "pin": "36",
+      "before": "/PI_UART_TX",
+      "after": "/ESP_UART_RX"
+    },
+    {
+      "ref": "R10",
+      "pin": "1",
+      "before": "/USB-VBUS_SENSE",
+      "after": null
+    },
+    {
+      "ref": "R11",
+      "pin": "2",
+      "before": "/USB-VBUS_SENSE",
+      "after": "GND"
+    },
+    {
+      "ref": "R11",
+      "pin": "1",
+      "before": "GND",
+      "after": "/USB_VBUS_RAW"
+    },
+    {
+      "ref": "U3",
+      "pin": "2",
+      "before": "GND",
+      "after": "/USB_VBUS_RAW"
+    },
+    {
+      "ref": "J8",
+      "pin": "A4",
+      "before": "Net-(J8-VBUS-PadA4)",
+      "after": "/USB_VBUS_RAW"
+    },
+    {
+      "ref": "J8",
+      "pin": "A9",
+      "before": "Net-(J8-VBUS-PadA4)",
+      "after": "/USB_VBUS_RAW"
+    },
+    {
+      "ref": "J8",
+      "pin": "B4",
+      "before": "Net-(J8-VBUS-PadA4)",
+      "after": "/USB_VBUS_RAW"
+    },
+    {
+      "ref": "J8",
+      "pin": "B9",
+      "before": "Net-(J8-VBUS-PadA4)",
+      "after": "/USB_VBUS_RAW"
+    },
+    {
+      "ref": "R10",
+      "pin": "2",
+      "before": "Net-(J8-VBUS-PadA4)",
+      "after": null
+    },
+    {
+      "ref": "U3",
+      "pin": "4",
+      "before": "unconnected-(U3-NC-Pad4)",
+      "after": "/USB-VBUS_SENSE"
+    }
+  ],
+  "source_files_sha256": {
+    "test1.kicad_sch": "214f3fc0b893b407afb6f88b95530a056e1452715fcd8c7edaf35d64c6c26da4",
+    "test1.kicad_pcb": "d394262fd2e1a34833cbe6237755eec6f7f188a10a2b69cebb4e30399eae7b37",
+    "final-netlist.xml": "b70dcdd1b6878d3d1a4731f6d2c9fdd00b8eed2812d8658746c5e77a54bd6e32"
+  }
+}

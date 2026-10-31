@@ -1,0 +1,1133 @@
+{
+  "scope": "Native XML connectivity and firmware polarity comparison; not physical functional verification",
+  "xml_sha256": "cd926e32a57673e4d2ac733d420bc08b8f4e6d5c8f37e2451c369ea8a1298b3c",
+  "checks": 160,
+  "passed": 160,
+  "failed": [],
+  "detail": [
+    {
+      "ref": "U5",
+      "pin": "1",
+      "expected": "PI_5V_IN",
+      "actual": "PI_5V_IN",
+      "passed": true
+    },
+    {
+      "ref": "U5",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U5",
+      "pin": "3",
+      "expected": "BB_EN",
+      "actual": "BB_EN",
+      "passed": true
+    },
+    {
+      "ref": "U5",
+      "pin": "4",
+      "expected": "BB_FAULT",
+      "actual": "BB_FAULT",
+      "passed": true
+    },
+    {
+      "ref": "U5",
+      "pin": "5",
+      "expected": "BB_ILIM",
+      "actual": "BB_ILIM",
+      "passed": true
+    },
+    {
+      "ref": "U5",
+      "pin": "6",
+      "expected": "PROTO_5V",
+      "actual": "PROTO_5V",
+      "passed": true
+    },
+    {
+      "ref": "U6",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U6",
+      "pin": "2",
+      "expected": "PANEL_3V3",
+      "actual": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "ref": "U6",
+      "pin": "3",
+      "expected": "PI_5V_IN",
+      "actual": "PI_5V_IN",
+      "passed": true
+    },
+    {
+      "ref": "U6",
+      "pin": "4",
+      "expected": "NC",
+      "actual": "unconnected-(U6-Pin_4-Pad4)",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "1",
+      "expected": "HOLD_IN",
+      "actual": "HOLD_IN",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "2",
+      "expected": "STOP1_IN",
+      "actual": "STOP1_IN",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "3",
+      "expected": "STOP2_IN",
+      "actual": "STOP2_IN",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "4",
+      "expected": "BTN8",
+      "actual": "BTN8",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "5",
+      "expected": "BTN9",
+      "actual": "BTN9",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "6",
+      "expected": "BTN10",
+      "actual": "BTN10",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "7",
+      "expected": "METER_EN_IN",
+      "actual": "METER_EN_IN",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "8",
+      "expected": "NC",
+      "actual": "unconnected-(U1-GPB7-Pad8)",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "9",
+      "expected": "PANEL_3V3",
+      "actual": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "10",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "12",
+      "expected": "SCL",
+      "actual": "SCL",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "13",
+      "expected": "SDA",
+      "actual": "SDA",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "15",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "16",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "17",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "18",
+      "expected": "IO_RESET",
+      "actual": "IO_RESET",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "21",
+      "expected": "BTN1",
+      "actual": "BTN1",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "22",
+      "expected": "BTN2",
+      "actual": "BTN2",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "23",
+      "expected": "BTN3",
+      "actual": "BTN3",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "24",
+      "expected": "BTN4",
+      "actual": "BTN4",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "25",
+      "expected": "BTN5",
+      "actual": "BTN5",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "26",
+      "expected": "BTN6",
+      "actual": "BTN6",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "27",
+      "expected": "BTN7",
+      "actual": "BTN7",
+      "passed": true
+    },
+    {
+      "ref": "U1",
+      "pin": "28",
+      "expected": "NC",
+      "actual": "unconnected-(U1-GPA7-Pad28)",
+      "passed": true
+    },
+    {
+      "ref": "U2",
+      "pin": "1",
+      "expected": "ADC_CS",
+      "actual": "ADC_CS",
+      "passed": true
+    },
+    {
+      "ref": "U2",
+      "pin": "2",
+      "expected": "ADC_CH0",
+      "actual": "ADC_CH0",
+      "passed": true
+    },
+    {
+      "ref": "U2",
+      "pin": "3",
+      "expected": "ADC_CH1",
+      "actual": "ADC_CH1",
+      "passed": true
+    },
+    {
+      "ref": "U2",
+      "pin": "4",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U2",
+      "pin": "5",
+      "expected": "ADC_MOSI",
+      "actual": "ADC_MOSI",
+      "passed": true
+    },
+    {
+      "ref": "U2",
+      "pin": "6",
+      "expected": "ADC_MISO",
+      "actual": "ADC_MISO",
+      "passed": true
+    },
+    {
+      "ref": "U2",
+      "pin": "7",
+      "expected": "ADC_SCLK",
+      "actual": "ADC_SCLK",
+      "passed": true
+    },
+    {
+      "ref": "U2",
+      "pin": "8",
+      "expected": "PANEL_3V3",
+      "actual": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "ref": "U8",
+      "pin": "1",
+      "expected": "LCD_OE_N",
+      "actual": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "ref": "U8",
+      "pin": "2",
+      "expected": "HAT_MOSI",
+      "actual": "HAT_MOSI",
+      "passed": true
+    },
+    {
+      "ref": "U8",
+      "pin": "3",
+      "expected": "ISO_MOSI",
+      "actual": "ISO_MOSI",
+      "passed": true
+    },
+    {
+      "ref": "U8",
+      "pin": "4",
+      "expected": "LCD_OE_N",
+      "actual": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "ref": "U8",
+      "pin": "5",
+      "expected": "HAT_SCLK",
+      "actual": "HAT_SCLK",
+      "passed": true
+    },
+    {
+      "ref": "U8",
+      "pin": "6",
+      "expected": "ISO_SCLK",
+      "actual": "ISO_SCLK",
+      "passed": true
+    },
+    {
+      "ref": "U8",
+      "pin": "7",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U8",
+      "pin": "8",
+      "expected": "ISO_LCD_CS",
+      "actual": "ISO_LCD_CS",
+      "passed": true
+    },
+    {
+      "ref": "U8",
+      "pin": "9",
+      "expected": "HAT_LCD_CS",
+      "actual": "HAT_LCD_CS",
+      "passed": true
+    },
+    {
+      "ref": "U8",
+      "pin": "10",
+      "expected": "LCD_OE_N",
+      "actual": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "ref": "U8",
+      "pin": "11",
+      "expected": "ISO_LCD_DC",
+      "actual": "ISO_LCD_DC",
+      "passed": true
+    },
+    {
+      "ref": "U8",
+      "pin": "12",
+      "expected": "HAT_LCD_DC",
+      "actual": "HAT_LCD_DC",
+      "passed": true
+    },
+    {
+      "ref": "U8",
+      "pin": "13",
+      "expected": "LCD_OE_N",
+      "actual": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "ref": "U8",
+      "pin": "14",
+      "expected": "LCD_VIO",
+      "actual": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "ref": "U9",
+      "pin": "1",
+      "expected": "LCD_OE_N",
+      "actual": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "ref": "U9",
+      "pin": "2",
+      "expected": "HAT_LCD_RST",
+      "actual": "HAT_LCD_RST",
+      "passed": true
+    },
+    {
+      "ref": "U9",
+      "pin": "3",
+      "expected": "ISO_LCD_RST",
+      "actual": "ISO_LCD_RST",
+      "passed": true
+    },
+    {
+      "ref": "U9",
+      "pin": "4",
+      "expected": "LCD_OE_N",
+      "actual": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "ref": "U9",
+      "pin": "5",
+      "expected": "HAT_LCD_BL",
+      "actual": "HAT_LCD_BL",
+      "passed": true
+    },
+    {
+      "ref": "U9",
+      "pin": "6",
+      "expected": "ISO_LCD_BL",
+      "actual": "ISO_LCD_BL",
+      "passed": true
+    },
+    {
+      "ref": "U9",
+      "pin": "7",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U9",
+      "pin": "8",
+      "expected": "ISO_TP_CS",
+      "actual": "ISO_TP_CS",
+      "passed": true
+    },
+    {
+      "ref": "U9",
+      "pin": "9",
+      "expected": "HAT_TP_CS",
+      "actual": "HAT_TP_CS",
+      "passed": true
+    },
+    {
+      "ref": "U9",
+      "pin": "10",
+      "expected": "LCD_OE_N",
+      "actual": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "ref": "U9",
+      "pin": "11",
+      "expected": "NC",
+      "actual": "unconnected-(U9-Pad11)",
+      "passed": true
+    },
+    {
+      "ref": "U9",
+      "pin": "12",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U9",
+      "pin": "13",
+      "expected": "LCD_VIO",
+      "actual": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "ref": "U9",
+      "pin": "14",
+      "expected": "LCD_VIO",
+      "actual": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "ref": "U10",
+      "pin": "1",
+      "expected": "HAT_TP_CS",
+      "actual": "HAT_TP_CS",
+      "passed": true
+    },
+    {
+      "ref": "U10",
+      "pin": "2",
+      "expected": "LCD_MISO_RAW",
+      "actual": "LCD_MISO_RAW",
+      "passed": true
+    },
+    {
+      "ref": "U10",
+      "pin": "3",
+      "expected": "ISO_MISO",
+      "actual": "ISO_MISO",
+      "passed": true
+    },
+    {
+      "ref": "U10",
+      "pin": "4",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U10",
+      "pin": "5",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U10",
+      "pin": "6",
+      "expected": "LCD_OE_N",
+      "actual": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "ref": "U10",
+      "pin": "7",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U10",
+      "pin": "8",
+      "expected": "NC",
+      "actual": "unconnected-(U10-Pad8)",
+      "passed": true
+    },
+    {
+      "ref": "U10",
+      "pin": "9",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U10",
+      "pin": "10",
+      "expected": "PANEL_3V3",
+      "actual": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "ref": "U10",
+      "pin": "11",
+      "expected": "NC",
+      "actual": "unconnected-(U10-Pad11)",
+      "passed": true
+    },
+    {
+      "ref": "U10",
+      "pin": "12",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U10",
+      "pin": "13",
+      "expected": "PANEL_3V3",
+      "actual": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "ref": "U10",
+      "pin": "14",
+      "expected": "PANEL_3V3",
+      "actual": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "ref": "U11",
+      "pin": "1",
+      "expected": "LCD_TP_IRQ_RAW",
+      "actual": "LCD_TP_IRQ_RAW",
+      "passed": true
+    },
+    {
+      "ref": "U11",
+      "pin": "2",
+      "expected": "IRQ_INVERTED",
+      "actual": "IRQ_INVERTED",
+      "passed": true
+    },
+    {
+      "ref": "U11",
+      "pin": "3",
+      "expected": "IRQ_INVERTED",
+      "actual": "IRQ_INVERTED",
+      "passed": true
+    },
+    {
+      "ref": "U11",
+      "pin": "4",
+      "expected": "HAT_TP_IRQ",
+      "actual": "HAT_TP_IRQ",
+      "passed": true
+    },
+    {
+      "ref": "U11",
+      "pin": "5",
+      "expected": "LCD_VIO",
+      "actual": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "ref": "U11",
+      "pin": "6",
+      "expected": "LCD_VIO_ABSENT",
+      "actual": "LCD_VIO_ABSENT",
+      "passed": true
+    },
+    {
+      "ref": "U11",
+      "pin": "7",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U11",
+      "pin": "8",
+      "expected": "LCD_VIO_PRESENT",
+      "actual": "LCD_VIO_PRESENT",
+      "passed": true
+    },
+    {
+      "ref": "U11",
+      "pin": "9",
+      "expected": "LCD_VIO_ABSENT",
+      "actual": "LCD_VIO_ABSENT",
+      "passed": true
+    },
+    {
+      "ref": "U11",
+      "pin": "10",
+      "expected": "NC",
+      "actual": "unconnected-(U11-Pad10)",
+      "passed": true
+    },
+    {
+      "ref": "U11",
+      "pin": "11",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U11",
+      "pin": "12",
+      "expected": "NC",
+      "actual": "unconnected-(U11-Pad12)",
+      "passed": true
+    },
+    {
+      "ref": "U11",
+      "pin": "13",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U11",
+      "pin": "14",
+      "expected": "PANEL_3V3",
+      "actual": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "ref": "R67",
+      "pin": "1",
+      "expected": "BB_ILIM",
+      "actual": "BB_ILIM",
+      "passed": true
+    },
+    {
+      "ref": "R67",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "R68",
+      "pin": "1",
+      "expected": "PI_5V_IN",
+      "actual": "PI_5V_IN",
+      "passed": true
+    },
+    {
+      "ref": "R68",
+      "pin": "2",
+      "expected": "BB_ON",
+      "actual": "BB_ON",
+      "passed": true
+    },
+    {
+      "ref": "R69",
+      "pin": "1",
+      "expected": "BB_EN",
+      "actual": "BB_EN",
+      "passed": true
+    },
+    {
+      "ref": "R69",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "R70",
+      "pin": "1",
+      "expected": "PANEL_3V3",
+      "actual": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "ref": "R70",
+      "pin": "2",
+      "expected": "BB_FAULT",
+      "actual": "BB_FAULT",
+      "passed": true
+    },
+    {
+      "ref": "R71",
+      "pin": "1",
+      "expected": "PROTO_5V",
+      "actual": "PROTO_5V",
+      "passed": true
+    },
+    {
+      "ref": "R71",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "R72",
+      "pin": "1",
+      "expected": "LCD_VIO",
+      "actual": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "ref": "R72",
+      "pin": "2",
+      "expected": "LCD_OE_N",
+      "actual": "LCD_OE_N",
+      "passed": true
+    },
+    {
+      "ref": "R73",
+      "pin": "1",
+      "expected": "LCD_VIO",
+      "actual": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "ref": "R73",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "R28",
+      "pin": "1",
+      "expected": "PANEL_3V3",
+      "actual": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "ref": "R28",
+      "pin": "2",
+      "expected": "LED2_A",
+      "actual": "LED2_A",
+      "passed": true
+    },
+    {
+      "ref": "D2",
+      "pin": "1",
+      "expected": "BB_FAULT",
+      "actual": "BB_FAULT",
+      "passed": true
+    },
+    {
+      "ref": "D2",
+      "pin": "2",
+      "expected": "LED2_A",
+      "actual": "LED2_A",
+      "passed": true
+    },
+    {
+      "ref": "C31",
+      "pin": "1",
+      "expected": "PI_5V_IN",
+      "actual": "PI_5V_IN",
+      "passed": true
+    },
+    {
+      "ref": "C31",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "C32",
+      "pin": "1",
+      "expected": "PI_5V_IN",
+      "actual": "PI_5V_IN",
+      "passed": true
+    },
+    {
+      "ref": "C32",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "SW14",
+      "pin": "1",
+      "expected": "BB_ON",
+      "actual": "BB_ON",
+      "passed": true
+    },
+    {
+      "ref": "SW14",
+      "pin": "2",
+      "expected": "BB_EN",
+      "actual": "BB_EN",
+      "passed": true
+    },
+    {
+      "ref": "SW14",
+      "pin": "3",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "SW14",
+      "pin": "4",
+      "expected": "NC",
+      "actual": "unconnected-(SW14B-A-Pad4)",
+      "passed": true
+    },
+    {
+      "ref": "SW14",
+      "pin": "5",
+      "expected": "NC",
+      "actual": "unconnected-(SW14B-B-Pad5)",
+      "passed": true
+    },
+    {
+      "ref": "SW14",
+      "pin": "6",
+      "expected": "NC",
+      "actual": "unconnected-(SW14B-C-Pad6)",
+      "passed": true
+    },
+    {
+      "ref": "J7",
+      "pin": "1",
+      "expected": "PI_5V_IN",
+      "actual": "PI_5V_IN",
+      "passed": true
+    },
+    {
+      "ref": "J7",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "J7",
+      "pin": "3",
+      "expected": "NC",
+      "actual": "unconnected-(J7-Pin_3-Pad3)",
+      "passed": true
+    },
+    {
+      "ref": "J13",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "J13",
+      "pin": "2",
+      "expected": "PANEL_3V3",
+      "actual": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "ref": "J11",
+      "pin": "1",
+      "expected": "LCD_VIO",
+      "actual": "LCD_VIO",
+      "passed": true
+    },
+    {
+      "ref": "J11",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "J3",
+      "pin": "1",
+      "expected": "STOP1_RAW",
+      "actual": "STOP1_RAW",
+      "passed": true
+    },
+    {
+      "ref": "J3",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "J12",
+      "pin": "1",
+      "expected": "LCD_VIO_PRESENT",
+      "actual": "LCD_VIO_PRESENT",
+      "passed": true
+    },
+    {
+      "ref": "J12",
+      "pin": "2",
+      "expected": "BB_FAULT",
+      "actual": "BB_FAULT",
+      "passed": true
+    },
+    {
+      "ref": "J4",
+      "pin": "1",
+      "expected": "STOP2_RAW",
+      "actual": "STOP2_RAW",
+      "passed": true
+    },
+    {
+      "ref": "J4",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "R17",
+      "pin": "1",
+      "expected": "PANEL_3V3",
+      "actual": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "ref": "R17",
+      "pin": "2",
+      "expected": "STOP1_RAW",
+      "actual": "STOP1_RAW",
+      "passed": true
+    },
+    {
+      "ref": "R18",
+      "pin": "1",
+      "expected": "PANEL_3V3",
+      "actual": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "ref": "R18",
+      "pin": "2",
+      "expected": "STOP2_RAW",
+      "actual": "STOP2_RAW",
+      "passed": true
+    },
+    {
+      "ref": "SW13",
+      "pin": "1",
+      "expected": "PANEL_3V3",
+      "actual": "PANEL_3V3",
+      "passed": true
+    },
+    {
+      "ref": "SW13",
+      "pin": "2",
+      "expected": "METER_LED_SUPPLY",
+      "actual": "METER_LED_SUPPLY",
+      "passed": true
+    },
+    {
+      "ref": "SW13",
+      "pin": "3",
+      "expected": "NC",
+      "actual": "unconnected-(SW13A-C-Pad3)",
+      "passed": true
+    },
+    {
+      "ref": "SW13",
+      "pin": "4",
+      "expected": "GND",
+      "actual": "GND",
+      "passed": true
+    },
+    {
+      "ref": "SW13",
+      "pin": "5",
+      "expected": "METER_EN_RAW",
+      "actual": "METER_EN_RAW",
+      "passed": true
+    },
+    {
+      "ref": "SW13",
+      "pin": "6",
+      "expected": "NC",
+      "actual": "unconnected-(SW13B-C-Pad6)",
+      "passed": true
+    },
+    {
+      "ref": "U5",
+      "expected_value_prefix": "TPS2553DBVR-1",
+      "actual": "TPS2553DBVR-1 / LATCH OFF",
+      "passed": true
+    },
+    {
+      "ref": "R67",
+      "expected_value_prefix": "210k",
+      "actual": "210k / 1%",
+      "passed": true
+    },
+    {
+      "ref": "R68",
+      "expected_value_prefix": "10k",
+      "actual": "10k",
+      "passed": true
+    },
+    {
+      "ref": "R69",
+      "expected_value_prefix": "100k",
+      "actual": "100k",
+      "passed": true
+    },
+    {
+      "ref": "R70",
+      "expected_value_prefix": "10k",
+      "actual": "10k",
+      "passed": true
+    },
+    {
+      "ref": "R71",
+      "expected_value_prefix": "10k",
+      "actual": "10k",
+      "passed": true
+    },
+    {
+      "ref": "R72",
+      "expected_value_prefix": "1k",
+      "actual": "1k",
+      "passed": true
+    },
+    {
+      "ref": "R73",
+      "expected_value_prefix": "4.7k",
+      "actual": "4.7k",
+      "passed": true
+    },
+    {
+      "ref": "K2",
+      "expected": "removed",
+      "passed": true
+    },
+    {
+      "ref": "D6",
+      "expected": "removed",
+      "passed": true
+    },
+    {
+      "ref": "F2",
+      "expected": "removed",
+      "passed": true
+    }
+  ],
+  "corrected_firmware_defect": "STOP1/STOP2 high/open means asserted; HOLD remains low asserted",
+  "sources": [
+    "https://www.ti.com/lit/ds/symlink/tps2553-1.pdf",
+    "https://www.ti.com/lit/ds/symlink/sn74lv125a.pdf",
+    "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf",
+    "https://github.com/adafruit/Adafruit-MPM3610-PCB/blob/master/Adafruit%20MPM3610.brd",
+    "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf",
+    "https://support.microchip.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017",
+    "https://ww1.microchip.com/downloads/en/DeviceDoc/21034F.pdf"
+  ],
+  "expander_erratum_correction": "A7/B7 physical pinsNC lowoutputs; LCD_VIO_PRESENT/BB_FAULT use J12 and direct ESP GPIO6/7 through revised HAT",
+  "unresolved": [
+    "Actual HAT AP2112 DNP variant and no parallel power sources",
+    "LCD internal VIO tap and controller identification",
+    "Power sequencing/brownout/shared-bus waveforms",
+    "BOM/assembly/physical measurements",
+    "Independent arm stop and gravity retention; firmware has no actuator adapter"
+  ]
+}

@@ -1,0 +1,18 @@
+31 OCTOBER 2026 — OBSERVED PRICES, NOT A DELIVERED CART QUOTE
+Panel electronics and headers: $56.248.
+New2.8inch Waveshare16446 screen and mini breadboard: $18.940.
+Preferred powered-hub plus separate official US supply: $23.050.
+Selected incremental HAT isolation/status parts: $1.530.
+Priced subtotal: $99.768, rounded $99.77.
+
+The previous $5.53 reduction is retained: omit the $4.50 optional front USB extension,
+and use the same-value selected ten100ohm resistors for another $1.03 saving.
+No credits have been invented for removed parts or components not known to be owned.
+
+EXTRA AND UNPRICED: both applicable PCB orders, all delivery/tax/tariffs to94568,
+unspecified mating harnesses/USB cable and mounting hardware, remaining HAT variant costs,
+independent stop/power contacts and output gravity retention. Tools have separate funding.
+Enclosure material is excluded at the user's instruction.
+The requested complete delivered build below$100 is NOT met or guaranteed.
+Do not treat this subtotal as an amount to submit for an entire independent stop system.
+Each BOM row retains its exact distributor part and source/date/qualification limitations.

@@ -1,0 +1,5884 @@
+{
+  "board": "work\\rev23-native\\szscreen.kicad_pcb",
+  "sha256": "25539642fd6fd28b717376c2c5bc4094e4d9d7bd92bf4f556df019648e6b27f6",
+  "PTH_count": 450,
+  "PTH_below_JLC_0_18mm": [],
+  "minimum_PTH_annular_mm": 0.25,
+  "via_count": 298,
+  "minimum_via_annular_mm": 0.15,
+  "minimum_track_mm": 0.2,
+  "drc_exclusions": [],
+  "rules": {
+    "max_error": 0.005,
+    "min_clearance": 0.2,
+    "min_connection": 0.0,
+    "min_copper_edge_clearance": 0.5,
+    "min_groove_width": 0.0,
+    "min_hole_clearance": 0.28,
+    "min_hole_to_hole": 0.45,
+    "min_microvia_diameter": 0.2,
+    "min_microvia_drill": 0.1,
+    "min_resolved_spokes": 2,
+    "min_silk_clearance": 0.15,
+    "min_text_height": 1,
+    "min_text_thickness": 0.15,
+    "min_through_hole_diameter": 0.3,
+    "min_track_width": 0.2,
+    "min_via_annular_width": 0.15,
+    "min_via_diameter": 0.6,
+    "solder_mask_to_copper_clearance": 0.09,
+    "use_height_for_length_calcs": true
+  },
+  "PTH_pads": [
+    {
+      "ref": "R38",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R38",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C32",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C32",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R41",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R41",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R32",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R32",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R9",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R9",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R81",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R81",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U11",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U11",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U11",
+      "pin": "3",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U11",
+      "pin": "4",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U11",
+      "pin": "5",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U11",
+      "pin": "6",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U11",
+      "pin": "7",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U11",
+      "pin": "8",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U11",
+      "pin": "9",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U11",
+      "pin": "10",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U11",
+      "pin": "11",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U11",
+      "pin": "12",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U11",
+      "pin": "13",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U11",
+      "pin": "14",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "J8",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J8",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J8",
+      "pin": "3",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW13",
+      "pin": "1",
+      "size_mm": [
+        1.4,
+        1.4
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.25
+    },
+    {
+      "ref": "SW13",
+      "pin": "2",
+      "size_mm": [
+        1.4,
+        1.4
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.25
+    },
+    {
+      "ref": "SW13",
+      "pin": "3",
+      "size_mm": [
+        1.4,
+        1.4
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.25
+    },
+    {
+      "ref": "SW13",
+      "pin": "4",
+      "size_mm": [
+        1.4,
+        1.4
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.25
+    },
+    {
+      "ref": "SW13",
+      "pin": "5",
+      "size_mm": [
+        1.4,
+        1.4
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.25
+    },
+    {
+      "ref": "SW13",
+      "pin": "6",
+      "size_mm": [
+        1.4,
+        1.4
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.25
+    },
+    {
+      "ref": "C17",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C17",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R46",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R46",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C14",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C14",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "3",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "4",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "5",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "6",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "7",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "8",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "9",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "10",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "11",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "12",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "13",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "14",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "15",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "16",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "17",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "18",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "19",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "20",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "21",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "22",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "23",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "24",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "25",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "26",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "27",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U1",
+      "pin": "28",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R19",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R19",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "TP6",
+      "pin": "1",
+      "size_mm": [
+        1.5,
+        1.5
+      ],
+      "drill_mm": [
+        0.7,
+        0.7
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R67",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R67",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "SW14",
+      "pin": "1",
+      "size_mm": [
+        1.4,
+        1.4
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.25
+    },
+    {
+      "ref": "SW14",
+      "pin": "2",
+      "size_mm": [
+        1.4,
+        1.4
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.25
+    },
+    {
+      "ref": "SW14",
+      "pin": "3",
+      "size_mm": [
+        1.4,
+        1.4
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.25
+    },
+    {
+      "ref": "SW14",
+      "pin": "4",
+      "size_mm": [
+        1.4,
+        1.4
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.25
+    },
+    {
+      "ref": "SW14",
+      "pin": "5",
+      "size_mm": [
+        1.4,
+        1.4
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.25
+    },
+    {
+      "ref": "SW14",
+      "pin": "6",
+      "size_mm": [
+        1.4,
+        1.4
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.25
+    },
+    {
+      "ref": "J5",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J5",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J5",
+      "pin": "3",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J5",
+      "pin": "4",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J5",
+      "pin": "5",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J5",
+      "pin": "6",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "C33",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C33",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R53",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R53",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R8",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R8",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R69",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R69",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R55",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R55",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R61",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R61",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "SW2",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW2",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW2",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW2",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "R63",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R63",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C30",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C30",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "J10",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J10",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "U10",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U10",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U10",
+      "pin": "3",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U10",
+      "pin": "4",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U10",
+      "pin": "5",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U10",
+      "pin": "6",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U10",
+      "pin": "7",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U10",
+      "pin": "8",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U10",
+      "pin": "9",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U10",
+      "pin": "10",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U10",
+      "pin": "11",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U10",
+      "pin": "12",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U10",
+      "pin": "13",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U10",
+      "pin": "14",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U6",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "U6",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "U6",
+      "pin": "3",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "U6",
+      "pin": "4",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "R68",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R68",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R31",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R31",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C22",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C22",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C35",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C35",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C4",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C4",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R1",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R1",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "J6",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J6",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J6",
+      "pin": "3",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J6",
+      "pin": "4",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J6",
+      "pin": "5",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J6",
+      "pin": "6",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW9",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW9",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW9",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW9",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J11",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J11",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW10",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW10",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW10",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW10",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "C23",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C23",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R39",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R39",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U4",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "U4",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "U4",
+      "pin": "3",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "R79",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R79",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "TP3",
+      "pin": "1",
+      "size_mm": [
+        1.5,
+        1.5
+      ],
+      "drill_mm": [
+        0.7,
+        0.7
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U3",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U3",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U3",
+      "pin": "3",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U3",
+      "pin": "4",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U3",
+      "pin": "5",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U3",
+      "pin": "6",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U3",
+      "pin": "7",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U3",
+      "pin": "8",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "K1",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "K1",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "K1",
+      "pin": "3",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "K1",
+      "pin": "4",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R72",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R72",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R3",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R3",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "J1",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J1",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J1",
+      "pin": "3",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J1",
+      "pin": "4",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J1",
+      "pin": "5",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J1",
+      "pin": "6",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J12",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J12",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "R16",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R16",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "D5",
+      "pin": "1",
+      "size_mm": [
+        1.8,
+        1.8
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.45
+    },
+    {
+      "ref": "D5",
+      "pin": "2",
+      "size_mm": [
+        1.8,
+        1.8
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.45
+    },
+    {
+      "ref": "R57",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R57",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R71",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R71",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "SW3",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW3",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW3",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW3",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "D1",
+      "pin": "1",
+      "size_mm": [
+        1.8,
+        1.8
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.45
+    },
+    {
+      "ref": "D1",
+      "pin": "2",
+      "size_mm": [
+        1.8,
+        1.8
+      ],
+      "drill_mm": [
+        0.9,
+        0.9
+      ],
+      "minimum_annular_mm": 0.45
+    },
+    {
+      "ref": "U8",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U8",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U8",
+      "pin": "3",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U8",
+      "pin": "4",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U8",
+      "pin": "5",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U8",
+      "pin": "6",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U8",
+      "pin": "7",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U8",
+      "pin": "8",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U8",
+      "pin": "9",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U8",
+      "pin": "10",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U8",
+      "pin": "11",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U8",
+      "pin": "12",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U8",
+      "pin": "13",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U8",
+      "pin": "14",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R70",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R70",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "TP5",
+      "pin": "1",
+      "size_mm": [
+        1.5,
+        1.5
+      ],
+      "drill_mm": [
+        0.7,
+        0.7
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C36",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C36",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R64",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R64",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "SW12",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW12",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW12",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW12",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "C28",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C28",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C6",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C6",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R76",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R76",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "TP1",
+      "pin": "1",
+      "size_mm": [
+        1.5,
+        1.5
+      ],
+      "drill_mm": [
+        0.7,
+        0.7
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R13",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R13",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R33",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R33",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R80",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R80",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "J2",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J2",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J2",
+      "pin": "3",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J2",
+      "pin": "4",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J2",
+      "pin": "5",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J2",
+      "pin": "6",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J2",
+      "pin": "7",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J2",
+      "pin": "8",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J2",
+      "pin": "9",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J2",
+      "pin": "10",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J2",
+      "pin": "11",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "C34",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C34",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R35",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R35",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C27",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C27",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C19",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C19",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C26",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C26",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R75",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R75",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "SW4",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW4",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW4",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW4",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J4",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J4",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "C20",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C20",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "SW8",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW8",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW8",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW8",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "R20",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R20",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "D2",
+      "pin": "1",
+      "size_mm": [
+        1.8,
+        1.8
+      ],
+      "drill_mm": [
+        1.1,
+        1.1
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "D2",
+      "pin": "2",
+      "size_mm": [
+        1.8,
+        1.8
+      ],
+      "drill_mm": [
+        1.1,
+        1.1
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "R56",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R56",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C7",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C7",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "J13",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J13",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "R42",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R42",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R60",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R60",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R52",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R52",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C2",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C2",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R51",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R51",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R11",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R11",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "SW5",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW5",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW5",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW5",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "C15",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C15",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R59",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R59",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "TP4",
+      "pin": "1",
+      "size_mm": [
+        1.5,
+        1.5
+      ],
+      "drill_mm": [
+        0.7,
+        0.7
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R66",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R66",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R36",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R36",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R58",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R58",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R2",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R2",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R12",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R12",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C18",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C18",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C5",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C5",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C9",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C9",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "SW1",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW1",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW1",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW1",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "R77",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R77",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R10",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R10",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R65",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R65",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R5",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R5",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R47",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R47",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C3",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C3",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R28",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R28",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R45",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R45",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C1",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C1",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "TP2",
+      "pin": "1",
+      "size_mm": [
+        1.5,
+        1.5
+      ],
+      "drill_mm": [
+        0.7,
+        0.7
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R78",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R78",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R14",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R14",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R48",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R48",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C10",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C10",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R15",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R15",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "J7",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J7",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J7",
+      "pin": "3",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW7",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW7",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW7",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW7",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "R34",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R34",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U9",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U9",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U9",
+      "pin": "3",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U9",
+      "pin": "4",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U9",
+      "pin": "5",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U9",
+      "pin": "6",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U9",
+      "pin": "7",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U9",
+      "pin": "8",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U9",
+      "pin": "9",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U9",
+      "pin": "10",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U9",
+      "pin": "11",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U9",
+      "pin": "12",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U9",
+      "pin": "13",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U9",
+      "pin": "14",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R50",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R50",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C29",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C29",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "D3",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "D3",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R73",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R73",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R17",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R17",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R18",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R18",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U2",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U2",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U2",
+      "pin": "3",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U2",
+      "pin": "4",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U2",
+      "pin": "5",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U2",
+      "pin": "6",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U2",
+      "pin": "7",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "U2",
+      "pin": "8",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "F1",
+      "pin": "1",
+      "size_mm": [
+        1.71,
+        1.71
+      ],
+      "drill_mm": [
+        0.71,
+        0.71
+      ],
+      "minimum_annular_mm": 0.5
+    },
+    {
+      "ref": "F1",
+      "pin": "2",
+      "size_mm": [
+        1.71,
+        1.71
+      ],
+      "drill_mm": [
+        0.71,
+        0.71
+      ],
+      "minimum_annular_mm": 0.5
+    },
+    {
+      "ref": "R6",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R6",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R54",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R54",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C16",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C16",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R40",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R40",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "SW11",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW11",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW11",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW11",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J3",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J3",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "R49",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R49",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "J9",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "J9",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "C8",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C8",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R44",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R44",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R7",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R7",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C24",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C24",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R74",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R74",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R27",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R27",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R62",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R62",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C21",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C21",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R37",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R37",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R4",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R4",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C31",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C31",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "D4",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "D4",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "SW6",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW6",
+      "pin": "1",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW6",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "SW6",
+      "pin": "2",
+      "size_mm": [
+        1.7,
+        1.7
+      ],
+      "drill_mm": [
+        1.0,
+        1.0
+      ],
+      "minimum_annular_mm": 0.35
+    },
+    {
+      "ref": "R43",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "R43",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C25",
+      "pin": "1",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    },
+    {
+      "ref": "C25",
+      "pin": "2",
+      "size_mm": [
+        1.6,
+        1.6
+      ],
+      "drill_mm": [
+        0.8,
+        0.8
+      ],
+      "minimum_annular_mm": 0.4
+    }
+  ]
+}

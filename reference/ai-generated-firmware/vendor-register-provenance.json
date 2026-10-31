@@ -1,0 +1,576 @@
+{
+  "source_url": "https://www.waveshare.net/w/upload/6/6f/2.8inch_Resistive_Touch_LCD-Code.7z",
+  "source_file": "Open405R/TouchPanel/User/LCD28/LCD_Driver.c",
+  "source_sha256": "6c69ff90e2dd0cfddc46cf7cb216819ad7abf32be9ff345ceeed59fa553f0dbb",
+  "st7789_ops": [
+    {
+      "cmd": 17,
+      "data": [],
+      "delay": 120
+    },
+    {
+      "cmd": 54,
+      "data": [
+        0
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 58,
+      "data": [
+        5
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 178,
+      "data": [
+        12,
+        12,
+        0,
+        51,
+        51
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 183,
+      "data": [
+        53
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 187,
+      "data": [
+        40
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 192,
+      "data": [
+        60
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 194,
+      "data": [
+        1
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 195,
+      "data": [
+        11
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 196,
+      "data": [
+        32
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 198,
+      "data": [
+        15
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 208,
+      "data": [
+        164,
+        161
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 224,
+      "data": [
+        208,
+        1,
+        8,
+        15,
+        17,
+        42,
+        54,
+        85,
+        68,
+        58,
+        11,
+        6,
+        17,
+        32
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 225,
+      "data": [
+        208,
+        2,
+        7,
+        10,
+        11,
+        24,
+        52,
+        67,
+        74,
+        43,
+        27,
+        28,
+        34,
+        31
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 41,
+      "data": [],
+      "delay": 0
+    },
+    {
+      "cmd": 81,
+      "data": [
+        255
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 85,
+      "data": [
+        176
+      ],
+      "delay": 0
+    }
+  ],
+  "hx8347d_ops": [
+    {
+      "cmd": 234,
+      "data": [
+        0
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 235,
+      "data": [
+        32
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 236,
+      "data": [
+        12
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 237,
+      "data": [
+        196
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 232,
+      "data": [
+        56
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 233,
+      "data": [
+        16
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 241,
+      "data": [
+        1
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 242,
+      "data": [
+        16
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 64,
+      "data": [
+        1
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 65,
+      "data": [
+        0
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 66,
+      "data": [
+        0
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 67,
+      "data": [
+        16
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 68,
+      "data": [
+        14
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 69,
+      "data": [
+        36
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 70,
+      "data": [
+        4
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 71,
+      "data": [
+        80
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 72,
+      "data": [
+        2
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 73,
+      "data": [
+        19
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 74,
+      "data": [
+        25
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 75,
+      "data": [
+        25
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 76,
+      "data": [
+        22
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 80,
+      "data": [
+        27
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 81,
+      "data": [
+        49
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 82,
+      "data": [
+        47
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 83,
+      "data": [
+        63
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 84,
+      "data": [
+        63
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 85,
+      "data": [
+        62
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 86,
+      "data": [
+        47
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 87,
+      "data": [
+        123
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 88,
+      "data": [
+        9
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 89,
+      "data": [
+        6
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 90,
+      "data": [
+        6
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 91,
+      "data": [
+        12
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 92,
+      "data": [
+        29
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 93,
+      "data": [
+        204
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 27,
+      "data": [
+        27
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 26,
+      "data": [
+        1
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 36,
+      "data": [
+        47
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 37,
+      "data": [
+        87
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 35,
+      "data": [
+        136
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 24,
+      "data": [
+        52
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 25,
+      "data": [
+        1
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 1,
+      "data": [
+        0
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 31,
+      "data": [
+        136
+      ],
+      "delay": 5
+    },
+    {
+      "cmd": 31,
+      "data": [
+        128
+      ],
+      "delay": 5
+    },
+    {
+      "cmd": 31,
+      "data": [
+        144
+      ],
+      "delay": 5
+    },
+    {
+      "cmd": 31,
+      "data": [
+        208
+      ],
+      "delay": 5
+    },
+    {
+      "cmd": 23,
+      "data": [
+        5
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 54,
+      "data": [
+        2
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 40,
+      "data": [
+        56
+      ],
+      "delay": 5
+    },
+    {
+      "cmd": 40,
+      "data": [
+        63
+      ],
+      "delay": 5
+    },
+    {
+      "cmd": 22,
+      "data": [
+        24
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 2,
+      "data": [
+        0
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 3,
+      "data": [
+        0
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 4,
+      "data": [
+        0
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 5,
+      "data": [
+        239
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 6,
+      "data": [
+        0
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 7,
+      "data": [
+        0
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 8,
+      "data": [
+        1
+      ],
+      "delay": 0
+    },
+    {
+      "cmd": 9,
+      "data": [
+        63
+      ],
+      "delay": 0
+    }
+  ],
+  "adaptation": "Sleep-out delay increased from10to120ms; HXpower/displayregistersteps5ms; portrait addressing preserved; framebuffer software rotated; no ID detection"
+}

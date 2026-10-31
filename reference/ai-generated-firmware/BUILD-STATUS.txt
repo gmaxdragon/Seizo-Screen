@@ -1,0 +1,19 @@
+This folder is AI-generated REFERENCE ONLY firmware, not the participant's implementation.
+The participant supplied detailed behavior instructions and plans to write the actual code.
+Actual retained sources and three application images match recorded successful ESP32-S3
+builds; current source/binary identity audit12/12 passes. 20Python tests and three native
+mock executables passed offline. No fresh target compile was performed after cleanup of
+temporary toolchains; previous build logs/hashes are retained rather than relabelled.
+Current schematic pin audit160/160 passes. validation.json retains the earlier netlist
+metadata hash; the current pinmap-audit.json uses the freshly exported matching netlist.
+
+The application images are NOT merged flash images: do not write them blindly at0x0.
+Use the pinned PlatformIO project/build process and correct board/partition/bootloader
+settings when later flashing authorized hardware. Old local p23/f23/c23 shortcut paths and
+work toolchain locations mentioned in historical logs/contracts were temporary and were
+removed to recover disk space. The source folders here are the portable project inputs.
+Reference tests/source are provided; downloaded compiler/runtime caches are not bundled.
+
+There is no motor adapter, tested actual Pi serial setup, Bluetooth feature or calibrated
+meter accuracy. No serial port was opened and no physical device was flashed or tested.
+Review INTEGRATION-CONTRACT.md for exact protocol, polarity, timeouts and validation limits.

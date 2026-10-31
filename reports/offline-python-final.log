@@ -1,0 +1,25 @@
+test_event_bounds (test_bridge.ParserTests.test_event_bounds) ... ok
+test_framer_fragment_and_multiple (test_bridge.ParserTests.test_framer_fragment_and_multiple) ... ok
+test_framer_oversize_recovery (test_bridge.ParserTests.test_framer_oversize_recovery) ... ok
+test_good_voltage (test_bridge.ParserTests.test_good_voltage) ... ok
+test_malformed (test_bridge.ParserTests.test_malformed) ... ok
+test_reject_bad_voltage_and_types (test_bridge.ParserTests.test_reject_bad_voltage_and_types) ... ok
+test_state (test_bridge.ParserTests.test_state) ... ok
+test_voltage_requires_explicit_configuration (test_bridge.ParserTests.test_voltage_requires_explicit_configuration) ... ok
+test_corrupt_frame_after_handshake_clears_state (test_bridge.SessionTests.test_corrupt_frame_after_handshake_clears_state) ... ok
+test_event_gap_disconnect_clears_state (test_bridge.SessionTests.test_event_gap_disconnect_clears_state) ... ok
+test_hello_and_link_reset (test_bridge.SessionTests.test_hello_and_link_reset) ... ok
+test_only_ping_outbound (test_bridge.SessionTests.test_only_ping_outbound) ... ok
+test_pong_does_not_hide_missing_state (test_bridge.SessionTests.test_pong_does_not_hide_missing_state) ... ok
+test_reject_stale_pong (test_bridge.SessionTests.test_reject_stale_pong) ... ok
+test_replayed_event (test_bridge.SessionTests.test_replayed_event) ... ok
+test_stale_pong_clears_existing_state (test_bridge.SessionTests.test_stale_pong_clears_existing_state) ... ok
+test_stale_session_doesnt_publish (test_bridge.SessionTests.test_stale_session_doesnt_publish) ... ok
+test_state_and_sequence (test_bridge.SessionTests.test_state_and_sequence) ... ok
+test_timeout_clears_session (test_bridge.SessionTests.test_timeout_clears_session) ... ok
+test_unsolicited_state_before_pong (test_bridge.SessionTests.test_unsolicited_state_before_pong) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.005s
+
+OK

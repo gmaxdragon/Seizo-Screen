@@ -1,0 +1,68 @@
+{
+  "coordinate_reference": "absolute KiCad PCB X,Y in mm; Z=0 console front surface",
+  "source": "work\\rev21-preorder\\waveshare16446-3d\\2_8inch_resistive_touch_lcd.stp",
+  "model_to_console": {
+    "X": "modelY + tx",
+    "Y": "modelX + ty",
+    "Z": "25 - modelZ",
+    "tx": 59.9997497,
+    "ty": 54.975000050000006
+  },
+  "LCD_board_bbox": {
+    "x": [
+      60.0153326,
+      139.87488840000006
+    ],
+    "y": [
+      55.01592198999999,
+      105.78067949000001
+    ],
+    "z": [
+      25.0,
+      26.59999934
+    ]
+  },
+  "LCD_header_rigid_bbox": {
+    "x": [
+      61.360750279999976,
+      63.90075028000003
+    ],
+    "y": [
+      66.44000125000001,
+      94.38000125
+    ],
+    "z": [
+      16.7,
+      28.0
+    ]
+  },
+  "LCD_mating_pin_row": {
+    "X": 62.63075028,
+    "Y_first": 67.71000125,
+    "Y_last": 93.11000125000001,
+    "pitch": 2.54
+  },
+  "LCD_cable_avoid_region_proposed": {
+    "x": [
+      59,
+      69
+    ],
+    "y": [
+      64,
+      97
+    ],
+    "note": "Reserve this XY area for 11-way mating housing and cable descent; housing <=14mm, insertion>=4mm, cable bend clearance>=4mm at 25mm LCD gap. This is a deliberately enlarged planning bound, not actual cable CAD."
+  },
+  "under_LCD_DIP14_placement_suggestion": {
+    "region_x": [
+      75,
+      135
+    ],
+    "region_y": [
+      61,
+      101
+    ],
+    "body_height_max_target": 6,
+    "note": "Keep outside support circles at actual H5-H8/H9/H10 centers; orient DIP long axis along X and leave routing/decoupler clearance. Model lowest rear object is 16.7mm above console, leaving >10mm nominal over <=6mm IC bodies. Actual final body/post/harness audit still required."
+  }
+}
