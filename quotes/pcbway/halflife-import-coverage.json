@@ -1,5 +1,5 @@
 {
-  "phase": "Draft essential panel import; numeric zeros are unquoted placeholders, not real free prices",
+  "phase": "Essential panel funding draft; two preliminary calculator service prices, remaining parts unquoted",
   "import_file": "00-bom-halflife.csv",
   "full_inventory": "PROJECT-PARTS.csv",
   "rows": 27,
@@ -289,10 +289,24 @@
       "panel_references": []
     }
   ],
-  "numeric_zero_placeholder_rows": 27,
+  "numeric_zero_placeholder_rows": 25,
   "factory_BOMs_unchanged": true,
   "shipping_tax_discount_excluded": true,
   "HAT_purchase_lines_excluded": true,
   "optional_items_excluded": true,
-  "matching_HAT_dependency": "Required matching variant remains documented in matching-HAT and ASSEMBLY-CONNECTIONS.txt; not assumed owned, free, compatible with original submitted HAT, or funded by this panel list."
+  "matching_HAT_dependency": "Required matching variant remains documented in matching-HAT and ASSEMBLY-CONNECTIONS.txt; not assumed owned, free, compatible with original submitted HAT, or funded by this panel list.",
+  "preliminary_priced_services": [
+    {
+      "item": "Panel PCB fabrication \u2014 5-board batch",
+      "quantity": 1,
+      "unit_cost_usd": "48.31"
+    },
+    {
+      "item": "Factory assembly \u2014 1 panel",
+      "quantity": 1,
+      "unit_cost_usd": "29.00"
+    }
+  ],
+  "known_preliminary_service_subtotal_usd": "77.31",
+  "final_supplier_quote_received": false
 }

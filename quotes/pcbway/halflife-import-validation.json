@@ -1,12 +1,15 @@
 {
-  "checkedAt": "2026-10-31T23:45:29.127Z",
+  "checkedAt": "2026-10-31T23:54:53.322Z",
   "result": "PASS",
   "inputFile": "work/seizo-screen-publish/00-bom-halflife.csv",
   "parserSource": "https://github.com/hackclub/halflife/blob/main/src/lib/bom-csv.ts",
   "importedRows": 27,
   "skippedRows": 0,
   "itemLimit": 80,
-  "explicitZeroPlaceholderPrices": 27,
+  "explicitZeroPlaceholderPrices": 25,
+  "preliminaryPricedServices": 2,
+  "knownPreliminarySubtotalUsd": 77.31,
+  "finalSupplierQuoteReceived": false,
   "zeroPricesMeanFree": false,
   "groupQuantitiesMeanCompleteLots": true,
   "panelCapacitorPieces": 33,
@@ -222,17 +225,17 @@
     {
       "link": "https://www.pcbway.com/quotesmt.aspx",
       "name": "Panel PCB fabrication \u00e2\u20ac\u201d 5-board batch",
-      "purpose": "Final quote pending; 0.00 is a placeholder. Earlier calculator showed48.31USD for five bare panels; this is not a free-PCB claim.",
+      "purpose": "Preliminary calculator price for one batch of five bare panels. Final supplier review pending; excludes assembly, components and shipping.",
       "quantity": 1,
-      "unitCostUsd": 0,
+      "unitCostUsd": 48.31,
       "vendor": "PCBWay"
     },
     {
       "link": "https://www.pcbway.com/quotesmt.aspx",
       "name": "Factory assembly \u00e2\u20ac\u201d 1 panel",
-      "purpose": "Final quote pending; 0.00 is a placeholder. Earlier calculator showed29.00USD assembly-only, excluding components; detailed turnkey review remains pending.",
+      "purpose": "Preliminary calculator assembly fee for one panel; excludes component supply and shipping. Final itemized turnkey quote pending.",
       "quantity": 1,
-      "unitCostUsd": 0,
+      "unitCostUsd": 29,
       "vendor": "PCBWay"
     }
   ]

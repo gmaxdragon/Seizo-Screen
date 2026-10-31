@@ -1,7 +1,7 @@
 HALF-LIFE ESSENTIAL PANEL BOM IMPORT
-This draft lists27 essential Seizo Screen entries, below the80-item limit.
-"Various capacitors" is one33-piece PANEL lot; "Various resistors" is one73-piece
-PANEL lot. The exact panel factory BOM still covers all150 fitted references.
+This draft lists 27 essential Seizo Screen entries, below the 80-item limit.
+"Various capacitors" is one 33-piece PANEL lot; "Various resistors" is one 73-piece
+PANEL lot. The exact panel factory BOM still covers all 150 fitted references.
 
 Removed from this project's import: separate HAT fabrication/assembly/components,
 optional USB hub/supply and controls, undefined independent arm-stop purchasing,
@@ -10,18 +10,21 @@ The matching HAT remains a required separately reconciled dependency; removing
 its purchase lines does not make the original submitted HAT drop-in compatible.
 Other system requirements remain documented in the detailed project files.
 
-Every draft price cell explicitly says0.00 at the owner's request. These are
-PENDING-QUOTE PLACEHOLDERS, not free components or a final funding budget.
-The recorded preliminary PCB48.31USD and assembly29.00USD are preserved in the
-price screenshot/review; they exclude parts and are not a complete supplier quote.
-Half-Life's interface labels any zero as "no price", even when the CSV spells
-it0.00. A CSV cannot change that website behavior. Enter real reviewed costs
-before treating the table as complete funding evidence.
+The two service rows use the preliminary PCBWay calculator amounts already
+shown in the saved screenshot: $48.31 for one batch of five bare panels, and
+$29.00 for assembly of one panel. Quantity is 1 for each. Their $77.31 sum
+excludes component supply and is not a complete reviewed turnkey quotation.
+These service prices remain subject to supplier review. Shipping stays separate.
+The other 25 price cells remain 0.00 PENDING-QUOTE PLACEHOLDERS, not free parts.
+Half-Life displays any zero as "no price". Real component costs are still needed
+before treating this table as a complete funding budget.
 
 Use Seizo Screen -> Parts -> Import from repo. Preview should show
-00-bom-halflife.csv and27items. To remove an obsolete69-item import, choose
-Replace with27 rather than Add; replacing clears the previous list.
-Repository changes may take up to60seconds to appear in the importer.
+00-bom-halflife.csv and 27 items. To remove an obsolete 69-item import, choose
+Replace with 27 rather than Add; replacing clears the previous list.
+This is also required to refresh prices on previously imported rows.
+Alternatively edit just the two existing service prices using their pencils.
+Repository changes may take up to 60 seconds to appear in the importer.
 
 For PCBWay assembly, use assembly/BOM-PCBWay-panel.csv with the panel Gerbers
 and placement CSV. This grouped draft is not a manufacturing placement BOM.
