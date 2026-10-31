@@ -2,8 +2,9 @@ SEIZO SCREEN REV23 — ENGINEERING ASSEMBLY CONNECTIONS
 These describe a first prototype; they are not evidence of an assembled or qualified product.
 
 1. Keep motor supplies disconnected and the arm mechanically supported during panel bring-up.
-   Use a working iron, appropriate small-SMD assembly help and a multimeter. No-force sample
-   fit exact parts before soldering. BOM notes preserve nominal-only lead-fit uncertainties.
+   Factory assembly is requested; see assembly/ORDER-INSTRUCTIONS.txt. Obtain a working
+   multimeter for bring-up. Factory must no-force sample fit exact parts before soldering.
+   BOM notes preserve nominal-only lead-fit uncertainties.
 2. Use the exact selected BOM. Orient DIP notches/pin1, LED polarities, electrolytics and
    SOT-23 pin1 from their drawings and native assembly artwork. Avoid generic HC125 parts:
    U8/U9/U10 are SN74LV125AN; U11 is SN74AHC14N. Current switch is TPS2553DBVR-1.
@@ -43,7 +44,7 @@ LCD mounting coordinates in panel absolute mm: (62.475,57.5),(137.375,57.5),
 (62.475,103.3),(137.375,103.3). Use M2.5 screws, washer/head contact OD<=5mm.
 Other mounting hardware contact OD<=7mm at H1-H4; explicit copper exclusions are present.
 Do not infer safe screw lengths from nominal gap: check engagement/protrusion physically.
-Use the board-only STEP for PCB geometry; it omits all components, cables, fan and enclosure.
+Use the native KiCad PCB for geometry; STEP exports are omitted at the owner's request.
 Fan model/current and full exact mating harness are unknown; clearance is not guaranteed.
 Breadboard occupied area is about46x36x10mm; it mounts in the labelled reserved rectangle.
 

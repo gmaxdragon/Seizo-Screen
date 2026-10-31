@@ -10,9 +10,13 @@ The job bounding box is 160.05 x 120.05 mm including the 0.05 mm outline stroke;
 the actual profile centreline is 160 x 120 mm.
 
 Top and bottom soldermask and silkscreen are supplied; bottom C25 is intentional.
-No stencil/placement/turnkey assembly file is included. This is a mixed through-hole
-and small-SMD hand-assembly prototype. TPS2553DBVR-1 is SOT-23-6, not a DIP.
-The matching HAT also needs SOT-23-5 and 0805 assembly. Obtain appropriate tools/help.
+Factory assembly quotation files are in assembly/: per-PCB BOMs, placement CSVs,
+paste Gerbers, assembly drawings and special-process instructions. The original
+panel fabrication ZIP remains for the bare PCB; the assembly-specific ZIP adds paste.
+This is a mixed through-hole/small-SMD prototype requiring factory manual operations.
+TPS2553DBVR-1 is SOT-23-6, not a DIP. C25 is fitted on the back; U6 is a full module.
+The matching HAT also needs SOT-23-5, 0805 and mixed USB connector assembly.
+These files request an engineering quote; factory acceptance and price are pending.
 Vendor DFM, actual finished-hole tolerances and a delivered quote remain separate.
 The matching HAT is 65 x 56 mm with rounded edges/notch and plated USB slots;
 its separate Gerber bundle is NOT an alternative panel manufacturing ZIP.

@@ -42,6 +42,8 @@ This has been my dream project for about a year, and I've struggled to find fund
 - [KiCad project](szscreen.kicad_pro), [schematic](szscreen.kicad_sch) and [PCB](szscreen.kicad_pcb)
 - [Schematic PDF](schematic.pdf)
 - [Parts list](BOM-panel.csv) and [connector pin map](CONNECTOR-PIN-MAP.csv)
+- [Factory assembly BOM](assembly/BOM-PCBWay-panel.csv), [matching-HAT BOM](assembly/BOM-PCBWay-matching-HAT.csv), [DigiKey import CSV](assembly/DigiKey-panel-import.csv) and [assembly quote instructions](assembly/ORDER-INSTRUCTIONS.txt)
+- [Factory quote upload ZIP](szscreen-PCBWay-turnkey-quote.zip)
 - [Panel fabrication ZIP](szscreen-panel-Gerbers.zip)
 - [Matching Pi HAT revision](matching-HAT/) and [assembly connections](ASSEMBLY-CONNECTIONS.txt)
 - [Reference firmware](reference/firmware/) and [verification report](VERIFICATION.json)

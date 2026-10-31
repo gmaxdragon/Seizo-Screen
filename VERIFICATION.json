@@ -35,5 +35,10 @@
   "contribution_record": "README.md#contributions",
   "step_exports_in_repository": false,
   "documentation_cleanup_only": true,
-  "documentation_update_report": "reports/documentation-update.json"
+  "documentation_update_report": "reports/documentation-update.json",
+  "factory_assembly_files": "assembly/",
+  "factory_assembly_BOM_review": "assembly/BOM-three-checks.json",
+  "factory_assembly_quote_received": false,
+  "cart_screenshots_captured": false,
+  "assembly_quote_only": true
 }

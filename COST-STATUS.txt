@@ -16,3 +16,10 @@ Enclosure material is excluded at the user's instruction.
 The requested complete delivered build below$100 is NOT met or guaranteed.
 Do not treat this subtotal as an amount to submit for an entire independent stop system.
 Each BOM row retains its exact distributor part and source/date/qualification limitations.
+
+TURNKEY UPDATE: assembly/BOM-PCBWay-panel.csv contains150 fitted references.
+assembly/BOM-PCBWay-matching-HAT.csv contains48 fitted references for a FRESH variant.
+Its full population is not covered by the $1.530 delta above. Both BOMs, CPLs,
+paste layers and drawings are provided for quotation. No reviewed supplier/cart
+total or genuine cart screenshot exists. Prefer one turnkey supplier sourcing
+the parts; do not also purchase the loose DigiKey list and pay for the same parts twice.

@@ -1,0 +1,110 @@
+SEIZO SCREEN / SZSCREEN REV23 — FACTORY ASSEMBLY QUOTATION
+31 October 2026. Quote files for the current routed boards; no CAD changes made.
+
+PREFERRED SINGLE SUPPLIER: PCBWay TURN-KEY (factory buys parts and solders them).
+The factory supports mixed through-hole/SMT and double-sided assembly. Exact
+stock, minimum assembly quantity, manual processes and delivered price require
+their review. Do not buy the DigiKey list in addition to turnkey parts sourcing.
+Quote page: https://www.pcbway.com/quotesmt.aspx
+Select Turnkey, Both sides and no unreviewed substitutions. No firmware loading:
+the included project firmware is reference only. Request normal assembly inspection;
+full powered/system functional testing needs an agreed procedure and actual firmware.
+
+1. Quote ONE populated panel, 160 x 120mm, FR4, 1.6mm, 2 layers, 1oz copper,
+   green soldermask, white silkscreen, lead-free HASL and lead-free assembly.
+   If one populated unit is not accepted, return the actual minimum and total;
+   do not silently multiply quantities or authorize production.
+2. Upload the panel Gerber ZIP, BOM-PCBWay-panel.csv, panel-CPL.csv, panel
+   assembly drawings, pin1/polarity map, header cut list and these instructions.
+   Paste Gerbers are included separately and in the assembly-specific Gerber ZIP.
+   The BOM quantities are PER PCB; the factory adds its own necessary attrition.
+3. All 150 fitted panel references are to be installed and soldered, including
+   13 cut-length headers, the complete U6 module, and the rear C25. Holes and
+   bare test pads are not purchased parts. No IC sockets are specified.
+4. Ask for a SEPARATE line item for the matching-HAT variant, using its own
+   Gerbers, full BOM and placement files. Its original submitted revision is
+   different and is NOT a drop-in substitute for this panel's revised power link.
+   Do not purchase the HAT twice: reconcile that separate project/order before
+   authorizing the matching variant. The $1.53 delta is not a full HAT price.
+5. Ask the same supplier to quote the off-board display/breadboard and optional
+   hub/supply as separate sourced items. One invoice/shipment is preferred;
+   their willingness to source and mount these modules is not confirmed.
+   Display, cables, fan and enclosure work are not automatically included in
+   the cost of soldering the PCB. Fan model and final harness lengths are open.
+6. Request an itemized total including bare PCBs, parts, all assembly/setup/
+   stencil/hand operations, any tooling, freight to Dublin CA 94568, sales tax
+   and applicable import charges. A bare-PCB or setup-only price is incomplete.
+   The historical $99.77 parts estimate is not the turnkey delivered total.
+
+ASSEMBLY PROCESS EXCEPTIONS THAT REQUIRE FACTORY ACCEPTANCE
+- Panel C25 is the sole bottom component: THT ceramic, not SMT. Body at least
+  1.5mm above rear PCB surface; nearby clipped leads at most1.0mm; no spikes.
+- Panel U6 is a COMPLETE Adafruit4683 regulator breakout with its header
+  installed. Not just a header and not the bare MPM3610 chip. Pad1 GND,
+  pad2 3.3V OUT, pad3 5V VIN, pad4 EN left unconnected. At native coordinates
+  these pads run (141.40,152), (143.94,152), (146.48,152), (149.02,152)mm.
+  The header footprint does not represent the module body. Confirm the actual
+  module body direction/stand-off against neighbouring parts before soldering;
+  planning envelope is10.16 x17.145mm, height6.5mm. No unreviewed inversion.
+- U4 TO92 holes are intentionally1.0mm; D2 LED holes1.1mm. Use native files,
+  not replacement stock footprints. Keep LED stamping shoulders above PCB.
+- Meter-divider R52/R53 are49.9k0.1%; R54 is10k0.1%, all exact CMF55 parts
+  on10.16mm pitch. Ordinary1% substitutes are not approved.
+- U8/U9/U10 must be SN74LV125AN; U11 SN74AHC14N; U5 TPS2553DBVR-1.
+  Generic HC buffers or a different current-switch suffix are not substitutes.
+- Header BOM rows specify finished connector lengths. The factory may cut
+  same-family PRPC040SAAN-RC strips; the DigiKey list's two strips are raw stock,
+  not two fitted connectors. Total finished panel connectors:13, contacts:49.
+- HAT U3/U4/U5 are SN74LVC1G17DBVR buffers. Never fit the original AP2112.
+  HAT C7 and R10 are absent from the board. Schematic-only C1/R1/R2/U1/JP1
+  are deliberately DNP/board-excluded; do not add an EEPROM circuit to this order.
+  J1 tall stacking socket is on the BOTTOM.
+  USB J8 has SMT signal contacts AND soldered through-hole shield tabs.
+  ESP32 U2 is SMT; its plated thermal vias do not make it an inserted DIP.
+  Factory must review open0.30mm thermal-via paste wicking/stencil process.
+- The HAT F1 BOM entry is its fuse HOLDER. Its insertable fuse is separately
+  listed under off-board items and has a provisional motor-load rating.
+- Do not change package, tolerance, supply specifications, footprint, pinout or
+  module variant without an engineering review of the proposed substitution.
+
+PLACEMENT COORDINATES
+The CPL files retain KiCad10 native machine-export convention: mm, original
+origin, X unchanged, Y=-native-board-Y, no additional bottom X mirroring.
+Rotation is the native exported rotation. All-component CPL files include THT
+for manual insertion reference. SMT-placements files include HAT USB hybrid
+contacts and the ESP32; the shield tabs require a separate solder operation.
+Assembly drawings use front view and MIRRORED bottom view. The pin/net map
+uses absolute native coordinates with positive Y downward. Do not mix those
+two Y conventions. Supplier must confirm machine rotation and pin1 visually.
+
+DISPLAY / FULL SYSTEM REMAINING WORK
+Waveshare16446 has both HX8347D and ST7789 hardware variants. The supplier
+must identify the actual unit and controller. Panel J11 requires its INTERNAL
+regulated3V3 rail, which the11-pin display connector does not expose. The
+actual tap point and insulated wire attachment must be qualified on the actual
+display before claiming a completely solder-free, plug-in complete assembly.
+No generic substitute for that tap or assumption of a particular batch is valid.
+Use ASSEMBLY-CONNECTIONS.txt and CONNECTOR-PIN-MAP.csv for the other harnesses.
+The board's HOLD/stop-status inputs do not cut motor power independently.
+Independent dual-supply stopping and gravity retention remain separate unfinished
+work; all reported non-base arm joints can drop without motor power.
+
+QUOTE EVIDENCE STATUS
+No supplier cart, accepted assembly quote, live stock reservation or purchase
+exists from this package. Browser automation failed to initialize with
+"failed to write kernel assets: The system cannot find the path specified".
+Consequently there are no genuine cart screenshots; none have been fabricated.
+For funding evidence, capture the supplier's actual reviewed itemized quote/cart
+showing assembly quantity, PCB+parts+assembly, delivery and taxes. Redact private
+address/payment details before adding it to the public repository. An empty
+cart, a component-page price, or the PCBWay rough calculator is not that evidence.
+
+After factory assembly, an unpowered inspection, continuity/rail measurements,
+controlled power-up, display/touch and combined-load tests are still required.
+Static CAD/BOM checks do not establish100% physical operation or product release.
+
+PRIMARY SOURCES (retrieved31October2026)
+https://www.pcbway.com/assembly-capabilities.html
+https://www.pcbway.com/assembly-file-requirements.html
+https://www.pcbway.com/helpcenter/pcb_assembly_ordering/How_to_Upload_PCB_Assembly_PCBA__Inquiry.html
+https://www.waveshare.com/wiki/2.8inch_Resistive_Touch_LCD

@@ -2,6 +2,8 @@
 
 The current revision is unchanged electrically. No factory assembly order or delivered quote has been placed. The existing parts estimate is $99.768 before fabrication, all assembly charges, delivery/tax, unpriced harness/mounting and the independent stop/retention hardware.
 
+The mixed through-hole/SMT turnkey quotation package is now in [assembly](assembly/). It includes per-board panel and full matching-HAT BOMs, placements, paste layers, front/rear drawings and special-process instructions. The full matching-HAT BOM contains 48 fitted references; the earlier $1.53 added-parts list was only a delta. Factory acceptance, sourcing, quantity and actual delivered cost remain pending. No genuine cart screenshots were obtainable because browser automation failed to initialize.
+
 ## Most useful cost reduction
 
 The current 26-piece 100nF capacitor group costs $12.688. A researched surface-mount alternative is KEMET C1206C104K5RACTU, 100nF, 50V, X7R, 10%, in stock KiCad footprint Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder. The distributor's retrieved price-break snapshot is $0.085 each at ten pieces, or $2.210 for 26: a $10.478 component saving before assembly/sourcing fees. This is not a factory price or checkout quote. All 26 placements and their routing would require a new review, including moving the present rear C25 to the front if practical. No replacement has been made in this board or BOM.
