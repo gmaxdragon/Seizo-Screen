@@ -1,8 +1,41 @@
 # Seizo Screen
 
+Seizo Screen is a screen with a bunch of extra features that I find extremely useful for my robotic arm. There are lots of minor issues that are extremely annoying to work around, and this is my solution.
+
+I want a screen so I can run direct motor controls without having to connect through my phone and worry about connections. I also wanted more features and wanted to make the whole thing look cooler.
+
 ![Seizo Screen PCB in KiCad's 3D viewer](images/pcb-3d.png)
 
 ![Seizo Screen routed PCB layout](images/pcb-layout.png)
+
+## How I want to use it
+
+During an arm session, I want to look at the screen and press a few buttons instead of doing everything on my phone. I want a "Run Arm" button that starts the arm setup. Keeping those controls on the arm would make it more independent. When this becomes a real product, I don't want using a phone to be required.
+
+I want manual buttons for things like:
+
+- Moving the base.
+- Moving the wrist left and right.
+- Opening and closing the gripper.
+- Running the arm setup.
+
+Eventually, I also want to let AI figure out the movements. The plan is to give it a prompt, have it convert that into individual movements, and then have the arm carry them out. This is something I'm planning to work on, and I think it would make everything much easier to use.
+
+## The design challenge
+
+One massive problem was organizing the components. I had to keep reorganizing them because none of the layouts seemed to be to my liking.
+
+I originally had a much smaller PCB with fewer features. It felt like something that would take barely five minutes or so to put together, and it didn't seem cool enough to me. As a result, I changed it a lot by adding more features and making the PCB bigger.
+
+I wanted things like a built-in meter and a breadboard area on the board. Making the PCB bigger gave me more room to do things like that. I'm planning to keep working on it and make it great.
+
+## What I want to do next
+
+Before the screen works with the arm, I need to do some basic sanity checks and make sure it works before connecting it to the arm. I might also try showing the Pi's output on it or adding some kind of built-in remote terminal, which would be extremely cool in my opinion.
+
+I spent this summer designing and building the arm and worked on it almost every day. It has been extremely hard and difficult for me, and I want to make sure it works properly.
+
+This has been my dream project for about a year, and I've struggled to find funding for all of it. I would really appreciate it if this project were accepted.
 
 ## Files
 
@@ -16,3 +49,5 @@
 ## Contributions
 
 The original schematic, PCB placement and full earlier routing were made by Vivaan, with his friend helping with ideas, parts, organization, routing and troubleshooting. ChatGPT/Codex helped with later schematic and PCB revisions, component and footprint selection, routing, checks and technical documentation. It generated the reference firmware from Vivaan's detailed behavior requirements. That code is reference only; Vivaan plans to write the actual implementation. The original earlier routing is preserved in [history/user-routed-rev19](history/user-routed-rev19/).
+
+README narrative: my messages, with grammar and formatting fixed by AI.
