@@ -1,59 +1,239 @@
 {
-  "checkedAt": "2026-10-31T23:34:38.093Z",
-  "officialSources": {
-    "parser": "https://github.com/hackclub/halflife/blob/main/src/lib/bom-csv.ts",
-    "csv": "https://github.com/hackclub/halflife/blob/main/src/lib/csv.ts",
-    "countCap": "https://github.com/hackclub/halflife/blob/main/src/lib/bom.ts",
-    "selection": "https://github.com/hackclub/halflife/blob/main/src/lib/repo-checks.ts"
-  },
-  "parserModifiedOnlyForImportPath": true,
-  "header": [
-    "Item",
-    "Purpose",
-    "Quantity",
-    "Unit Cost USD",
-    "Vendor",
-    "Link"
-  ],
-  "inputDataRows": 69,
-  "importedRows": 69,
-  "skipped": [],
-  "rowCap": 80,
-  "preliminaryPricedRows": [
+  "checkedAt": "2026-10-31T23:45:29.127Z",
+  "result": "PASS",
+  "inputFile": "work/seizo-screen-publish/00-bom-halflife.csv",
+  "parserSource": "https://github.com/hackclub/halflife/blob/main/src/lib/bom-csv.ts",
+  "importedRows": 27,
+  "skippedRows": 0,
+  "itemLimit": 80,
+  "explicitZeroPlaceholderPrices": 27,
+  "zeroPricesMeanFree": false,
+  "groupQuantitiesMeanCompleteLots": true,
+  "panelCapacitorPieces": 33,
+  "panelResistorPieces": 73,
+  "factoryPanelReferencesCovered": 150,
+  "duplicateReferences": 0,
+  "missingFactoryReferences": 0,
+  "matchingHatPurchasesIncluded": false,
+  "optionalPurchasesIncluded": false,
+  "shippingTaxDiscountRowsIncluded": false,
+  "nativeAndDetailedFactoryFilesUnchanged": true,
+  "lines": [
     {
       "link": "https://www.pcbway.com/quotesmt.aspx",
-      "name": "Panel PCB fabrication: batch of 5 bare boards",
-      "purpose": "PRELIMINARY calculator price for one 5-board batch; factory review pending. Components and assembly excluded.",
+      "name": "Various capacitors",
+      "purpose": "Quote pending; 0.00 is a placeholder for one complete lot of 33 panel parts. Exact values and packages remain in the factory BOM.",
       "quantity": 1,
-      "unitCostUsd": 48.31,
+      "unitCostUsd": 0,
       "vendor": "PCBWay"
     },
     {
       "link": "https://www.pcbway.com/quotesmt.aspx",
-      "name": "Panel factory assembly: 1 board",
-      "purpose": "PRELIMINARY calculator assembly fee only; components excluded. Final mixed THT/SMT and rear C25 process review pending.",
+      "name": "Various resistors",
+      "purpose": "Quote pending; 0.00 is a placeholder for one complete lot of 73 panel parts. Exact values and packages remain in the factory BOM.",
       "quantity": 1,
-      "unitCostUsd": 29,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "WP3A8GD (D1, D5)",
+      "purpose": "Quote pending; 0.00 is a placeholder. 3V3 POWER / PROTO POWER. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 2,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "WP3A8ID (D2)",
+      "purpose": "Quote pending; 0.00 is a placeholder. PROTO FAULT. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "BAT85S-TAP (D3, D4)",
+      "purpose": "Quote pending; 0.00 is a placeholder. BAT85. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 2,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "MF-RHT050-0 (F1)",
+      "purpose": "Quote pending; 0.00 is a placeholder. MF-RHT050-0 / 500mA HOLD. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "B3F-1000 (SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12)",
+      "purpose": "Quote pending; 0.00 is a placeholder. F1 / F10 / F2 / F3 / F4 / F5 / F6 / F7 / F8 / F9 / HOLD REQUEST / I/O RESET ONLY. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 12,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "JS202011CQN (SW13, SW14)",
+      "purpose": "Quote pending; 0.00 is a placeholder. METER ENABLE / PROTO 5V OFF / ON (100mA). Exact placement and package remain in the panel factory BOM.",
+      "quantity": 2,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "AQY212EH (K1)",
+      "purpose": "Quote pending; 0.00 is a placeholder. AQY212EH / INPUT DISCONNECT. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "MCP23017-E/SP (U1)",
+      "purpose": "Quote pending; 0.00 is a placeholder. MCP23017-E/SP / 0x20. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "MCP3202-BI/P (U2)",
+      "purpose": "Quote pending; 0.00 is a placeholder. MCP3202-BI/P. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "MCP6002-I/P (U3)",
+      "purpose": "Quote pending; 0.00 is a placeholder. MCP6002-I/P. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "MCP1525-I/TO (U4)",
+      "purpose": "Quote pending; 0.00 is a placeholder. MCP1525-I/TO. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "TPS2553DBVR-1 (U5)",
+      "purpose": "Quote pending; 0.00 is a placeholder. TPS2553DBVR-1 / LATCH OFF. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "4683 (U6)",
+      "purpose": "Quote pending; 0.00 is a placeholder. Adafruit 4683 3V3 BUCK. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "SN74LV125AN (U8, U9, U10)",
+      "purpose": "Quote pending; 0.00 is a placeholder. SN74LV125AN. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 3,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "SN74AHC14N (U11)",
+      "purpose": "Quote pending; 0.00 is a placeholder. SN74AHC14N. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "PRPC002SAAN-RC (J3, J4, J9, J10, J11, J12, J13)",
+      "purpose": "Quote pending; 0.00 is a placeholder. 2-position 2.54mm single-row male vertical header. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 7,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "PRPC003SAAN-RC (J7, J8)",
+      "purpose": "Quote pending; 0.00 is a placeholder. 3-position 2.54mm single-row male vertical header. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 2,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "PRPC006SAAN-RC (J1, J5, J6)",
+      "purpose": "Quote pending; 0.00 is a placeholder. 6-position 2.54mm single-row male vertical header. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 3,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "PRPC011SAAN-RC (J2)",
+      "purpose": "Quote pending; 0.00 is a placeholder. 11-position 2.54mm single-row male vertical header. Exact placement and package remain in the panel factory BOM.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "2.8-inch touchscreen \u00e2\u20ac\u201d Waveshare 16446",
+      "purpose": "Quote pending; 0.00 is a placeholder. Main SPI touch display; actual internal LCD 3.3V tap and supplied module revision still need qualification.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "Mini breadboard \u00e2\u20ac\u201d Adafruit 65",
+      "purpose": "Quote pending; 0.00 is a placeholder. 46x36mm breadboard for the panel prototype-power area.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "Connection wires and mating connectors",
+      "purpose": "Quote pending; 0.00 is a placeholder. One kit for panel/HAT power, I2C, SPI, control, diagnostics, LCD/VIO, breadboard and meter leads; per connector pin map.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "Mounting hardware",
+      "purpose": "Quote pending; 0.00 is a placeholder. One panel/display mounting kit with screws, spacers, washers and insulation; final lengths and clearances per assembly instructions.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "Panel PCB fabrication \u00e2\u20ac\u201d 5-board batch",
+      "purpose": "Final quote pending; 0.00 is a placeholder. Earlier calculator showed48.31USD for five bare panels; this is not a free-PCB claim.",
+      "quantity": 1,
+      "unitCostUsd": 0,
+      "vendor": "PCBWay"
+    },
+    {
+      "link": "https://www.pcbway.com/quotesmt.aspx",
+      "name": "Factory assembly \u00e2\u20ac\u201d 1 panel",
+      "purpose": "Final quote pending; 0.00 is a placeholder. Earlier calculator showed29.00USD assembly-only, excluding components; detailed turnkey review remains pending.",
+      "quantity": 1,
+      "unitCostUsd": 0,
       "vendor": "PCBWay"
     }
-  ],
-  "pendingRowsAreNotFree": true,
-  "result": "PASS",
-  "unpriced_rows": 67,
-  "coverage_check": {
-    "checkedAt": "2026-10-31T23:34:09.387Z",
-    "result": "PASS",
-    "exactBoardReferenceCoverage": 198,
-    "panelReferences": 150,
-    "hatReferences": 48,
-    "duplicateReferences": 0,
-    "capacitors": 41,
-    "resistors": 93,
-    "resetKeptSeparate": true,
-    "detailedFactoryBOMsAndNativeSourcesUnchanged": true
-  },
-  "live_website_control_success": false,
-  "PCBWay_inquiry_submitted": false,
-  "factory_quote_obtained": false,
-  "pending_prices_are_not_free_components": true
+  ]
 }

@@ -1,31 +1,28 @@
-HALF-LIFE GROUPED BOM IMPORT
-The built-in importer allows80 total items. This file has69 rows, including
-"Various capacitors" (one41-piece lot) and "Various resistors" (one93-piece lot).
-The exact factory BOMs remain unchanged: panel150 fitted parts, matching HAT48.
-RESET1 is a reset button, not a resistor, and remains outside the resistor lot.
+HALF-LIFE ESSENTIAL PANEL BOM IMPORT
+This draft lists27 essential Seizo Screen entries, below the80-item limit.
+"Various capacitors" is one33-piece PANEL lot; "Various resistors" is one73-piece
+PANEL lot. The exact panel factory BOM still covers all150 fitted references.
 
-Use Seizo Screen -> Parts -> Import from repo. The preview should identify
-00-bom-halflife.csv and69 parts. If the old list is obsolete, Replace with69
-replaces it; Add would keep old rows and may exceed the80-item total limit.
-Preview first. Existing rows reduce the available room for an Add operation.
+Removed from this project's import: separate HAT fabrication/assembly/components,
+optional USB hub/supply and controls, undefined independent arm-stop purchasing,
+and shipping/tax/discount rows. Shipping/tax belong in Half-Life's separate box.
+The matching HAT remains a required separately reconciled dependency; removing
+its purchase lines does not make the original submitted HAT drop-in compatible.
+Other system requirements remain documented in the detailed project files.
 
-Supplier prices are still pending.67 rows have blank price cells; Half-Life
-displays these as "no price" (internally0), not free components. Only the two
-preliminary calculator service figures48.31 and29.00 are present. Their77.31
-sum excludes component costs and is NOT the complete funded build price.
-Fill reviewed supplier prices before treating this as final funding evidence.
-Tax/shipping use Half-Life's separate field after the actual delivered quote.
+Every draft price cell explicitly says0.00 at the owner's request. These are
+PENDING-QUOTE PLACEHOLDERS, not free components or a final funding budget.
+The recorded preliminary PCB48.31USD and assembly29.00USD are preserved in the
+price screenshot/review; they exclude parts and are not a complete supplier quote.
+Half-Life's interface labels any zero as "no price", even when the CSV spells
+it0.00. A CSV cannot change that website behavior. Enter real reviewed costs
+before treating the table as complete funding evidence.
 
-The00 filename is deliberate: Half-Life chooses the shallowest BOM CSV, so it
-must find the grouped import before detailed engineering exports. The full
-113-row inventory is preserved as PROJECT-PARTS.csv; the platform owns BOM.csv
-when it mirrors its table, so the differently named source avoids a Windows
-case collision. Import can trigger that platform-owned mirror update.
+Use Seizo Screen -> Parts -> Import from repo. Preview should show
+00-bom-halflife.csv and27items. To remove an obsolete69-item import, choose
+Replace with27 rather than Add; replacing clears the previous list.
+Repository changes may take up to60seconds to appear in the importer.
 
-PCBWAY: upload assembly/BOM-PCBWay-panel.csv for panel manufacturing and the
-matching-HAT BOM only for its own separate board. Do not give the factory this
-grouped funding-import CSV as its placement BOM. Gerbers and CPL files are in
-the existing quote package. All exact MPNs/footprints remain in those files.
-
-Website-control retry failed to initialize both browser connections. No live
-quote fields were edited; no inquiry, purchase or Half-Life submission was sent.
+For PCBWay assembly, use assembly/BOM-PCBWay-panel.csv with the panel Gerbers
+and placement CSV. This grouped draft is not a manufacturing placement BOM.
+No circuit, routing, selected exact component or fabrication export was changed.

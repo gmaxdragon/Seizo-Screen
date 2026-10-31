@@ -1,4 +1,4 @@
-SEIZO SCREEN / SZSCREEN REV23 — FACTORY ASSEMBLY QUOTATION
+SEIZO SCREEN / SZSCREEN REV23 â€” FACTORY ASSEMBLY QUOTATION
 31 October 2026. Quote files for the current routed boards; no CAD changes made.
 
 PREFERRED SINGLE SUPPLIER: PCBWay TURN-KEY (factory buys parts and solders them).
@@ -21,16 +21,16 @@ full powered/system functional testing needs an agreed procedure and actual firm
 3. All 150 fitted panel references are to be installed and soldered, including
    13 cut-length headers, the complete U6 module, and the rear C25. Holes and
    bare test pads are not purchased parts. No IC sockets are specified.
-4. Ask for a SEPARATE line item for the matching-HAT variant, using its own
-   Gerbers, full BOM and placement files. Its original submitted revision is
-   different and is NOT a drop-in substitute for this panel's revised power link.
-   Do not purchase the HAT twice: reconcile that separate project/order before
-   authorizing the matching variant. The $1.53 delta is not a full HAT price.
-5. Ask the same supplier to quote the off-board display/breadboard and optional
-   hub/supply as separate sourced items. One invoice/shipment is preferred;
-   their willingness to source and mount these modules is not confirmed.
-   Display, cables, fan and enclosure work are not automatically included in
-   the cost of soldering the PCB. Fan model and final harness lengths are open.
+4. This quotation is now PANEL ONLY. Do not add matching-HAT fabrication,
+   assembly or parts to this panel order. The matching-HAT variant remains a
+   required separately reconciled dependency, not a free included board and
+   not a drop-in equivalent of the original submitted HAT.
+5. Include the Waveshare16446 display, Adafruit65 mini breadboard, required
+   panel/display connection harness and mounting kit as separate priced items.
+   Do not add a replacement USB hub/supply, optional external controls, HAT
+   purchases or a separate arm-stop system to this panel quotation. Display
+   internal3V3 tap and exact harness/mounting must still be qualified. The
+   independent arm stopping/retention work remains outside this panel scope.
 6. Request an itemized total including bare PCBs, parts, all assembly/setup/
    stencil/hand operations, any tooling, freight to Dublin CA 94568, sales tax
    and applicable import charges. A bare-PCB or setup-only price is incomplete.

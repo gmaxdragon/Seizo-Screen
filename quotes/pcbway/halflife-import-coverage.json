@@ -1,1368 +1,298 @@
 {
-  "phase": "Draft import; supplier pricing incomplete",
+  "phase": "Draft essential panel import; numeric zeros are unquoted placeholders, not real free prices",
   "import_file": "00-bom-halflife.csv",
   "full_inventory": "PROJECT-PARTS.csv",
-  "rows": 69,
+  "rows": 27,
   "item_limit": 80,
-  "capacitor_pieces": 41,
-  "resistor_pieces": 93,
+  "capacitor_pieces": 33,
+  "resistor_pieces": 73,
   "group_quantity_means_one_complete_lot": true,
-  "fitted_refs_covered": 198,
+  "fitted_panel_refs_covered": 150,
   "grouped_rows": [
     {
       "item": "Various capacitors",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "C1",
-            "C2",
-            "C3",
-            "C4",
-            "C5",
-            "C6",
-            "C7",
-            "C8",
-            "C9",
-            "C10",
-            "C14",
-            "C16",
-            "C18",
-            "C19",
-            "C20",
-            "C21",
-            "C24",
-            "C26",
-            "C28",
-            "C29",
-            "C31",
-            "C33",
-            "C34",
-            "C35",
-            "C36"
-          ],
-          "quantity": "25"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "C25"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "C22",
-            "C23"
-          ],
-          "quantity": "2"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "C15",
-            "C17",
-            "C30"
-          ],
-          "quantity": "3"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "C27"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "C32"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "C3"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "C4"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "C5"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "C2"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "C8"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "C9"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "C10",
-            "C11"
-          ],
-          "quantity": "2"
-        }
+      "panel_references": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C14",
+        "C16",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "C24",
+        "C26",
+        "C28",
+        "C29",
+        "C31",
+        "C33",
+        "C34",
+        "C35",
+        "C36",
+        "C25",
+        "C22",
+        "C23",
+        "C15",
+        "C17",
+        "C30",
+        "C27",
+        "C32"
       ]
     },
     {
       "item": "Various resistors",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "R35",
-            "R36",
-            "R37",
-            "R38",
-            "R39",
-            "R56",
-            "R57",
-            "R64",
-            "R65",
-            "R66"
-          ],
-          "quantity": "10"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "R32",
-            "R33",
-            "R34",
-            "R63"
-          ],
-          "quantity": "4"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "R27",
-            "R28",
-            "R62"
-          ],
-          "quantity": "3"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "R59"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "R52",
-            "R53"
-          ],
-          "quantity": "2"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "R54"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "R1",
-            "R2",
-            "R3",
-            "R4",
-            "R5",
-            "R6",
-            "R7",
-            "R8",
-            "R17",
-            "R18",
-            "R31",
-            "R40",
-            "R41",
-            "R46",
-            "R47",
-            "R48",
-            "R58",
-            "R60",
-            "R68",
-            "R70",
-            "R71",
-            "R74",
-            "R75"
-          ],
-          "quantity": "23"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "R9",
-            "R10",
-            "R11",
-            "R12",
-            "R13",
-            "R14",
-            "R15",
-            "R16",
-            "R19",
-            "R20",
-            "R49",
-            "R50",
-            "R51",
-            "R55",
-            "R61",
-            "R72"
-          ],
-          "quantity": "16"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "R42",
-            "R69",
-            "R76",
-            "R77",
-            "R78",
-            "R79",
-            "R80",
-            "R81"
-          ],
-          "quantity": "8"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "R43"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "R44",
-            "R45",
-            "R73"
-          ],
-          "quantity": "3"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "R67"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "R3"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "R4"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "R12"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "R13"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "R14"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "R15"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "R5"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "R6"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "R7"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "R8"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "R9"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "R16",
-            "R17",
-            "R20",
-            "R21",
-            "R22",
-            "R23"
-          ],
-          "quantity": "6"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "R11"
-          ],
-          "quantity": "1"
-        },
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "R18",
-            "R19"
-          ],
-          "quantity": "2"
-        }
-      ]
-    },
-    {
-      "item": "Panel: WP3A8GD (D1, D5)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "D1",
-            "D5"
-          ],
-          "quantity": "2"
-        }
-      ]
-    },
-    {
-      "item": "Panel: WP3A8ID (D2)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "D2"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Panel: BAT85S-TAP (D3, D4)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "D3",
-            "D4"
-          ],
-          "quantity": "2"
-        }
-      ]
-    },
-    {
-      "item": "Panel: MF-RHT050-0 (F1)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "F1"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Panel: B3F-1000 (SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "SW1",
-            "SW2",
-            "SW3",
-            "SW4",
-            "SW5",
-            "SW6",
-            "SW7",
-            "SW8",
-            "SW9",
-            "SW10",
-            "SW11",
-            "SW12"
-          ],
-          "quantity": "12"
-        }
-      ]
-    },
-    {
-      "item": "Panel: JS202011CQN (SW13, SW14)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "SW13",
-            "SW14"
-          ],
-          "quantity": "2"
-        }
-      ]
-    },
-    {
-      "item": "Panel: AQY212EH (K1)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "K1"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Panel: MCP23017-E/SP (U1)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "U1"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Panel: MCP3202-BI/P (U2)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "U2"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Panel: MCP6002-I/P (U3)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "U3"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Panel: MCP1525-I/TO (U4)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "U4"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Panel: TPS2553DBVR-1 (U5)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "U5"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Panel: 4683 (U6)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "U6"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Panel: SN74LV125AN (U8, U9, U10)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "U8",
-            "U9",
-            "U10"
-          ],
-          "quantity": "3"
-        }
-      ]
-    },
-    {
-      "item": "Panel: SN74AHC14N (U11)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "U11"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Panel: PRPC002SAAN-RC (J3, J4, J9, J10, J11, J12, J13)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "J3",
-            "J4",
-            "J9",
-            "J10",
-            "J11",
-            "J12",
-            "J13"
-          ],
-          "quantity": "7"
-        }
-      ]
-    },
-    {
-      "item": "Panel: PRPC003SAAN-RC (J7, J8)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "J7",
-            "J8"
-          ],
-          "quantity": "2"
-        }
-      ]
-    },
-    {
-      "item": "Panel: PRPC006SAAN-RC (J1, J5, J6)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "J1",
-            "J5",
-            "J6"
-          ],
-          "quantity": "3"
-        }
-      ]
-    },
-    {
-      "item": "Panel: PRPC011SAAN-RC (J2)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Panel",
-          "references": [
-            "J2"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: 1715747 (J11)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "J11"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: 1715721 (J9)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "J9"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: SSW-104-01-G-S (J10)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "J10"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: 3568 (F1)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "F1"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: 1979 (J1)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "J1"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: USB4105-GF-A (J8)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "J8"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: LTST-C170KGKT (D1)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "D1"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: TL3305AF160QG (SW1)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "SW1"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: TL3305AF160QG (RESET1)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "RESET1"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: ESP32-S3-WROOM-1-N8R8 (U2)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "U2"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: SN74LVC1G17DBVR (U3)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "U3"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: SN74LVC1G17DBVR (U4, U5)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "U4",
-            "U5"
-          ],
-          "quantity": "2"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: PRPC003SAAN-RC (J2)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "J2"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: PRPC003SAAN-RC (J3)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "J3"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: PRPC003SAAN-RC (J12)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "J12"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: PRPC006SAAN-RC (J4)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "J4"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: PRPC006SAAN-RC (J5)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "J5"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: PRPC006SAAN-RC (J6)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "J6"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "Matching HAT: PRPC006SAAN-RC (J7)",
-      "source_rows": [
-        {
-          "category": "PCB fitted component",
-          "board": "Matching HAT",
-          "references": [
-            "J7"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "LCD1: Waveshare 16446",
-      "source_rows": [
-        {
-          "category": "Off-board part",
-          "board": "External",
-          "references": [
-            "LCD1"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "BB1: Adafruit 65",
-      "source_rows": [
-        {
-          "category": "Off-board part",
-          "board": "External",
-          "references": [
-            "BB1"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
-    {
-      "item": "HAT-FUSE: Littelfuse 0297002.WXNV",
-      "source_rows": [
-        {
-          "category": "Off-board part",
-          "board": "External",
-          "references": [
-            "HAT-FUSE"
-          ],
-          "quantity": "1"
-        }
-      ]
-    },
+      "panel_references": [
+        "R35",
+        "R36",
+        "R37",
+        "R38",
+        "R39",
+        "R56",
+        "R57",
+        "R64",
+        "R65",
+        "R66",
+        "R32",
+        "R33",
+        "R34",
+        "R63",
+        "R27",
+        "R28",
+        "R62",
+        "R59",
+        "R52",
+        "R53",
+        "R54",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R17",
+        "R18",
+        "R31",
+        "R40",
+        "R41",
+        "R46",
+        "R47",
+        "R48",
+        "R58",
+        "R60",
+        "R68",
+        "R70",
+        "R71",
+        "R74",
+        "R75",
+        "R9",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R19",
+        "R20",
+        "R49",
+        "R50",
+        "R51",
+        "R55",
+        "R61",
+        "R72",
+        "R42",
+        "R69",
+        "R76",
+        "R77",
+        "R78",
+        "R79",
+        "R80",
+        "R81",
+        "R43",
+        "R44",
+        "R45",
+        "R73",
+        "R67"
+      ]
+    },
     {
-      "item": "HUB1: Raspberry Pi SC1636",
-      "source_rows": [
-        {
-          "category": "Conditional peripheral",
-          "board": "External",
-          "references": [
-            "HUB1"
-          ],
-          "quantity": "1"
-        }
+      "item": "WP3A8GD (D1, D5)",
+      "panel_references": [
+        "D1",
+        "D5"
       ]
     },
     {
-      "item": "HUB-PSU: Raspberry Pi SC0218",
-      "source_rows": [
-        {
-          "category": "Conditional peripheral",
-          "board": "External",
-          "references": [
-            "HUB-PSU"
-          ],
-          "quantity": "1"
-        }
+      "item": "WP3A8ID (D2)",
+      "panel_references": [
+        "D2"
       ]
     },
     {
-      "item": "HARNESS-I2C",
-      "source_rows": [
-        {
-          "category": "Harness / accessory",
-          "board": "External",
-          "references": [
-            "HARNESS-I2C"
-          ],
-          "quantity": "1 six-wire cable"
-        }
+      "item": "BAT85S-TAP (D3, D4)",
+      "panel_references": [
+        "D3",
+        "D4"
       ]
     },
     {
-      "item": "HARNESS-SPI",
-      "source_rows": [
-        {
-          "category": "Harness / accessory",
-          "board": "External",
-          "references": [
-            "HARNESS-SPI"
-          ],
-          "quantity": "1 six-wire cable"
-        }
+      "item": "MF-RHT050-0 (F1)",
+      "panel_references": [
+        "F1"
       ]
     },
     {
-      "item": "HARNESS-CONTROL",
-      "source_rows": [
-        {
-          "category": "Harness / accessory",
-          "board": "External",
-          "references": [
-            "HARNESS-CONTROL"
-          ],
-          "quantity": "1 six-wire cable"
-        }
+      "item": "B3F-1000 (SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12)",
+      "panel_references": [
+        "SW1",
+        "SW2",
+        "SW3",
+        "SW4",
+        "SW5",
+        "SW6",
+        "SW7",
+        "SW8",
+        "SW9",
+        "SW10",
+        "SW11",
+        "SW12"
       ]
     },
     {
-      "item": "HARNESS-5V",
-      "source_rows": [
-        {
-          "category": "Harness / accessory",
-          "board": "External",
-          "references": [
-            "HARNESS-5V"
-          ],
-          "quantity": "1 two-wire cable"
-        }
+      "item": "JS202011CQN (SW13, SW14)",
+      "panel_references": [
+        "SW13",
+        "SW14"
       ]
     },
     {
-      "item": "HARNESS-3V3",
-      "source_rows": [
-        {
-          "category": "Harness / accessory",
-          "board": "External",
-          "references": [
-            "HARNESS-3V3"
-          ],
-          "quantity": "1 two-wire cable"
-        }
+      "item": "AQY212EH (K1)",
+      "panel_references": [
+        "K1"
       ]
     },
     {
-      "item": "HARNESS-DIAGNOSTIC",
-      "source_rows": [
-        {
-          "category": "Harness / accessory",
-          "board": "External",
-          "references": [
-            "HARNESS-DIAGNOSTIC"
-          ],
-          "quantity": "1 two-wire cable"
-        }
+      "item": "MCP23017-E/SP (U1)",
+      "panel_references": [
+        "U1"
       ]
     },
     {
-      "item": "HARNESS-LCD",
-      "source_rows": [
-        {
-          "category": "Harness / accessory",
-          "board": "External",
-          "references": [
-            "HARNESS-LCD"
-          ],
-          "quantity": "1 eleven-wire cable"
-        }
+      "item": "MCP3202-BI/P (U2)",
+      "panel_references": [
+        "U2"
       ]
     },
     {
-      "item": "HARNESS-LCD-VIO",
-      "source_rows": [
-        {
-          "category": "Harness / accessory",
-          "board": "External",
-          "references": [
-            "HARNESS-LCD-VIO"
-          ],
-          "quantity": "1 two-wire cable"
-        }
+      "item": "MCP6002-I/P (U3)",
+      "panel_references": [
+        "U3"
       ]
     },
     {
-      "item": "HARNESS-PROTO",
-      "source_rows": [
-        {
-          "category": "Harness / accessory",
-          "board": "External",
-          "references": [
-            "HARNESS-PROTO"
-          ],
-          "quantity": "1 two-wire cable"
-        }
+      "item": "MCP1525-I/TO (U4)",
+      "panel_references": [
+        "U4"
       ]
     },
     {
-      "item": "METER-LEADS",
-      "source_rows": [
-        {
-          "category": "Harness / accessory",
-          "board": "External",
-          "references": [
-            "METER-LEADS"
-          ],
-          "quantity": "1 pair"
-        }
+      "item": "TPS2553DBVR-1 (U5)",
+      "panel_references": [
+        "U5"
       ]
     },
     {
-      "item": "FAN-ADAPTER",
-      "source_rows": [
-        {
-          "category": "Harness / accessory",
-          "board": "External",
-          "references": [
-            "FAN-ADAPTER"
-          ],
-          "quantity": "1 if required"
-        }
+      "item": "4683 (U6)",
+      "panel_references": [
+        "U6"
       ]
     },
     {
-      "item": "USB-SERVICE-CABLE",
-      "source_rows": [
-        {
-          "category": "Harness / accessory",
-          "board": "External",
-          "references": [
-            "USB-SERVICE-CABLE"
-          ],
-          "quantity": "1 if not owned"
-        }
+      "item": "SN74LV125AN (U8, U9, U10)",
+      "panel_references": [
+        "U8",
+        "U9",
+        "U10"
       ]
     },
     {
-      "item": "NC-STATUS-CABLES",
-      "source_rows": [
-        {
-          "category": "Harness / accessory",
-          "board": "External",
-          "references": [
-            "NC-STATUS-CABLES"
-          ],
-          "quantity": "2 if fitted"
-        }
+      "item": "SN74AHC14N (U11)",
+      "panel_references": [
+        "U11"
       ]
     },
     {
-      "item": "MOUNT-PI-HAT",
-      "source_rows": [
-        {
-          "category": "Mounting / accessory",
-          "board": "Mechanical",
-          "references": [
-            "MOUNT-PI-HAT"
-          ],
-          "quantity": "1 set"
-        }
+      "item": "PRPC002SAAN-RC (J3, J4, J9, J10, J11, J12, J13)",
+      "panel_references": [
+        "J3",
+        "J4",
+        "J9",
+        "J10",
+        "J11",
+        "J12",
+        "J13"
       ]
     },
     {
-      "item": "MOUNT-HAT-PANEL",
-      "source_rows": [
-        {
-          "category": "Mounting / accessory",
-          "board": "Mechanical",
-          "references": [
-            "MOUNT-HAT-PANEL"
-          ],
-          "quantity": "1 set"
-        }
+      "item": "PRPC003SAAN-RC (J7, J8)",
+      "panel_references": [
+        "J7",
+        "J8"
       ]
     },
     {
-      "item": "MOUNT-LCD",
-      "source_rows": [
-        {
-          "category": "Mounting / accessory",
-          "board": "Mechanical",
-          "references": [
-            "MOUNT-LCD"
-          ],
-          "quantity": "1 set"
-        }
+      "item": "PRPC006SAAN-RC (J1, J5, J6)",
+      "panel_references": [
+        "J1",
+        "J5",
+        "J6"
       ]
     },
     {
-      "item": "PANEL-SUPPORT",
-      "source_rows": [
-        {
-          "category": "Mounting / accessory",
-          "board": "Mechanical",
-          "references": [
-            "PANEL-SUPPORT"
-          ],
-          "quantity": "1 set if required"
-        }
+      "item": "PRPC011SAAN-RC (J2)",
+      "panel_references": [
+        "J2"
       ]
     },
     {
-      "item": "BREADBOARD-ATTACH",
-      "source_rows": [
-        {
-          "category": "Mounting / accessory",
-          "board": "Mechanical",
-          "references": [
-            "BREADBOARD-ATTACH"
-          ],
-          "quantity": "1 set if required"
-        }
-      ]
-    },
-    {
-      "item": "Independent arm stop and gravity retention: scope pending",
-      "source_rows": [
-        {
-          "category": "Unresolved separate system",
-          "board": "Arm",
-          "references": [
-            "INDEPENDENT-STOP-AND-RETENTION"
-          ],
-          "quantity": "TBD"
-        }
-      ]
+      "item": "2.8-inch touchscreen \u2014 Waveshare 16446",
+      "panel_references": []
     },
     {
-      "item": "Optional dry-NC status contacts",
-      "source_rows": [
-        {
-          "category": "Optional external controls",
-          "board": "External",
-          "references": [
-            "NC-STATUS-CONTACTS"
-          ],
-          "quantity": "2 if fitted"
-        }
-      ]
+      "item": "Mini breadboard \u2014 Adafruit 65",
+      "panel_references": []
     },
     {
-      "item": "Panel PCB fabrication: batch of 5 bare boards",
-      "source_rows": [
-        {
-          "category": "Fabrication service",
-          "board": "Panel",
-          "references": [
-            "PANEL-BARE-PCB"
-          ],
-          "quantity": "5"
-        }
-      ]
+      "item": "Connection wires and mating connectors",
+      "panel_references": []
     },
     {
-      "item": "Panel factory assembly: 1 board",
-      "source_rows": [
-        {
-          "category": "Assembly service",
-          "board": "Panel",
-          "references": [
-            "PANEL-ASSEMBLY"
-          ],
-          "quantity": "1"
-        }
-      ]
+      "item": "Mounting hardware",
+      "panel_references": []
     },
     {
-      "item": "HAT-BARE-PCB (separate matching HAT project)",
-      "source_rows": [
-        {
-          "category": "Fabrication service",
-          "board": "Matching HAT",
-          "references": [
-            "HAT-BARE-PCB"
-          ],
-          "quantity": "TBD factory minimum"
-        }
-      ]
+      "item": "Panel PCB fabrication \u2014 5-board batch",
+      "panel_references": []
     },
     {
-      "item": "HAT-ASSEMBLY (separate matching HAT project)",
-      "source_rows": [
-        {
-          "category": "Assembly service",
-          "board": "Matching HAT",
-          "references": [
-            "HAT-ASSEMBLY"
-          ],
-          "quantity": "1"
-        }
-      ]
+      "item": "Factory assembly \u2014 1 panel",
+      "panel_references": []
     }
   ],
-  "excluded_from_parts_import": [
-    {
-      "category": "Already owned",
-      "references": "OWNED-PI4",
-      "reason": "Owned items are not new purchases; tax/shipping belong in the separate Half-Life field. Discounts are not parts."
-    },
-    {
-      "category": "Already owned",
-      "references": "OWNED-PI-PSU",
-      "reason": "Owned items are not new purchases; tax/shipping belong in the separate Half-Life field. Discounts are not parts."
-    },
-    {
-      "category": "Already owned",
-      "references": "OWNED-FAN",
-      "reason": "Owned items are not new purchases; tax/shipping belong in the separate Half-Life field. Discounts are not parts."
-    },
-    {
-      "category": "Already owned",
-      "references": "OWNED-USB-HUB",
-      "reason": "Owned items are not new purchases; tax/shipping belong in the separate Half-Life field. Discounts are not parts."
-    },
-    {
-      "category": "Delivery",
-      "references": "SHIPPING",
-      "reason": "Owned items are not new purchases; tax/shipping belong in the separate Half-Life field. Discounts are not parts."
-    },
-    {
-      "category": "Discount",
-      "references": "ORDER-DISCOUNT",
-      "reason": "Owned items are not new purchases; tax/shipping belong in the separate Half-Life field. Discounts are not parts."
-    },
-    {
-      "category": "Tax / import charges",
-      "references": "TAX-AND-IMPORT",
-      "reason": "Owned items are not new purchases; tax/shipping belong in the separate Half-Life field. Discounts are not parts."
-    }
-  ],
-  "blank_factory_prices": 67,
-  "preliminary_priced_rows": 2,
-  "no_false_free_parts": true,
-  "assembly_BOMs_unchanged": true
+  "numeric_zero_placeholder_rows": 27,
+  "factory_BOMs_unchanged": true,
+  "shipping_tax_discount_excluded": true,
+  "HAT_purchase_lines_excluded": true,
+  "optional_items_excluded": true,
+  "matching_HAT_dependency": "Required matching variant remains documented in matching-HAT and ASSEMBLY-CONNECTIONS.txt; not assumed owned, free, compatible with original submitted HAT, or funded by this panel list."
 }

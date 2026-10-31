@@ -971,7 +971,7 @@
     "hat-CPL.csv": "17fa3660a99d56d7c15337d2b9e52d03cda906fcb9037957b158ec3621eab2f2",
     "matching-HAT-assembly-Gerbers.zip": "005b064c1ce81d7163070dd22b387379dfbbd1de4d39f35dfe4920534a93eb36",
     "off-board-items-to-quote.csv": "949385bb0fb53926d0bedb01d2abadf164c956c565b1f424dab986386710a01e",
-    "ORDER-INSTRUCTIONS.txt": "2e64382e22063cf99ba9305d06e7bbd89cb6f448fb3de5ac96d32e15b719aa5f",
+    "ORDER-INSTRUCTIONS.txt": "451d7856c518290ab0146821f4e7fa072e9447547a1d197a5b26b51cb9af94c3",
     "panel-assembly-bottom.pdf": "f9f7fd9e6cc982d714bef6cbbdf0010e75361afc99d9cf638f9ceee429fa0be6",
     "panel-assembly-top.pdf": "094e6a08ffa24831e71421a6aaaf3604ed980099f5ada981008dde4be4c9651c",
     "panel-CPL-SMT-placements.csv": "9220021387d497f484aba2a9872c72dc028e61cce403c6b655c2d51541ba0225",
@@ -990,5 +990,6 @@
     "each_job_lists_nine_layers": true,
     "original_copper_mask_legend_outline_drills_byte_identical": true,
     "zip_crc_valid": true
-  }
+  },
+  "current_quote_scope": "Essential PANEL only; matching-HAT procurement excluded and dependency retained separately"
 }
