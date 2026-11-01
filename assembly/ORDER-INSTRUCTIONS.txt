@@ -55,27 +55,19 @@ ASSEMBLY PROCESS EXCEPTIONS THAT REQUIRE FACTORY ACCEPTANCE
 - Header BOM rows specify finished connector lengths. The factory may cut
   same-family PRPC040SAAN-RC strips; the DigiKey list's two strips are raw stock,
   not two fitted connectors. Total finished panel connectors:13, contacts:49.
-- HAT U3/U4/U5 are SN74LVC1G17DBVR buffers. Never fit the original AP2112.
-  HAT C7 and R10 are absent from the board. Schematic-only C1/R1/R2/U1/JP1
-  are deliberately DNP/board-excluded; do not add an EEPROM circuit to this order.
-  J1 tall stacking socket is on the BOTTOM.
-  USB J8 has SMT signal contacts AND soldered through-hole shield tabs.
-  ESP32 U2 is SMT; its plated thermal vias do not make it an inserted DIP.
-  Factory must review open0.30mm thermal-via paste wicking/stencil process.
-- The HAT F1 BOM entry is its fuse HOLDER. Its insertable fuse is separately
-  listed under off-board items and has a provisional motor-load rating.
 - Do not change package, tolerance, supply specifications, footprint, pinout or
   module variant without an engineering review of the proposed substitution.
 
 PLACEMENT COORDINATES
 The CPL files retain KiCad10 native machine-export convention: mm, original
 origin, X unchanged, Y=-native-board-Y, no additional bottom X mirroring.
-Rotation is the native exported rotation. All-component CPL files include THT
-for manual insertion reference. SMT-placements files include HAT USB hybrid
-contacts and the ESP32; the shield tabs require a separate solder operation.
-Assembly drawings use front view and MIRRORED bottom view. The pin/net map
-uses absolute native coordinates with positive Y downward. Do not mix those
-two Y conventions. Supplier must confirm machine rotation and pin1 visually.
+Rotation is the native exported rotation. panel-CPL.csv includes through-hole
+parts and U6 for manual insertion reference; panel-CPL-SMT-placements.csv
+contains only panel U5. Assembly drawings use front view and MIRRORED bottom
+view. The pin/net map uses absolute native coordinates with positive Y downward.
+Use only Board=panel rows; the quotation archive contains panel rows only.
+Do not mix those two Y conventions. Supplier must confirm machine rotation
+and pin1 visually.
 
 DISPLAY / FULL SYSTEM REMAINING WORK
 Waveshare16446 has both HX8347D and ST7789 hardware variants. The supplier
@@ -90,10 +82,8 @@ Independent dual-supply stopping and gravity retention remain separate unfinishe
 work; all reported non-base arm joints can drop without motor power.
 
 QUOTE EVIDENCE STATUS
-No supplier cart, accepted assembly quote, live stock reservation or purchase
-exists from this package. Browser automation failed to initialize with
-"failed to write kernel assets: The system cannot find the path specified".
-Consequently there are no genuine cart screenshots; none have been fabricated.
+Supplier-reviewed component pricing, sourcing acceptance and the final delivered
+total remain pending. This package does not authorize a purchase or production.
 For funding evidence, capture the supplier's actual reviewed itemized quote/cart
 showing assembly quantity, PCB+parts+assembly, delivery and taxes. Redact private
 address/payment details before adding it to the public repository. An empty
