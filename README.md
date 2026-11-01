@@ -41,10 +41,13 @@ To be honest, soldering all the parts together by hand is extremely risky for me
 
 ## Files
 
+The Half-Life parts list had an 80-item (row) limit, so I used a grouped list for the submission. [Real_BOM.csv](Real_BOM.csv) contains the full ungrouped details, including each of the 150 fitted panel components, the screen, wiring and mounting items. It also identifies the matching HAT as a separate required dependency. [00-bom-halflife.csv](00-bom-halflife.csv) is the 27-row file for importing into Half-Life. Blank factory prices in the detailed BOM mean the quote is still pending, not that the parts are free.
+
+- [Full detailed BOM](Real_BOM.csv)
 - [KiCad project](szscreen.kicad_pro), [schematic](szscreen.kicad_sch) and [PCB](szscreen.kicad_pcb)
 - [Schematic PDF](schematic.pdf)
 - [Half-Life grouped BOM import](00-bom-halflife.csv) â€” 27 essential panel items within the 80-item limit; [import instructions](HALFLIFE-BOM-IMPORT.txt)
-- [Complete project BOM and quote inventory](PROJECT-PARTS.csv) and [PCBWay preliminary price screenshot](quotes/pcbway/preliminary-calculator.png)
+- [Earlier grouped project inventory](PROJECT-PARTS.csv) and [PCBWay preliminary price screenshot](quotes/pcbway/preliminary-calculator.png)
 - [Parts list](BOM-panel.csv) and [connector pin map](CONNECTOR-PIN-MAP.csv)
 - [Factory assembly BOM](assembly/BOM-PCBWay-panel.csv), [matching-HAT BOM](assembly/BOM-PCBWay-matching-HAT.csv), [DigiKey import CSV](assembly/DigiKey-panel-import.csv) and [assembly quote instructions](assembly/ORDER-INSTRUCTIONS.txt)
 - [Factory quote upload ZIP](szscreen-PCBWay-turnkey-quote.zip)
